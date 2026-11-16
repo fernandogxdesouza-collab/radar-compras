@@ -2,44 +2,6 @@
   "alvo_historico_minimo_dias": 7,
   "produtos": [
     {
-      "id": "cafe-gourmet",
-      "nome": "Café gourmet 500 g",
-      "buscas": [
-        "café gourmet 500g",
-        "café especial torrado moído 500g"
-      ],
-      "exige": [
-        "caf"
-      ],
-      "exclui": [
-        "capsula",
-        "cápsula",
-        "nespresso",
-        "dolce gusto",
-        "cafeteira",
-        "maquina",
-        "máquina",
-        "filtro",
-        "solúvel",
-        "soluvel",
-        "xícara",
-        "xicara",
-        "caneca",
-        "moedor",
-        "chá",
-        "cha "
-      ],
-      "unidade": "kg",
-      "preco_alvo": null,
-      "exige_algum": [
-        "gourmet",
-        "especial",
-        "premium",
-        "superior"
-      ],
-      "categoria": "mercado"
-    },
-    {
       "id": "azeite",
       "nome": "Azeite de oliva extra virgem 500 ml",
       "buscas": [
