@@ -1,0 +1,1284 @@
+{
+ "atualizado": "2026-11-16",
+ "nota": "Semente parcial (16/11/2026): Mart Minas lido do PDF; BH e Paranaíba só itens da lista e com DE/POR. A tarefa agendada refaz a extração completa duas vezes por semana.",
+ "ofertas": [
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Empanado Mini Chicken Perdig�o Tradicional Congelado 1Kg",
+   "de": 19.8,
+   "por": 14.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Hamburguer Pif Paf Misto 56G",
+   "de": 0.99,
+   "por": 0.79,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Lingui�a Calabresa Perdig�o Curva 1 Kg",
+   "de": 28.9,
+   "por": 22.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Mortadela Defumada Seara, Ou Sadia Pe�a Kg",
+   "de": 18.9,
+   "por": 15.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Peixe Fil� de Til�pia Emp�rio do Pescado Congelado 800G",
+   "de": 38.98,
+   "por": 32.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Sorvete Nobrelli Duo 1,3L Ou A�a� Storm 1L Unidade",
+   "de": 13.98,
+   "por": 11.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Iogurte Porto Alegre 1150g Sabores Unidade",
+   "de": 11.98,
+   "por": 9.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Leite Fermentado Itamb� 450g Unidade",
+   "de": 7.28,
+   "por": 5.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Lasanha Pif Paf Ou Rezende 600G Unidade",
+   "de": 10.98,
+   "por": 8.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Manteiga Porto Alegre C/Sal 500g Unidade",
+   "de": 23.98,
+   "por": 19.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Cerveja Pilsen Brahma 269ml Lt, Cerveja Skol 269ml Lt ou Cerveja Pilsen Antarctica Boa 269ml Lt",
+   "de": null,
+   "por": 2.39,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Cerveja Antarctica Original 473ml Unidade",
+   "de": null,
+   "por": 4.99,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Cerveja Brahma 550ml Unidade",
+   "de": null,
+   "por": 4.49,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Whisky White Horse 1L Unidade",
+   "de": null,
+   "por": 59.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Vinho Chileno Concha Y Toro Reservado 750ml Unidade",
+   "de": null,
+   "por": 29.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Azeite Filippo Berio 500ml",
+   "de": 39.9,
+   "por": 29.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Milho Verde Minas Mais 170g Lata Unidade",
+   "de": 2.99,
+   "por": 2.48,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Ext Tom Heinz 240g",
+   "de": 5.49,
+   "por": 4.99,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Molho Tomate Pomarola 200G Unidade",
+   "de": 2.29,
+   "por": 1.85,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Maionese Soya 500g Unidade",
+   "de": 5.99,
+   "por": 4.99,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Lava Roupa P� Omo 2,2KG Sache Todo Ciclo ____R_$__8___,9___8__",
+   "de": 28.9,
+   "por": 24.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Lava Roupa Liquido Omo 3L Unidade",
+   "de": 38.9,
+   "por": 36.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Shampoo ou Condicionador Elseve 400ml - Unidade",
+   "de": 35.9,
+   "por": 29.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Papel Higi�nico Mili Bianco 100m C/12 - Unidade",
+   "de": 29.9,
+   "por": 26.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Prato Fundo MM Soup Plate Unidade",
+   "de": 3.98,
+   "por": 3.49,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "P�o Forma Pullman 480g Tradicional",
+   "de": null,
+   "por": 6.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Batata Congelada Palito Uai Pacote 2kg",
+   "de": null,
+   "por": 19.8,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Leite Porto Alegre Zero Lactose Integral/Desnatado Ou Leite",
+   "de": null,
+   "por": 4.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Queijo Mussarela Mutumilk Pe�a/Kg",
+   "de": null,
+   "por": 33.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Requeij�o Cremoso Porto Alegre 400g Unidade",
+   "de": null,
+   "por": 13.48,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Queijo Mussarela Fatiado Italac 150G Unidade",
+   "de": null,
+   "por": 6.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Margarina Qualy C/Sal 500g Unidade",
+   "de": null,
+   "por": 7.48,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Picanha Bordon, Ou Pul Nacional Bovina",
+   "de": null,
+   "por": 59.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Fraldinha Bovina Resfriada, Ou Congelada Pe�a/kg",
+   "de": null,
+   "por": 44.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Contra Fil�, Ou Ancho Maturatta Bovino Resfriado Kg",
+   "de": null,
+   "por": 54.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Bacon Manta Perdig�o Pe�a Kg __R__$_1__7___,9___8__",
+   "de": null,
+   "por": 23.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Fil� Peito Frango Avivar, Ou Super Frango, 1Kg Bandeja Congelado",
+   "de": null,
+   "por": 15.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Fil� de Coxa S/Coxa Rivelli Ou Super Frango Kg Congelado",
+   "de": null,
+   "por": 12.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Coxinha da Asa Rivelli, Ou Super Frango Congelada/Kg",
+   "de": null,
+   "por": 10.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Alcatra, Ou Lombo, Ou Picanha Su�na Pif Paf Temperado Congelado Kg",
+   "de": null,
+   "por": 17.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Apresuntado Pif Paf Pe�a Kg",
+   "de": null,
+   "por": 15.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Lombo Su�no Congelado, Ou Resfriado Kg",
+   "de": null,
+   "por": 16.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Lingui�a Suina Saborear, Ou GrandMinas Kg",
+   "de": null,
+   "por": 10.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Salsicha Hot Dog Perdig�o Resfriado Kg",
+   "de": null,
+   "por": 8.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Peixe File Panga Seara 800Gr Congelado",
+   "de": null,
+   "por": 24.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Cerveja Amstel 269ml Unidade",
+   "de": null,
+   "por": 2.48,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Energ�tico Baly 473ml Lt Sabores",
+   "de": null,
+   "por": 5.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Isot�nico Powerade 500ml Pet Sabores",
+   "de": null,
+   "por": 3.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Refrigerante Coca Cola 600ml Tradicional e S/A��car Pet Unidade",
+   "de": null,
+   "por": 4.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Refrigerante Kuat Guaran� 2L Pet Unidade",
+   "de": null,
+   "por": 5.59,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Suco Integral San Diego 1L Uva",
+   "de": null,
+   "por": 9.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Refresco Po Vilma 240 gr Unidade",
+   "de": null,
+   "por": 2.58,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Bebida Mista Fruit Shoot 150ml Unidade",
+   "de": null,
+   "por": 0.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Nectar/Refresco Maguary 1L Unidade",
+   "de": null,
+   "por": 4.48,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "�gua de Coco Puro Coco 1L Unidade",
+   "de": null,
+   "por": 5.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Alho Gra�do kg.",
+   "de": null,
+   "por": 15.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Ma�� Gala Kg __R__$_1__3___,9___8__",
+   "de": null,
+   "por": 5.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Ma�� Gala Kg Uva Vitoria 500g __R_$__2__1__,_9__0___",
+   "de": null,
+   "por": 5.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Mel�o Amarelo Kg _R__$_3___9__,_9__0___",
+   "de": null,
+   "por": 3.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Ovo Branco Pente c/30. _R__$_3___9__,_9__0___",
+   "de": null,
+   "por": 15.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Vinho Nacional Terra Mar 750ml Unidade",
+   "de": 13.98,
+   "por": 11.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Vinho Nacional Quinta do Rio Grande 1L Unidade",
+   "de": 21.9,
+   "por": 19.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Vinho Portugu�s Vinha do Moinho 750ml Unidade",
+   "de": 39.9,
+   "por": 29.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Vinho Portugu�s Anta da Vinho Chileno Casillero del Serra 750ml Unidade",
+   "de": 39.9,
+   "por": 29.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Vinho Portugu�s Anta da Vinho Chileno Casillero del Serra 750ml Unidade Diablo 750ml Unidade",
+   "de": 59.9,
+   "por": 49.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Ice Smirnoff 269ml Lt Sabores",
+   "de": null,
+   "por": 4.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Vodka Orloff 1L Unidade",
+   "de": null,
+   "por": 29.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Vodka Smirnoff 1750ml Unidade",
+   "de": null,
+   "por": 54.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Gin Gordons 750ml Unidade",
+   "de": null,
+   "por": 59.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Whisky Old Parr 12 Anos 750ml Unidade",
+   "de": null,
+   "por": 99.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Atum Gomes da Costa 170g Solido Sabores",
+   "de": null,
+   "por": 11.49,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Batata Palha Ruppers 100g Ext Fina ou Trad",
+   "de": null,
+   "por": 3.49,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Palmito Pupunha Master Gourmet 1,8Kg Rodela Unidade",
+   "de": null,
+   "por": 39.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Maionese Mariana 3kg Unidade",
+   "de": null,
+   "por": 28.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Azeitona Verde Vale F�rtil 120g Fatiada / Sem caro�o Unidade",
+   "de": null,
+   "por": 4.78,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Panetone Casa Doro 400g Sabores Unidade",
+   "de": null,
+   "por": 10.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Biscoito Wafer Piraque Ou Newafer 100g",
+   "de": null,
+   "por": 2.48,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Biscoito Doce Piraque 132G Unidade",
+   "de": null,
+   "por": 2.89,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Biscoito Recheado Treloso 120g/130g Ou Nikito 120g Unidade",
+   "de": null,
+   "por": 1.89,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Biscoito Laminado Aymore 370g ou 345g Unidade",
+   "de": null,
+   "por": 4.78,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Gelatina Predilecta 20g Unidade",
+   "de": null,
+   "por": 0.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Leite P� Porto Alegre 400g Unidade",
+   "de": null,
+   "por": 12.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Coco Ralado Do Vale �mido/Ado�ado Flocos 1kg",
+   "de": null,
+   "por": 36.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Leite de Coco Pach� 500ml Unidade",
+   "de": null,
+   "por": 6.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Barra Proteina Bold Ou Choc Wafer Ou Choc Tube 40g Unidade",
+   "de": null,
+   "por": 8.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Marshmallow Docile 220 g o pacote",
+   "de": null,
+   "por": 6.49,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Bombom Nestle Especialidades 220g Unidade",
+   "de": null,
+   "por": 10.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Chocolate Tablete Nestle 80g a unidade",
+   "de": null,
+   "por": 6.99,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Chocolate Nestle Kit kat 41,5g Unidade",
+   "de": null,
+   "por": 2.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Bala Mastig�vel Erlan 500g a unidade",
+   "de": null,
+   "por": 5.99,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Bala caramelo Butter Toffees 400g a unidade",
+   "de": null,
+   "por": 15.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Pirulito Pop Mania Maxxi Pct. Com 24 Unidades",
+   "de": null,
+   "por": 11.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Ferrero Nutella Pote de 140g Unidade",
+   "de": null,
+   "por": 10.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Salgadinho Doritos 257g ou Batata Ruffles 270g ou Batata",
+   "de": null,
+   "por": 16.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Salgadinho Cheetos ou Fandangos Pct. de 250g",
+   "de": null,
+   "por": 15.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Sabonete Lux 85G C/6 - Unidade",
+   "de": null,
+   "por": 12.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Protetor Solar Above 350ml 50fps - Unidade",
+   "de": null,
+   "por": 39.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Desodorante Aerosol Rexona 200ml - Unidade",
+   "de": null,
+   "por": 15.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Desodorante Aerosol Above 250ml Maxx - Unidade",
+   "de": null,
+   "por": 9.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Escova Dental Colgate c/2 Zig Zag - Unidade",
+   "de": null,
+   "por": 13.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Creme dental Colgate 220g Total12 Original Mint",
+   "de": null,
+   "por": 22.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Sab�o Barra Yp� Glicerinado 160GR C/5 Unidade",
+   "de": null,
+   "por": 10.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Sapon�ceo Cremoso Cif 20% Desconto 450ml Unidade",
+   "de": null,
+   "por": 9.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Desinfetante Liquido Uau Antibac 2L Unidade",
+   "de": null,
+   "por": 7.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Limpador Multiuso Veja 750ml",
+   "de": null,
+   "por": 5.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Desodorizador Sanitario Gel Harpic 36g Unidade",
+   "de": null,
+   "por": 14.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Copo Nadir 400ml Ilha Bela ou Copo Nadir 480ml Dubai Long Drink Unidade",
+   "de": null,
+   "por": 6.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Panela de Press�o Viva Cozinha 4,2L Cer�mica",
+   "de": null,
+   "por": 179.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Garrafa T�rmica Mor Use 1L Cores Unidade",
+   "de": null,
+   "por": 24.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Conjunto Frigideira Tramontina Linz C/3",
+   "de": null,
+   "por": 99.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Kit Colcha Mil�o Corttex Casal Unidade",
+   "de": null,
+   "por": 79.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Sanduicheira Grill HQ Inox 1000W Unidade",
+   "de": null,
+   "por": 129.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Pneu Carro Dunlop 175/70 R13 ou 165/70 R13 ou 175/65 R14",
+   "de": null,
+   "por": 299.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Chinelo Rider Pulse Dedo Adulto Par",
+   "de": null,
+   "por": 39.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Colch�o Infl�vel Mor Solteiro C/Fole Unidade",
+   "de": null,
+   "por": 89.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Copo Descart�vel Econopot 200ml c/100 Cristal Unidade",
+   "de": null,
+   "por": 5.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Pneu Carro Xbri Ecology 88H 195/60 R15 Unidade",
+   "de": null,
+   "por": 299.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Vassoura Terreiro Bella Cores Unidade",
+   "de": null,
+   "por": 19.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Esponja Esfrebom Multiuso   Unidade",
+   "de": null,
+   "por": 15.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Planta Samambaia Americana C21 - Unidade (Exceto Divin�polis I e",
+   "de": null,
+   "por": 23.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Flor L�rio P12 Quadrado - Unidade (Exceto Divin�polis I e Leopoldina)",
+   "de": null,
+   "por": 9.98,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Arroz Agulhinha/Parboilizado BH Premium Tipo 1 pcte 5kg",
+   "de": 22.9,
+   "por": 21.8,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://www.supermercadosbh.com.br/folhetos"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Café Dom Pedro tradicional/extra forte pct 500g",
+   "de": null,
+   "por": 19.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Arroz Codisul pct 5kg (tipo não informado)",
+   "de": null,
+   "por": 19.98,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Sanduíche Hot Hit Seara 145g",
+   "de": 6.99,
+   "por": 6.49,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Filé de peito de frango Perdigão 800g",
+   "de": 16.99,
+   "por": 15.99,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Pão de queijo Vó Joana tradicional 1kg",
+   "de": 17.99,
+   "por": 16.99,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Linguiça suína churrasco Aurora kg",
+   "de": 15.99,
+   "por": 14.99,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Isotônico Gatorade 500ml",
+   "de": 4.99,
+   "por": 4.49,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Suco + água de coco Sococo 200ml",
+   "de": 0.99,
+   "por": 0.89,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Energético Baly lata 473ml",
+   "de": 4.49,
+   "por": 3.99,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Iogurte polpa Elegê 510g",
+   "de": 6.99,
+   "por": 6.49,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Biscoito Renata amanteigado 330g",
+   "de": 5.49,
+   "por": 4.99,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Biscoito Renata recheado Divertix 112g",
+   "de": 2.19,
+   "por": 1.89,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Biscoito Renata Saltix 110g",
+   "de": 1.99,
+   "por": 1.69,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Biscoito Renata wafer 115g",
+   "de": 2.79,
+   "por": 2.49,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Bolinho Renata Divertix 40g",
+   "de": 1.59,
+   "por": 1.39,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Pipoca doce Kid+ super 100g",
+   "de": 2.49,
+   "por": 1.99,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Creme de tratamento Skala 1kg",
+   "de": 11.99,
+   "por": 10.98,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Desodorante aerosol Rexona 150ml",
+   "de": 13.98,
+   "por": 12.98,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Sabonete Albany suave 85g",
+   "de": 1.89,
+   "por": 1.69,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Papel higiênico Paloma folha dupla c/12 20m",
+   "de": 11.99,
+   "por": 10.99,
+   "validade": "2026-12-06",
+   "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  }
+ ]
+}

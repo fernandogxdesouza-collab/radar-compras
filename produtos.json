@@ -70,18 +70,7 @@
       ],
       "unidade": "kg",
       "categoria": "mercado",
-      "preco_alvo": null,
-      "manuais": [
-        {
-          "loja": "Supermercados Paranaíba (Matozinhos)",
-          "preco": 19.99,
-          "data": "2026-11-16",
-          "validade": "2026-12-06",
-          "titulo": "Café Dom Pedro tradicional/extra forte pct 500g",
-          "link": "https://supermercadosparanaiba.com.br/ofertas/",
-          "fisico": true
-        }
-      ]
+      "preco_alvo": null
     },
     {
       "id": "oleo-soja",
@@ -131,18 +120,7 @@
       ],
       "unidade": "l",
       "preco_alvo": null,
-      "categoria": "mercado",
-      "manuais": [
-        {
-          "loja": "Mart Minas (Pedro Leopoldo)",
-          "preco": 29.9,
-          "data": "2026-11-16",
-          "validade": "2026-11-18",
-          "titulo": "Azeite Filippo Berio 500ml (de R$ 39,90)",
-          "link": "https://www.martminas.com.br/loja/pedro-leopoldo/",
-          "fisico": true
-        }
-      ]
+      "categoria": "mercado"
     },
     {
       "id": "arroz-parboilizado",
@@ -165,18 +143,7 @@
       ],
       "unidade": "kg",
       "preco_alvo": null,
-      "categoria": "mercado",
-      "manuais": [
-        {
-          "loja": "Supermercados BH (Matozinhos)",
-          "preco": 21.8,
-          "data": "2026-11-16",
-          "validade": "2026-11-30",
-          "titulo": "Arroz Agulhinha/Parboilizado BH Premium Tipo 1 pcte 5kg (de R$ 22,90)",
-          "link": "https://www.supermercadosbh.com.br/folhetos",
-          "fisico": true
-        }
-      ]
+      "categoria": "mercado"
     },
     {
       "id": "amazfit-bip-6",
@@ -265,5 +232,9 @@
       "categoria": "eletrodomestico"
     }
   ],
-  "_manuais": "Preços que você viu e o robô não alcança (Mercado Livre, folhetos de supermercado). Campos: loja, preco, data, titulo, link; validade AAAA-MM-DD (senão vale 14 dias); fisico true = compra presencial (sem portal nem Pix); qtd (kg/l) só se o título não trouxer o peso."
+  "_manuais": "Preços que você viu e o robô não alcança (Mercado Livre, folhetos de supermercado). Campos: loja, preco, data, titulo, link; validade AAAA-MM-DD (senão vale 14 dias); fisico true = compra presencial (sem portal nem Pix); qtd (kg/l) só se o título não trouxer o peso.",
+  "super": {
+    "desconto_minimo": 30,
+    "_leia": "Itens de supermercado com 'de/por' no folheto avisam no celular quando o desconto passa deste % (30 = 30%), estejam ou não na sua lista."
+  }
 }

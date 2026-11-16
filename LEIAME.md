@@ -29,6 +29,17 @@ RADAR_SEM_ALERTA=1 python radar.py            # todos os produtos
 RADAR_SEM_ALERTA=1 python radar.py azeite     # só um
 ```
 
+## Pesquisar qualquer produto e editar a lista (pelo painel)
+O painel tem caixa de busca, "Incluir na lista", "Excluir da lista" e "Definir alvo". Cada botão dispara o workflow **Comando do painel** (`comando.yml` + `comando.py`) no GitHub.
+- **Pesquisar:** resultado completo (termômetro, melhor caminho, ofertas) em 1 a 3 minutos, em `docs/buscas/` (guarda as 30 últimas). Não entra na lista nem avisa.
+- **Incluir** (`texto; alvo=100` opcional): acrescenta em `produtos.json` com filtro automático pelas palavras do texto (tamanhos como 5kg viram unidade de preço). Aparece na lista em cerca de 6 minutos.
+- **Excluir / Alvo:** por id ou parte do nome.
+- **Conectar uma vez por aparelho:** crie um token fine-grained só para este repositório com **Actions: Read and write** (o painel explica o passo a passo) e cole no painel; fica só no navegador. Sem token, os botões abrem a página do workflow para rodar à mão.
+- Também dá para editar `produtos.json` direto ou pedir ao Claude.
+
+## Aviso de supermercado muito abaixo do normal
+`dados/ofertas_super.json` guarda todos os itens dos folhetos (de/por, validade, clube). `avisos_super.py` roda no GitHub quando esse arquivo é enviado e avisa no ntfy os itens com desconto sobre o preço "de" do folheto acima de `super.desconto_minimo` (padrão 30%), estejam ou não na lista; não repete o mesmo item. A tarefa agendada **radar-compras-folhetos** (segunda e quinta, 09h07, no app Claude do PC) refaz a extração. Itens sem preço "de" no folheto não têm base de comparação e não disparam aviso.
+
 ## Supermercados (Matozinhos e Pedro Leopoldo)
 Os três publicam folheto quinzenal, mas sem preço consultável por produto, então entram por `manuais` com `fisico: true` e `validade` do folheto. Atualize a cada folheto novo.
 - **Mart Minas:** não tem loja em Matozinhos; a de Pedro Leopoldo está em `martminas.com.br/loja/pedro-leopoldo/` (botão "Faça download do arquivo", PDF com texto legível). Clube: Mart Mais (só cadastrados).

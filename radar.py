@@ -329,7 +329,7 @@ def clubes_da_loja(loja, ben):
 
 
 # ---------- coleta ----------
-def coletar_produto(produto, ben, tab_mel):
+def coletar_produto(produto, ben, tab_mel, ofertas_super=()):
     exige = [norm(x).replace(" ", "") for x in produto["exige"]]
     exclui = [norm(x) for x in produto["exclui"]]
     algum = [norm(x) for x in produto.get("exige_algum", [])]
@@ -408,6 +408,23 @@ def coletar_produto(produto, ben, tab_mel):
                         "preco": float(m["preco"]), "link": m.get("link", ""), "qtd": qtd, "marketplace": False,
                         "fisico": bool(m.get("fisico")),
                         "manual": f"informado em {m['data']}{aviso}"})
+
+    for sp in ofertas_super:  # folhetos de supermercado (dados/ofertas_super.json)
+        if sp.get("validade", "9999") < HOJE:
+            continue
+        t = norm(sp["item"])
+        if not all(x in t.replace(" ", "") for x in exige) or any(x in t for x in exclui):
+            continue
+        if algum and not any(x in t for x in algum):
+            continue
+        qtd = quantidade(sp["item"], unidade) if unidade else None
+        if unidade and not qtd:
+            continue
+        v = sp["validade"]
+        nota = f"folheto válido até {v[8:10]}/{v[5:7]}" + (" (só com o clube do mercado)" if sp.get("clube") else "")
+        ofertas.append({"fonte": "Folheto", "loja": sp["loja"], "merchant_id": "", "titulo": sp["item"],
+                        "preco": float(sp["por"]), "link": sp.get("link", ""), "qtd": qtd, "marketplace": False,
+                        "fisico": True, "manual": nota})
 
     for o in ofertas:
         tm = taxa_meliuz(tab_mel, o["loja"], produto.get("categoria", "geral"), o.get("marketplace", False))
@@ -521,6 +538,55 @@ def texto_alerta(produto, melhor, valor, sinais):
     return "\n".join(linhas)
 
 
+def destaques_super(ofertas, minimo):
+    """Folhetos de supermercado válidos hoje, com 'de/por', do maior desconto para o menor."""
+    saida = []
+    for o in ofertas:
+        if o.get("validade", "9999") < HOJE or not o.get("de"):
+            continue
+        pct = (1 - o["por"] / o["de"]) * 100
+        saida.append(dict(o, pct=round(pct, 1), forte=pct >= minimo))
+    saida.sort(key=lambda o: -o["pct"])
+    return saida[:40]
+
+
+def analisar(p, ben, tab_mel, ofertas_super, estado, csv_out=None, topico="", alertar=True):
+    """Coleta, mede o termômetro, monta estratégias e (opcional) grava CSV e avisa. Devolve o item do painel."""
+    print(f"== {p['nome']}")
+    ofertas, status, paginas = coletar_produto(p, ben, tab_mel, ofertas_super)
+    print(f"  fontes: {status} | ofertas válidas: {len(ofertas)} | páginas lidas: {len(paginas)}")
+    item = {"id": p["id"], "nome": p["nome"], "unidade": p.get("unidade"), "alvo": p.get("preco_alvo"),
+            "fontes": status, "ofertas": ofertas, "sinais": [], "termometro": None, "estrategias": []}
+    if not ofertas:
+        return item
+    melhor = ofertas[0]
+    registrar_dia(p, melhor, estado)
+    serie, tip, atual, origem = serie_do_produto(p, melhor, paginas, estado)
+    termo = termometro(atual, serie, tip)
+    termo["origem"] = origem
+    valor_final = melhor["unitario"] if p.get("unidade") else melhor["liquido"]
+    sinais = sinais_de_alerta(p, termo, valor_final)
+    est = []
+    for o in ofertas[:6]:  # estratégias: melhores caminhos entre as 6 melhores ofertas
+        for c in o["caminhos"][:2]:
+            est.append({"loja": o["loja"], "link": o["link"], "preco": o["preco"], "liquido": c["liquido"],
+                        "passos": c["passos"], "clubes": o["clubes"], "frete": c["frete"],
+                        "frete_custo": c["frete_custo"], "manual": o.get("manual")})
+    est.sort(key=lambda x: x["liquido"] + x["frete_custo"])
+    item.update({"termometro": termo, "sinais": sinais, "valor": valor_final, "estrategias": est[:4]})
+    if csv_out is not None:
+        for o in ofertas:
+            csv_out.writerow([AGORA, p["id"], o["fonte"], o["loja"], o["titulo"], o["preco"], o["liquido"],
+                              o["unitario"] or "", termo["zona"], o["link"]])
+    ult = estado[p["id"]].get("alertado")
+    limite = (datetime.now(FUSO) - timedelta(days=3)).strftime("%Y-%m-%d")
+    if alertar and sinais and topico and not os.environ.get("RADAR_SEM_ALERTA"):
+        novo = not ult or valor_final < ult["valor"] * 0.98 or ult["dia"] < limite
+        if novo and ntfy(texto_alerta(p, melhor, valor_final, sinais), topico):
+            estado[p["id"]]["alertado"] = {"valor": valor_final, "dia": HOJE}
+    return item
+
+
 # ---------- principal ----------
 def main():
     DADOS.mkdir(exist_ok=True)
@@ -533,6 +599,8 @@ def main():
     topico = os.environ.get("NTFY_TOPICO", "").strip()
     novo_csv = not (DADOS / "precos.csv").exists()
     painel = []
+    arq_super = DADOS / "ofertas_super.json"
+    ofertas_super = json.loads(arq_super.read_text(encoding="utf-8")).get("ofertas", []) if arq_super.exists() else []
     tab_mel = taxas_meliuz()
     with open(DADOS / "precos.csv", "a", newline="", encoding="utf-8") as f:
         csv_out = csv.writer(f)
@@ -541,43 +609,13 @@ def main():
         for p in config["produtos"]:
             if filtro and p["id"] not in filtro:
                 continue
-            print(f"== {p['nome']}")
-            ofertas, status, paginas = coletar_produto(p, ben, tab_mel)
-            print(f"  fontes: {status} | ofertas válidas: {len(ofertas)} | páginas lidas: {len(paginas)}")
-            item = {"id": p["id"], "nome": p["nome"], "unidade": p.get("unidade"), "alvo": p.get("preco_alvo"),
-                    "fontes": status, "ofertas": ofertas, "sinais": [], "termometro": None, "estrategias": []}
-            if ofertas:
-                melhor = ofertas[0]
-                registrar_dia(p, melhor, estado)
-                serie, tip, atual, origem = serie_do_produto(p, melhor, paginas, estado)
-                termo = termometro(atual, serie, tip)
-                termo["origem"] = origem
-                valor_final = melhor["unitario"] if p.get("unidade") else melhor["liquido"]
-                sinais = sinais_de_alerta(p, termo, valor_final)
-                # estratégias: melhores caminhos entre as 6 melhores ofertas
-                est = []
-                for o in ofertas[:6]:
-                    for c in o["caminhos"][:2]:
-                        est.append({"loja": o["loja"], "link": o["link"], "preco": o["preco"], "liquido": c["liquido"],
-                                    "passos": c["passos"], "clubes": o["clubes"], "frete": c["frete"],
-                                    "frete_custo": c["frete_custo"], "manual": o.get("manual")})
-                est.sort(key=lambda x: x["liquido"] + x["frete_custo"])
-                item.update({"termometro": termo, "sinais": sinais, "valor": valor_final, "estrategias": est[:4]})
-                for o in ofertas:
-                    csv_out.writerow([AGORA, p["id"], o["fonte"], o["loja"], o["titulo"], o["preco"], o["liquido"],
-                                      o["unitario"] or "", termo["zona"], o["link"]])
-                ult = estado[p["id"]].get("alertado")
-                limite = (datetime.now(FUSO) - timedelta(days=3)).strftime("%Y-%m-%d")
-                if sinais and topico and not os.environ.get("RADAR_SEM_ALERTA"):
-                    novo = not ult or valor_final < ult["valor"] * 0.98 or ult["dia"] < limite
-                    if novo and ntfy(texto_alerta(p, melhor, valor_final, sinais), topico):
-                        estado[p["id"]]["alertado"] = {"valor": valor_final, "dia": HOJE}
-            painel.append(item)
+            painel.append(analisar(p, ben, tab_mel, ofertas_super, estado, csv_out, topico))
     arq_estado.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
     if not filtro:
         modelo = (RAIZ / "painel_modelo.html").read_text(encoding="utf-8")
         dados = json.dumps({"atualizado": AGORA, "produtos": painel, "black_friday": BLACK_FRIDAY,
-                            "hoje": HOJE, "beneficios": ben, "meliuz": tab_mel}, ensure_ascii=False)
+                            "hoje": HOJE, "beneficios": ben, "meliuz": tab_mel,
+                            "super": destaques_super(ofertas_super, config.get("super", {}).get("desconto_minimo", 30))}, ensure_ascii=False)
         (DOCS / "index.html").write_text(modelo.replace("/*DADOS*/null", dados), encoding="utf-8")
         print("painel atualizado")
 
