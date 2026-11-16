@@ -39,7 +39,9 @@ O painel tem caixa de busca, "Incluir na lista", "Excluir da lista" e "Definir a
 - Também dá para editar `produtos.json` direto ou pedir ao Claude.
 
 ## Aviso de supermercado muito abaixo do normal
-`dados/ofertas_super.json` guarda todos os itens dos folhetos (de/por, validade, clube). `avisos_super.py` roda no GitHub quando esse arquivo é enviado e avisa no ntfy os itens com desconto sobre o preço "de" do folheto acima de `super.desconto_minimo` (padrão 30%), estejam ou não na lista; não repete o mesmo item. A tarefa agendada **radar-compras-folhetos** (segunda e quinta, 09h07, no app Claude do PC) refaz a extração. Itens sem preço "de" no folheto não têm base de comparação e não disparam aviso.
+`dados/ofertas_super.json` guarda todos os itens dos folhetos (de/por, validade, clube). `avisos_super.py` roda no GitHub quando esse arquivo é enviado e avisa no ntfy os itens com desconto sobre o preço "de" do folheto acima de `super.desconto_minimo` (padrão 30%), estejam ou não na lista; não repete o mesmo item. A extração é dividida em duas tarefas, ambas segunda e quinta, e cada uma troca só os itens da sua rede:
+- **Rotina na nuvem `radar-compras-folhetos`** (09h07 Brasília, roda sem o PC; ambiente de nuvem `radar-folhetos`, rede limitada a `www.martminas.com.br`, `supermercadosparanaiba.com.br`, `superbh.app`, `*.superbh.app` e `stgrsbhprd.blob.core.windows.net`): lê Mart Minas (PDF) e Paranaíba (imagens).
+- **Tarefa do PC `radar-compras-folhetos`** (09h37, precisa do app Claude aberto): lê só o Supermercados BH. O servidor do BH (`superbh.app`) encerra conexões vindas da nuvem do Claude e do GitHub ("connection reset"), mas responde do PC de casa, então o BH não pode ir para a nuvem. Itens sem preço "de" no folheto não têm base de comparação e não disparam aviso.
 
 ## Supermercados (Matozinhos e Pedro Leopoldo)
 Os três publicam folheto quinzenal, mas sem preço consultável por produto, então entram por `manuais` com `fisico: true` e `validade` do folheto. Atualize a cada folheto novo.
