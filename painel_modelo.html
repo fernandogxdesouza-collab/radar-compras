@@ -57,6 +57,8 @@ h2{font-size:16px;margin:18px 0 8px}
 input.tk{width:100%;padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);font:inherit;margin:6px 0}
 ol{margin:6px 0 6px 18px;padding:0;font-size:13px}
 .toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:var(--tx);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:14px;max-width:90vw;z-index:9;display:none;box-shadow:0 4px 18px rgba(0,0,0,.25)}
+.rec{background:var(--okbg);border:1px solid var(--ok);color:var(--tx);border-radius:10px;padding:10px 12px;margin-top:10px;font-size:14px}
+.rec b.t{color:var(--ok)}
 </style>
 </head>
 <body>
@@ -139,10 +141,12 @@ function cartao(p,modo){
   if(!p.ofertas.length)return `<div class="card"><div class="cab"><div class="nome">${esc(p.nome)}</div>${botoes}</div><div class="vazio">${p.pendente?'Coletando os primeiros preços... atualize esta página em alguns minutos.':'Nenhuma oferta válida nesta coleta.'}</div></div>`;
   const m=p.ofertas[0];
   const tags=p.sinais.map(s=>`<span class="tag ok">${esc(s)}</span>`).join('');
+  const r=p.recomendacao;
+  const rec=r?`<div class="rec"><b class="t">Recomendo comprar na loja física: ${esc(r.loja)}</b><div>${esc(r.titulo.slice(0,90))} por <b>${R(r.preco)}</b>${r.nota?' ('+esc(r.nota)+')':''}.${r.como&&r.como.length&&!r.como[0].startsWith('preço de vitrine')?' Pague com: '+r.como.map(esc).join(' + ')+'.':''}</div><div class="meta">${r.online?'Online, o melhor caminho sai '+R(r.online.valor)+un+' na '+esc(r.online.loja)+': '+Math.abs(r.online.pct).toFixed(0)+'% mais caro'+(r.economia>0?' (você economiza cerca de '+R(r.economia)+' nesta compra)':'')+'.':'Nenhum concorrente online encontrado.'}${r.link?' <a href="'+esc(r.link)+'" target="_blank" rel="noopener">ver folheto</a>':''}</div></div>`:'';
   const linhas=p.ofertas.map(o=>`<tr><td>${esc(o.loja)}</td><td>${o.link?`<a href="${esc(o.link)}" target="_blank" rel="noopener">${esc(o.titulo.slice(0,80))}</a>`:esc(o.titulo.slice(0,80))}</td>
     <td class="n">${R(o.preco)}</td><td class="n"><b>${R(o.liquido)}</b></td>${p.unidade?`<td class="n">${o.unitario?R(o.unitario)+un:'-'}</td>`:''}</tr>`).join('');
   return `<div class="card"><div class="cab"><div><div class="nome">${esc(p.nome)}</div>
-    <div class="melhor">${R(p.valor)}<small>${un} · ${esc(m.loja)}${m.parcelas?' · '+esc(m.parcelas):''}</small></div>${tags}</div>${botoes}</div>
+    <div class="melhor">${R(p.valor)}<small>${un} · ${esc(m.loja)}${m.parcelas?' · '+esc(m.parcelas):''}</small></div>${tags}${rec}</div>${botoes}</div>
     <div class="cols"><div class="box"><h3>Termômetro de preço</h3>${termo(t)}<div style="margin-top:10px">${t&&t.serie?grafico(t):''}</div></div>
     <div class="box"><h3>Quer pagar mais barato?</h3><div>${alerta(p)}</div><h3 style="margin-top:12px">Como comprar mais barato</h3>${estrategias(p)}</div></div>
     <details><summary>${p.ofertas.length} ofertas</summary><div class="wrap"><table><tr><th>Loja</th><th>Produto</th><th class="n">Vitrine</th><th class="n">Líquido</th>${p.unidade?'<th class="n">Por '+p.unidade+'</th>':''}</tr>${linhas}</table></div></details></div>`;

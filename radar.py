@@ -529,7 +529,8 @@ def ntfy(texto, topico):
 def texto_alerta(produto, melhor, valor, sinais):
     un = f"/{produto['unidade']}" if produto.get("unidade") else ""
     cam = melhor["caminho"]
-    linhas = [f"{produto['nome']}: R$ {valor:.2f}{un} na {melhor['loja']}", " + ".join(sinais),
+    onde = "COMPRE NA LOJA FÍSICA: " if melhor.get("fisico") else ""
+    linhas = [f"{onde}{produto['nome']}: R$ {valor:.2f}{un} na {melhor['loja']}", " + ".join(sinais),
               f"Melhor caminho: {'; '.join(cam['passos'])} = R$ {melhor['liquido']:.2f} líquido "
               f"(economia R$ {melhor['preco'] - melhor['liquido']:.2f})"]
     if melhor.get("clubes"):
@@ -566,6 +567,20 @@ def analisar(p, ben, tab_mel, ofertas_super, estado, csv_out=None, topico="", al
     termo["origem"] = origem
     valor_final = melhor["unitario"] if p.get("unidade") else melhor["liquido"]
     sinais = sinais_de_alerta(p, termo, valor_final)
+    rec = None
+    if melhor.get("fisico"):  # o folheto de uma rede local é o melhor preço: recomenda a loja física
+        alt = next((o for o in ofertas if not o.get("fisico")), None)
+        rec = {"loja": melhor["loja"], "titulo": melhor["titulo"], "preco": melhor["preco"], "liquido": melhor["liquido"],
+               "valor": valor_final, "nota": melhor.get("manual"), "link": melhor.get("link", ""),
+               "como": melhor["caminho"]["passos"]}
+        if alt:
+            va = alt["unitario"] if p.get("unidade") else alt["liquido"]
+            rec["online"] = {"loja": alt["loja"], "valor": va, "pct": round((va / valor_final - 1) * 100, 1)}
+            if p.get("unidade") and alt.get("unitario") and melhor.get("qtd"):
+                rec["economia"] = round((alt["unitario"] - melhor["unitario"]) * melhor["qtd"], 2)
+            else:
+                rec["economia"] = round(alt["liquido"] - melhor["liquido"], 2)
+        sinais.append(f"mais barato no folheto: compre na loja de {melhor['loja']}")
     est = []
     for o in ofertas[:6]:  # estratégias: melhores caminhos entre as 6 melhores ofertas
         for c in o["caminhos"][:2]:
@@ -573,7 +588,7 @@ def analisar(p, ben, tab_mel, ofertas_super, estado, csv_out=None, topico="", al
                         "passos": c["passos"], "clubes": o["clubes"], "frete": c["frete"],
                         "frete_custo": c["frete_custo"], "manual": o.get("manual")})
     est.sort(key=lambda x: x["liquido"] + x["frete_custo"])
-    item.update({"termometro": termo, "sinais": sinais, "valor": valor_final, "estrategias": est[:4]})
+    item.update({"termometro": termo, "sinais": sinais, "valor": valor_final, "estrategias": est[:4], "recomendacao": rec})
     if csv_out is not None:
         for o in ofertas:
             csv_out.writerow([AGORA, p["id"], o["fonte"], o["loja"], o["titulo"], o["preco"], o["liquido"],
