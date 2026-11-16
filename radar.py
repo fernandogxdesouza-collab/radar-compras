@@ -587,20 +587,56 @@ def analisar(p, ben, tab_mel, ofertas_super, estado, csv_out=None, topico="", al
     return item
 
 
+# ---------- painel ----------
+def carrega_painel():
+    arq = DADOS / "painel.json"
+    if arq.exists():
+        try:
+            return json.loads(arq.read_text(encoding="utf-8"))
+        except ValueError:
+            pass
+    return {"atualizado": AGORA, "produtos": []}
+
+
+def renderizar(config, ben, tab_mel, ofertas_super):
+    """Gera docs/index.html a partir de dados/painel.json, na ordem e só com os itens que estão em produtos.json."""
+    guardado = carrega_painel()
+    por_id = {it["id"]: it for it in guardado.get("produtos", [])}
+    itens = []
+    for p in config["produtos"]:
+        it = por_id.get(p["id"]) or {"id": p["id"], "nome": p["nome"], "unidade": p.get("unidade"), "fontes": {},
+                                     "ofertas": [], "sinais": [], "termometro": None, "estrategias": [], "pendente": True}
+        it["nome"], it["alvo"] = p["nome"], p.get("preco_alvo")
+        itens.append(it)
+    modelo = (RAIZ / "painel_modelo.html").read_text(encoding="utf-8")
+    dados = json.dumps({"atualizado": guardado.get("atualizado", AGORA), "produtos": itens, "black_friday": BLACK_FRIDAY,
+                        "hoje": HOJE, "beneficios": ben, "meliuz": tab_mel,
+                        "super": destaques_super(ofertas_super, config.get("super", {}).get("desconto_minimo", 30))},
+                       ensure_ascii=False)
+    (DOCS / "index.html").write_text(modelo.replace("/*DADOS*/null", dados), encoding="utf-8")
+
+
 # ---------- principal ----------
 def main():
     DADOS.mkdir(exist_ok=True)
     DOCS.mkdir(exist_ok=True)
     config = json.loads((RAIZ / "produtos.json").read_text(encoding="utf-8"))
     ben = json.loads((RAIZ / "beneficios.json").read_text(encoding="utf-8"))
+    args = sys.argv[1:]
+    so_render = "--render" in args
+    filtro = [a for a in args if not a.startswith("--")]
+    arq_super = DADOS / "ofertas_super.json"
+    ofertas_super = json.loads(arq_super.read_text(encoding="utf-8")).get("ofertas", []) if arq_super.exists() else []
+    if so_render:  # só redesenha o painel com o que já foi coletado (usado após excluir, alvo e ao integrar mudanças)
+        arq_mel = DADOS / "meliuz.json"
+        renderizar(config, ben, json.loads(arq_mel.read_text(encoding="utf-8")) if arq_mel.exists() else {}, ofertas_super)
+        print("painel redesenhado")
+        return
     arq_estado = DADOS / "estado.json"
     estado = json.loads(arq_estado.read_text(encoding="utf-8")) if arq_estado.exists() else {}
-    filtro = sys.argv[1:]
     topico = os.environ.get("NTFY_TOPICO", "").strip()
     novo_csv = not (DADOS / "precos.csv").exists()
     painel = []
-    arq_super = DADOS / "ofertas_super.json"
-    ofertas_super = json.loads(arq_super.read_text(encoding="utf-8")).get("ofertas", []) if arq_super.exists() else []
     tab_mel = taxas_meliuz()
     with open(DADOS / "precos.csv", "a", newline="", encoding="utf-8") as f:
         csv_out = csv.writer(f)
@@ -611,13 +647,13 @@ def main():
                 continue
             painel.append(analisar(p, ben, tab_mel, ofertas_super, estado, csv_out, topico))
     arq_estado.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
-    if not filtro:
-        modelo = (RAIZ / "painel_modelo.html").read_text(encoding="utf-8")
-        dados = json.dumps({"atualizado": AGORA, "produtos": painel, "black_friday": BLACK_FRIDAY,
-                            "hoje": HOJE, "beneficios": ben, "meliuz": tab_mel,
-                            "super": destaques_super(ofertas_super, config.get("super", {}).get("desconto_minimo", 30))}, ensure_ascii=False)
-        (DOCS / "index.html").write_text(modelo.replace("/*DADOS*/null", dados), encoding="utf-8")
-        print("painel atualizado")
+    por_id = {it["id"]: it for it in carrega_painel().get("produtos", [])} if filtro else {}
+    for it in painel:
+        por_id[it["id"]] = it
+    (DADOS / "painel.json").write_text(json.dumps({"atualizado": AGORA, "produtos": list(por_id.values())},
+                                                  ensure_ascii=False), encoding="utf-8")
+    renderizar(config, ben, tab_mel, ofertas_super)
+    print("painel atualizado")
 
 
 if __name__ == "__main__":

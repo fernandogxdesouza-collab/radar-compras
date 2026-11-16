@@ -33,7 +33,17 @@ jobs:
         run: |
           git config user.name "radar-compras"
           git config user.email "radar-compras@users.noreply.github.com"
-          git add dados docs
+          git add -A dados docs produtos.json
           git diff --cached --quiet || git commit -q -m "Atualiza preços"
-          git pull -q --rebase origin main
-          git push -q
+          for i in 1 2 3 4 5 6; do
+            if git pull -q --rebase -X theirs origin main; then
+              python radar.py --render
+              git add -A docs
+              git diff --cached --quiet || git commit -q -m "Redesenha o painel"
+              git push -q && exit 0
+            else
+              git rebase --abort || true
+            fi
+            sleep $((RANDOM % 8 + 3))
+          done
+          exit 1

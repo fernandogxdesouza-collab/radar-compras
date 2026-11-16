@@ -99,6 +99,10 @@ def main():
         cfg["produtos"].append(p)
         salva(cfg)
         print(f"incluído: {p['nome']} (exige {p['exige']}, unidade {p['unidade']})")
+        saida = os.environ.get("GITHUB_OUTPUT")
+        if saida:
+            with open(saida, "a", encoding="utf-8") as f:
+                f.write(f"id={p['id']}\n")
     elif ACAO == "excluir":
         achados = achar(cfg, TEXTO)
         if len(achados) != 1:

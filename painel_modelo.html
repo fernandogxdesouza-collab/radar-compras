@@ -56,6 +56,7 @@ h2{font-size:16px;margin:18px 0 8px}
 .acoes{display:flex;gap:6px;flex-wrap:wrap}
 input.tk{width:100%;padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);font:inherit;margin:6px 0}
 ol{margin:6px 0 6px 18px;padding:0;font-size:13px}
+.toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:var(--tx);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:14px;max-width:90vw;z-index:9;display:none;box-shadow:0 4px 18px rgba(0,0,0,.25)}
 </style>
 </head>
 <body>
@@ -92,6 +93,7 @@ ol{margin:6px 0 6px 18px;padding:0;font-size:13px}
 <div class="card" id="sup" hidden><b>Folhetos de supermercado: maiores descontos</b><div class="wrap"><table id="supt"></table></div><div class="meta">Desconto sobre o preço "de" impresso no folheto. Em negrito, o que passa do limite de aviso.</div></div>
 <div class="card"><b>Benefícios ativos</b><div class="meta" id="ben"></div></div>
 </main>
+<div class="toast" id="toast"></div>
 <script>
 const D=/*DADOS*/null;
 const REPO='fernandogxdesouza-collab/radar-compras';
@@ -134,7 +136,7 @@ function cartao(p,modo){
   const un=p.unidade?'/'+p.unidade:'',t=p.termometro;
   const botoes=modo==='lista'?`<div class="acoes"><button class="peq" data-alvo="${esc(p.id)}">Definir alvo</button><button class="peq er" data-excluir="${esc(p.id)}" data-nome="${esc(p.nome)}">Excluir da lista</button></div>`
     :`<div class="acoes"><button class="peq" data-incluir="${esc(p.nome)}">Incluir na lista</button></div>`;
-  if(!p.ofertas.length)return `<div class="card"><div class="cab"><div class="nome">${esc(p.nome)}</div>${botoes}</div><div class="vazio">Nenhuma oferta válida nesta coleta.</div></div>`;
+  if(!p.ofertas.length)return `<div class="card"><div class="cab"><div class="nome">${esc(p.nome)}</div>${botoes}</div><div class="vazio">${p.pendente?'Coletando os primeiros preços... atualize esta página em alguns minutos.':'Nenhuma oferta válida nesta coleta.'}</div></div>`;
   const m=p.ofertas[0];
   const tags=p.sinais.map(s=>`<span class="tag ok">${esc(s)}</span>`).join('');
   const linhas=p.ofertas.map(o=>`<tr><td>${esc(o.loja)}</td><td>${o.link?`<a href="${esc(o.link)}" target="_blank" rel="noopener">${esc(o.titulo.slice(0,80))}</a>`:esc(o.titulo.slice(0,80))}</td>
@@ -147,7 +149,7 @@ function cartao(p,modo){
 }
 
 /* ---------- comandos via GitHub Actions ---------- */
-function msg(t,erro){const m=$('msg');m.textContent=t;m.className='msg'+(erro?' er':'');}
+let tt;function msg(t,erro){const m=$('msg');m.textContent=t;m.className='msg'+(erro?' er':'');const o=$('toast');o.textContent=t;o.style.display='block';clearTimeout(tt);tt=setTimeout(()=>{o.style.display='none'},erro?9000:6000);}
 function semToken(acao,texto){
   $('cfg').open=true;
   msg('Sem token conectado. Conecte abaixo (uma vez) ou rode à mão: abra a página do workflow, clique em "Run workflow", escolha "'+acao+'" e digite: '+texto,true);
@@ -189,13 +191,14 @@ async function carregaRecentes(){
 }
 async function incluir(texto){
   texto=texto.trim(); if(texto.length<2){msg('Digite o produto (opcional: "; alvo=100").',true);return}
+  delete OC[slug(texto.split(';')[0].trim())];ls.set('rc_ocultos',JSON.stringify(OC));
   if(await comando('incluir',texto))msg('Pedido enviado. Em cerca de 6 minutos "'+texto+'" aparece na lista com preços e termômetro. Atualize a página.');
 }
 document.addEventListener('click',async e=>{
   const b=e.target.closest('button'); if(!b)return;
   if(b.dataset.excluir){
     if(!confirm('Excluir "'+b.dataset.nome+'" da lista?'))return;
-    if(await comando('excluir',b.dataset.excluir)){b.closest('.card').style.opacity='.4';msg('Exclusão enviada. O painel se atualiza em cerca de 6 minutos.');}
+    if(await comando('excluir',b.dataset.excluir)){ocultar(b.dataset.excluir);b.closest('.card').remove();msg('"'+b.dataset.nome+'" excluído. Já sumiu da sua tela; o painel publicado confirma em 1 a 2 minutos.');}
   }else if(b.dataset.alvo){
     const v=prompt('Preço-alvo em reais (0 remove o alvo). O aviso dispara abaixo desse valor:'); if(v===null)return;
     if(await comando('alvo',b.dataset.alvo+'; alvo='+v))msg('Alvo enviado. Aparece no painel em cerca de 6 minutos.');
@@ -216,7 +219,10 @@ if(ls.get('rc_token'))$('bConfig').textContent='Conectado';
 $('sub').textContent='Atualizado em '+D.atualizado+' (Brasília). Preço líquido = vitrine menos os benefícios ativos.';
 const dias=Math.round((new Date(D.black_friday)-new Date(D.hoje))/864e5);
 if(dias>=0&&dias<=30){const b=$('bf');b.hidden=false;b.textContent=`Black Friday em ${dias} dia(s). Compare sempre com o histórico: só vale se o preço entrar na faixa baixa.`;}
-$('lista').innerHTML=D.produtos.map(p=>cartao(p,'lista')).join('')||'<div class="meta">A lista está vazia. Use "Incluir na lista".</div>';
+const OC=(()=>{try{return JSON.parse(ls.get('rc_ocultos')||'{}')}catch(e){return {}}})();
+Object.keys(OC).forEach(k=>{if(Date.now()-OC[k]>1800000)delete OC[k]});ls.set('rc_ocultos',JSON.stringify(OC));
+function ocultar(id){OC[id]=Date.now();ls.set('rc_ocultos',JSON.stringify(OC))}
+$('lista').innerHTML=D.produtos.filter(p=>!OC[p.id]).map(p=>cartao(p,'lista')).join('')||'<div class="meta">A lista está vazia. Use "Incluir na lista".</div>';
 if((D.super||[]).length){$('sup').hidden=false;
 $('supt').innerHTML='<tr><th>Loja</th><th>Item</th><th class="n">De</th><th class="n">Por</th><th class="n">Desconto</th><th>Validade</th></tr>'+D.super.map(o=>`<tr${o.forte?' style="font-weight:600"':''}><td>${esc(o.loja)}${o.clube?' <span class="tag">clube</span>':''}</td><td>${esc(o.item.slice(0,70))}</td><td class="n">${R(o.de)}</td><td class="n">${R(o.por)}</td><td class="n">${o.forte?'<span class="tag ok">-'+o.pct.toFixed(0)+'%</span>':'-'+o.pct.toFixed(0)+'%'}</td><td>${esc(dd(o.validade))}</td></tr>`).join('');}
 const b=D.beneficios,at=[];
