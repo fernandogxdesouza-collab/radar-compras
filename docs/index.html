@@ -181,7 +181,18 @@ async function pesquisar(texto){
   }
   msg('Ainda não apareceu. Aguarde mais um pouco e atualize a página: a pesquisa continua rodando no GitHub.',true);
 }
-function mostra(j){$('resultado').innerHTML='<h2>Resultado: '+esc(j.consulta)+'</h2>'+cartao(j.item,'busca');}
+function extras(j){
+  let o='';
+  if(j.encartes){
+    o+='<div class="card"><b>Comparação com os encartes locais</b><div class="meta">Folhetos válidos de Mart Minas (Pedro Leopoldo), Supermercados BH (Matozinhos) e Paranaíba (Matozinhos). Em compra presencial valem só o preço do folheto e o cartão.'+(j.valor_online?' Melhor preço online (já com seus benefícios): <b>'+R(j.valor_online)+(j.item.unidade?'/'+j.item.unidade:'')+'</b>.':' Nenhum preço online encontrado para comparar.')+'</div>';
+    o+=j.encartes.map(e=>`<div class="cam"><b>${esc(e.loja)}</b>`+(e.achou?e.itens.map(i=>`<div>${esc(i.item.slice(0,80))}: <b>${R(i.por)}</b>${i.de?' (de '+R(i.de)+')':''}${j.item.unidade?' = '+R(i.valor)+'/'+j.item.unidade:''}${i.clube?' <span class="tag">só com o clube</span>':''} · até ${dd(i.validade)}${i.vs_online==null?'':i.vs_online<=0?' <span class="tag ok">'+Math.abs(i.vs_online).toFixed(0)+'% mais barato que o online</span>':' <span class="tag">'+i.vs_online.toFixed(0)+'% mais caro que o online</span>'}</div>`).join(''):'<div class="meta">Nenhum item parecido nos folhetos atuais (ou o folheto desta rede ainda não foi lido).</div>')+'</div>').join('')+'</div>';
+  }
+  if(j.links){
+    o+='<div class="card"><b>Conferir nas lojas que o robô não lê</b><div class="meta">O robô lê preços pelo '+esc(j.lidas||'Zoom')+'. Mercado Livre, Shopee, Amazon direto, Carrefour e Pão de Açúcar bloqueiam o robô: abra a pesquisa pronta e compare à mão (informe o preço que achar e eu lanço na lista).</div><div class="chips">'+j.links.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener"><button type="button">${esc(l.loja)}</button></a>`).join('')+'</div></div>';
+  }
+  return o;
+}
+function mostra(j){$('resultado').innerHTML='<h2>Resultado: '+esc(j.consulta)+'</h2>'+cartao(j.item,'busca')+extras(j);}
 async function carregaRecentes(){
   try{
     const r=await fetch('buscas/indice.json?t='+Date.now(),{cache:'no-store'}); if(!r.ok)return;
