@@ -86,5 +86,15 @@
     "titulo": "Café Torrado e Moído Café Brasileiro Tradicional  Pacote 500g Café Torrado e Moído Café Brasileiro Tradicional Pacote 500g"
    }
   }
+ },
+ "granola-1kg": {
+  "dias": {
+   "2026-11-16": {
+    "valor": 26.12,
+    "preco": 27.5,
+    "loja": "Magazine Luiza",
+    "titulo": "GRANOLA CASTANHAS - Martigran - 1kg"
+   }
+  }
  }
 }
