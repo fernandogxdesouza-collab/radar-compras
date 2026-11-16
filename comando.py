@@ -59,6 +59,58 @@ def achar(cfg, texto):
     return [p for p in cfg["produtos"] if alvo and alvo in radar.norm(p["nome"] + " " + p["id"])]
 
 
+LOJAS_LINKS = [
+    ("Mercado Livre", "https://lista.mercadolivre.com.br/{s}"),
+    ("Shopee", "https://shopee.com.br/search?keyword={q}"),
+    ("Amazon", "https://www.amazon.com.br/s?k={q}"),
+    ("Magazine Luiza", "https://www.magazineluiza.com.br/busca/{q}/"),
+    ("Americanas", "https://www.americanas.com.br/busca/{s}"),
+    ("KaBuM!", "https://www.kabum.com.br/busca/{s}"),
+    ("Carrefour", "https://www.carrefour.com.br/busca/{q}"),
+    ("Pão de Açúcar", "https://www.paodeacucar.com/busca?terms={q}"),
+    ("Jacotei", "https://www.jacotei.com.br/busca?q={q}"),
+    ("Zoom", "https://www.zoom.com.br/search?q={q}"),
+    ("Buscapé", "https://www.buscape.com.br/search?q={q}"),
+    ("Bondfaro", "https://www.bondfaro.com.br/search?q={q}"),
+]
+LIDAS_PELO_ROBO = "Zoom (que traz Magazine Luiza, Americanas, KaBuM!, Fast Shop e parte da Amazon)"
+LOJAS_FISICAS = ["Mart Minas (Pedro Leopoldo)", "Supermercados BH (Matozinhos)", "Supermercados Paranaíba (Matozinhos)"]
+
+
+def links_de_pesquisa(texto):
+    from urllib.parse import quote_plus
+    return [{"loja": n, "url": u.format(q=quote_plus(texto), s=slug(texto))} for n, u in LOJAS_LINKS]
+
+
+def casa_encarte(tokens, item):
+    """O item do folheto parece o que foi pesquisado? Exige a maioria das palavras (e pelo menos 2, ou a única)."""
+    t = radar.norm(item).replace(" ", "")
+    acertos = sum(1 for k in tokens if k in t)
+    return acertos >= max(1, -(-len(tokens) * 6 // 10)) and (acertos >= 2 or len(tokens) == 1)
+
+
+def encartes(texto, p, sup, valor_online):
+    """Comparação com os folhetos das redes locais: melhores itens parecidos por rede, ou aviso de que não achou."""
+    tokens = [k.replace(" ", "") for k in p["exige"]]
+    vistas = sorted({o["loja"] for o in sup} | set(LOJAS_FISICAS))
+    saida = []
+    for loja in vistas:
+        itens = []
+        for o in sup:
+            if o["loja"] != loja or o.get("validade", "9999") < radar.HOJE or not casa_encarte(tokens, o["item"]):
+                continue
+            qtd = radar.quantidade(o["item"], p["unidade"]) if p["unidade"] else None
+            if p["unidade"] and not qtd:
+                continue
+            valor = o["por"] / qtd if qtd else o["por"]
+            itens.append({"item": o["item"], "de": o.get("de"), "por": o["por"], "validade": o["validade"], "clube": bool(o.get("clube")),
+                          "valor": round(valor, 2), "link": o.get("link", ""),
+                          "vs_online": round((valor / valor_online - 1) * 100, 1) if valor_online else None})
+        itens.sort(key=lambda x: x["valor"])
+        saida.append({"loja": loja, "achou": len(itens), "itens": itens[:3]})
+    return saida
+
+
 def buscar(texto):
     ben = json.loads((RAIZ / "beneficios.json").read_text(encoding="utf-8"))
     arq = RAIZ / "dados" / "ofertas_super.json"
@@ -70,11 +122,17 @@ def buscar(texto):
     if not item["ofertas"] and len(p["exige"]) > 2:  # busca estrita demais: tenta só com as 2 primeiras palavras
         p["exige"] = p["exige"][:2]
         item = radar.analisar(p, ben, tab, sup, {}, None, "", alertar=False)
+    supermercado = bool(p["unidade"]) or any(casa_encarte([k.replace(" ", "") for k in p["exige"]], o["item"]) for o in sup)
+    online = [(o["unitario"] if p["unidade"] else o["liquido"]) for o in item["ofertas"] if not o.get("fisico")]
+    valor_online = min(online) if online else None
+    extras = {"links": links_de_pesquisa(texto), "lidas": LIDAS_PELO_ROBO, "supermercado": supermercado, "valor_online": valor_online}
+    if supermercado:
+        extras["encartes"] = encartes(texto, p, sup, valor_online)
     pasta = RAIZ / "docs" / "buscas"
     pasta.mkdir(parents=True, exist_ok=True)
     s = slug(texto)
     (pasta / f"{s}.json").write_text(json.dumps({"consulta": texto, "gerado_em_ms": int(time.time() * 1000),
-                                                  "gerado_em": radar.AGORA, "item": item}, ensure_ascii=False), encoding="utf-8")
+                                                  "gerado_em": radar.AGORA, "item": item, **extras}, ensure_ascii=False), encoding="utf-8")
     arq_ind = pasta / "indice.json"
     ind = json.loads(arq_ind.read_text(encoding="utf-8")) if arq_ind.exists() else []
     ind = [x for x in ind if x["slug"] != s]

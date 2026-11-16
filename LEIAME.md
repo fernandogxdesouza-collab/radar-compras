@@ -32,6 +32,7 @@ RADAR_SEM_ALERTA=1 python radar.py azeite     # só um
 ## Pesquisar qualquer produto e editar a lista (pelo painel)
 O painel tem caixa de busca, "Incluir na lista", "Excluir da lista" e "Definir alvo". Cada botão dispara o workflow **Comando do painel** (`comando.yml` + `comando.py`) no GitHub.
 - **Pesquisar:** resultado completo (termômetro, melhor caminho, ofertas) em 1 a 3 minutos, em `docs/buscas/` (guarda as 30 últimas). Não entra na lista nem avisa.
+- **Item de supermercado:** se a pesquisa for por peso/volume (ex.: arroz 5kg) ou casar com algum folheto, o resultado ganha "Comparação com os encartes locais" (melhor item parecido de cada rede, % contra o melhor preço online) e "Conferir nas lojas que o robô não lê" (links prontos de pesquisa em Mercado Livre, Shopee, Amazon, Carrefour, Pão de Açúcar etc.). O robô só lê preços pelo Zoom; as demais lojas bloqueiam e não são contornadas.
 - **Incluir** (`texto; alvo=100` opcional): acrescenta em `produtos.json` com filtro automático pelas palavras do texto (tamanhos como 5kg viram unidade de preço). Aparece na lista em cerca de 6 minutos.
 - **Excluir / Alvo:** por id ou parte do nome.
 - **Conectar uma vez por aparelho:** crie um token fine-grained só para este repositório com **Actions: Read and write** (o painel explica o passo a passo) e cole no painel; fica só no navegador. Sem token, os botões abrem a página do workflow para rodar à mão.
