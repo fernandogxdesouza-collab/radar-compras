@@ -1,141 +1,141 @@
 {
  "atualizado": "2026-11-16",
- "nota": "Semente parcial (16/11/2026): Mart Minas lido do PDF; BH e Paranaíba só itens da lista e com DE/POR. A tarefa agendada refaz a extração completa duas vezes por semana.",
+ "nota": "Extração completa em 16/11/2026. Mart Minas: encarte 12 a 18/11 (PDF); o preço 'de' é o 'Sem Mart Mais' e o 'por' exige cadastro Mart Mais (clube=true); hortifrúti ficou fora porque venceu em 15/11. BH: folheto Varejo MG 2ª quinzena de novembro (o folheto Atacado vale só para lojas BH Atacado e não entrou); o rodapé diz que ofertas Meu BH exigem cadastro e CPF, mas nenhum item vem marcado como exclusivo. Paranaíba: jornal de 2 páginas; itens com 'de' são Clube de Desconto.",
  "ofertas": [
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Empanado Mini Chicken Perdig�o Tradicional Congelado 1Kg",
+   "item": "Empanado Mini Chicken Perdigão Tradicional Congelado 1kg",
    "de": 19.8,
    "por": 14.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Hamburguer Pif Paf Misto 56G",
+   "item": "Hambúrguer Pif Paf Misto 56g",
    "de": 0.99,
    "por": 0.79,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Lingui�a Calabresa Perdig�o Curva 1 Kg",
+   "item": "Linguiça Calabresa Perdigão Curva 1kg",
    "de": 28.9,
    "por": 22.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Mortadela Defumada Seara, Ou Sadia Pe�a Kg",
+   "item": "Mortadela Defumada Seara ou Sadia Peça kg",
    "de": 18.9,
    "por": 15.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Peixe Fil� de Til�pia Emp�rio do Pescado Congelado 800G",
+   "item": "Peixe Filé de Tilápia Empório do Pescado Congelado 800g",
    "de": 38.98,
    "por": 32.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Sorvete Nobrelli Duo 1,3L Ou A�a� Storm 1L Unidade",
+   "item": "Sorvete Nobrelli Duo 1,3L ou Açaí Storm 1L",
    "de": 13.98,
    "por": 11.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Iogurte Porto Alegre 1150g Sabores Unidade",
+   "item": "Iogurte Porto Alegre 1150g Sabores",
    "de": 11.98,
    "por": 9.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Leite Fermentado Itamb� 450g Unidade",
+   "item": "Leite Fermentado Itambé 450g",
    "de": 7.28,
    "por": 5.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Lasanha Pif Paf Ou Rezende 600G Unidade",
+   "item": "Lasanha Pif Paf ou Rezende 600g",
    "de": 10.98,
    "por": 8.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Manteiga Porto Alegre C/Sal 500g Unidade",
+   "item": "Manteiga Porto Alegre c/ Sal 500g",
    "de": 23.98,
    "por": 19.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Cerveja Pilsen Brahma 269ml Lt, Cerveja Skol 269ml Lt ou Cerveja Pilsen Antarctica Boa 269ml Lt",
-   "de": null,
+   "item": "Cerveja Pilsen Brahma, Skol ou Antarctica Boa Lata 269ml (Leve 15 Pague 12, preço por unidade)",
+   "de": 2.99,
    "por": 2.39,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Cerveja Antarctica Original 473ml Unidade",
-   "de": null,
+   "item": "Cerveja Antarctica Original 473ml (Leve 12 Pague 10, preço por unidade)",
+   "de": 5.99,
    "por": 4.99,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Cerveja Brahma 550ml Unidade",
-   "de": null,
+   "item": "Cerveja Brahma Chopp 550ml (Leve 12 Pague 10, preço por unidade)",
+   "de": 5.39,
    "por": 4.49,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Whisky White Horse 1L Unidade",
-   "de": null,
+   "item": "Whisky White Horse 1L",
+   "de": 74.9,
    "por": 59.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Vinho Chileno Concha Y Toro Reservado 750ml Unidade",
-   "de": null,
+   "item": "Vinho Chileno Concha Y Toro Reservado 750ml",
+   "de": 34.9,
    "por": 29.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
@@ -143,98 +143,98 @@
    "de": 39.9,
    "por": 29.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Milho Verde Minas Mais 170g Lata Unidade",
+   "item": "Milho Verde Minas Mais 170g Lata",
    "de": 2.99,
    "por": 2.48,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Ext Tom Heinz 240g",
+   "item": "Extrato de Tomate Heinz 240g",
    "de": 5.49,
    "por": 4.99,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Molho Tomate Pomarola 200G Unidade",
+   "item": "Molho de Tomate Pomarola 200g",
    "de": 2.29,
    "por": 1.85,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Maionese Soya 500g Unidade",
+   "item": "Maionese Soya 500g",
    "de": 5.99,
    "por": 4.99,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Lava Roupa P� Omo 2,2KG Sache Todo Ciclo ____R_$__8___,9___8__",
+   "item": "Lava Roupa Pó Omo 2,2kg Sachê Todo Ciclo",
    "de": 28.9,
    "por": 24.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Lava Roupa Liquido Omo 3L Unidade",
+   "item": "Lava Roupa Líquido Omo 3L",
    "de": 38.9,
    "por": 36.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Shampoo ou Condicionador Elseve 400ml - Unidade",
+   "item": "Shampoo ou Condicionador Elseve 400ml",
    "de": 35.9,
    "por": 29.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Papel Higi�nico Mili Bianco 100m C/12 - Unidade",
+   "item": "Papel Higiênico Mili Bianco 100m c/12",
    "de": 29.9,
    "por": 26.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Prato Fundo MM Soup Plate Unidade",
+   "item": "Prato Fundo MM Soup Plate",
    "de": 3.98,
    "por": 3.49,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "P�o Forma Pullman 480g Tradicional",
-   "de": null,
+   "item": "Pão de Forma Pullman 480g Tradicional",
+   "de": 8.98,
    "por": 6.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
@@ -243,700 +243,691 @@
    "por": 19.8,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Leite Porto Alegre Zero Lactose Integral/Desnatado Ou Leite",
+   "item": "Leite Porto Alegre Zero Lactose Integral/Desnatado ou Piracanjuba Zero Lactose Semidesnatado 1L",
    "de": null,
    "por": 4.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Queijo Mussarela Mutumilk Pe�a/Kg",
+   "item": "Queijo Mussarela Mutumilk Peça kg",
    "de": null,
    "por": 33.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Requeij�o Cremoso Porto Alegre 400g Unidade",
+   "item": "Requeijão Cremoso Porto Alegre 400g",
    "de": null,
    "por": 13.48,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Queijo Mussarela Fatiado Italac 150G Unidade",
-   "de": null,
+   "item": "Queijo Mussarela Fatiado Italac 150g",
+   "de": 7.58,
    "por": 6.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Margarina Qualy C/Sal 500g Unidade",
+   "item": "Margarina Qualy c/ Sal 500g",
    "de": null,
    "por": 7.48,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Picanha Bordon, Ou Pul Nacional Bovina",
+   "item": "Picanha Bordon ou Pul Nacional Bovina Congelada Peça kg",
    "de": null,
    "por": 59.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Fraldinha Bovina Resfriada, Ou Congelada Pe�a/kg",
+   "item": "Fraldinha Bovina Resfriada ou Congelada Peça kg",
    "de": null,
    "por": 44.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Contra Fil�, Ou Ancho Maturatta Bovino Resfriado Kg",
+   "item": "Contra Filé ou Ancho Maturatta Bovino Resfriado kg",
    "de": null,
    "por": 54.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Bacon Manta Perdig�o Pe�a Kg __R__$_1__7___,9___8__",
-   "de": null,
+   "item": "Bacon Manta Perdigão Peça kg",
+   "de": 28.9,
    "por": 23.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Fil� Peito Frango Avivar, Ou Super Frango, 1Kg Bandeja Congelado",
+   "item": "Filé de Peito de Frango Avivar ou Super Frango Bandeja 1kg Congelado",
    "de": null,
    "por": 15.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Fil� de Coxa S/Coxa Rivelli Ou Super Frango Kg Congelado",
+   "item": "Filé de Coxa e Sobrecoxa Rivelli ou Super Frango Congelado kg",
    "de": null,
    "por": 12.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Coxinha da Asa Rivelli, Ou Super Frango Congelada/Kg",
+   "item": "Coxinha da Asa Rivelli ou Super Frango Congelada kg",
    "de": null,
    "por": 10.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Alcatra, Ou Lombo, Ou Picanha Su�na Pif Paf Temperado Congelado Kg",
+   "item": "Alcatra, Lombo ou Picanha Suína Pif Paf Temperado Congelado kg",
    "de": null,
    "por": 17.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Apresuntado Pif Paf Pe�a Kg",
-   "de": null,
+   "item": "Apresuntado Pif Paf Peça kg",
+   "de": 17.98,
    "por": 15.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Lombo Su�no Congelado, Ou Resfriado Kg",
+   "item": "Lombo Suíno Congelado ou Resfriado kg",
    "de": null,
    "por": 16.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Lingui�a Suina Saborear, Ou GrandMinas Kg",
+   "item": "Linguiça Suína Saborear ou GrandMinas kg",
    "de": null,
    "por": 10.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Salsicha Hot Dog Perdig�o Resfriado Kg",
+   "item": "Salsicha Hot Dog Perdigão Resfriada kg",
    "de": null,
    "por": 8.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Peixe File Panga Seara 800Gr Congelado",
+   "item": "Peixe Filé Panga Seara 800g Congelado",
    "de": null,
    "por": 24.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Cerveja Amstel 269ml Unidade",
-   "de": null,
+   "item": "Cerveja Amstel Lata 269ml",
+   "de": 2.78,
    "por": 2.48,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Energ�tico Baly 473ml Lt Sabores",
+   "item": "Energético Baly 473ml Lata Sabores",
    "de": null,
    "por": 5.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Isot�nico Powerade 500ml Pet Sabores",
+   "item": "Isotônico Powerade 500ml Sabores",
    "de": null,
    "por": 3.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Refrigerante Coca Cola 600ml Tradicional e S/A��car Pet Unidade",
+   "item": "Refrigerante Coca-Cola 600ml Tradicional ou Sem Açúcar",
    "de": null,
    "por": 4.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Refrigerante Kuat Guaran� 2L Pet Unidade",
+   "item": "Refrigerante Kuat Guaraná 2L",
    "de": null,
    "por": 5.59,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
    "item": "Suco Integral San Diego 1L Uva",
-   "de": null,
+   "de": 12.98,
    "por": 9.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Refresco Po Vilma 240 gr Unidade",
+   "item": "Refresco em Pó Vilma 240g",
    "de": null,
    "por": 2.58,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Bebida Mista Fruit Shoot 150ml Unidade",
+   "item": "Bebida Mista Fruit Shoot 150ml",
    "de": null,
    "por": 0.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Nectar/Refresco Maguary 1L Unidade",
+   "item": "Néctar/Refresco Maguary 1L",
    "de": null,
    "por": 4.48,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "�gua de Coco Puro Coco 1L Unidade",
+   "item": "Água de Coco Puro Coco 1L",
    "de": null,
    "por": 5.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Alho Gra�do kg.",
-   "de": null,
-   "por": 15.98,
-   "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
-  },
-  {
-   "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Ma�� Gala Kg __R__$_1__3___,9___8__",
-   "de": null,
-   "por": 5.98,
-   "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
-  },
-  {
-   "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Ma�� Gala Kg Uva Vitoria 500g __R_$__2__1__,_9__0___",
-   "de": null,
-   "por": 5.98,
-   "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
-  },
-  {
-   "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Mel�o Amarelo Kg _R__$_3___9__,_9__0___",
-   "de": null,
-   "por": 3.98,
-   "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
-  },
-  {
-   "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Ovo Branco Pente c/30. _R__$_3___9__,_9__0___",
-   "de": null,
-   "por": 15.98,
-   "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
-  },
-  {
-   "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Vinho Nacional Terra Mar 750ml Unidade",
+   "item": "Vinho Nacional Terra Mar 750ml",
    "de": 13.98,
    "por": 11.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Vinho Nacional Quinta do Rio Grande 1L Unidade",
+   "item": "Vinho Nacional Quinta do Rio Grande 1L",
    "de": 21.9,
    "por": 19.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Vinho Portugu�s Vinha do Moinho 750ml Unidade",
+   "item": "Vinho Português Vinha do Moinho 750ml",
    "de": 39.9,
    "por": 29.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Vinho Portugu�s Anta da Vinho Chileno Casillero del Serra 750ml Unidade",
+   "item": "Vinho Português Anta da Serra 750ml",
    "de": 39.9,
    "por": 29.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Vinho Portugu�s Anta da Vinho Chileno Casillero del Serra 750ml Unidade Diablo 750ml Unidade",
+   "item": "Vinho Chileno Casillero del Diablo 750ml",
    "de": 59.9,
    "por": 49.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Ice Smirnoff 269ml Lt Sabores",
-   "de": null,
+   "item": "Ice Smirnoff 269ml Lata Sabores",
+   "de": 5.89,
    "por": 4.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Vodka Orloff 1L Unidade",
+   "item": "Vodka Orloff 1L",
    "de": null,
    "por": 29.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Vodka Smirnoff 1750ml Unidade",
+   "item": "Vodka Smirnoff 1750ml",
    "de": null,
    "por": 54.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Gin Gordons 750ml Unidade",
+   "item": "Gin Gordons 750ml",
    "de": null,
    "por": 59.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Whisky Old Parr 12 Anos 750ml Unidade",
+   "item": "Whisky Old Parr 12 Anos 750ml",
    "de": null,
    "por": 99.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Atum Gomes da Costa 170g Solido Sabores",
-   "de": null,
+   "item": "Atum Gomes da Costa 170g Sólido Sabores",
+   "de": 12.99,
    "por": 11.49,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Batata Palha Ruppers 100g Ext Fina ou Trad",
+   "item": "Batata Palha Ruppers 100g Extra Fina ou Tradicional",
    "de": null,
    "por": 3.49,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Palmito Pupunha Master Gourmet 1,8Kg Rodela Unidade",
+   "item": "Palmito Pupunha Master Gourmet 1,8kg Rodela",
    "de": null,
    "por": 39.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Maionese Mariana 3kg Unidade",
+   "item": "Maionese Mariana 3kg",
    "de": null,
    "por": 28.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Azeitona Verde Vale F�rtil 120g Fatiada / Sem caro�o Unidade",
+   "item": "Azeitona Verde Vale Fértil 120g Fatiada/Sem Caroço",
    "de": null,
    "por": 4.78,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Panetone Casa Doro 400g Sabores Unidade",
-   "de": null,
+   "item": "Panetone Casa Doro 400g Sabores",
+   "de": 11.99,
    "por": 10.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Biscoito Wafer Piraque Ou Newafer 100g",
+   "item": "Biscoito Wafer Piraquê ou Newafer 100g",
    "de": null,
    "por": 2.48,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Biscoito Doce Piraque 132G Unidade",
+   "item": "Biscoito Doce Piraquê 132g",
    "de": null,
    "por": 2.89,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Biscoito Recheado Treloso 120g/130g Ou Nikito 120g Unidade",
+   "item": "Biscoito Recheado Treloso 120g/130g ou Nikito 120g",
    "de": null,
    "por": 1.89,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Biscoito Laminado Aymore 370g ou 345g Unidade",
+   "item": "Biscoito Laminado Aymoré 370g ou 345g",
    "de": null,
    "por": 4.78,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Gelatina Predilecta 20g Unidade",
-   "de": null,
+   "item": "Gelatina Predilecta 20g",
+   "de": 1.19,
    "por": 0.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Leite P� Porto Alegre 400g Unidade",
+   "item": "Leite em Pó Porto Alegre 400g",
    "de": null,
    "por": 12.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Coco Ralado Do Vale �mido/Ado�ado Flocos 1kg",
+   "item": "Coco Ralado Do Vale Úmido/Adoçado Flocos 1kg",
    "de": null,
    "por": 36.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Leite de Coco Pach� 500ml Unidade",
+   "item": "Leite de Coco Pachá 500ml",
    "de": null,
    "por": 6.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Barra Proteina Bold Ou Choc Wafer Ou Choc Tube 40g Unidade",
+   "item": "Barra de Proteína Bold, Choc Wafer ou Choc Tube 40g",
    "de": null,
    "por": 8.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Marshmallow Docile 220 g o pacote",
-   "de": null,
+   "item": "Marshmallow Docile 220g",
+   "de": 8.98,
    "por": 6.49,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Bombom Nestle Especialidades 220g Unidade",
+   "item": "Bombom Nestlé Especialidades 220g",
    "de": null,
    "por": 10.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Chocolate Tablete Nestle 80g a unidade",
+   "item": "Chocolate Tablete Nestlé 80g",
    "de": null,
    "por": 6.99,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Chocolate Nestle Kit kat 41,5g Unidade",
+   "item": "Chocolate Nestlé Kit Kat 41,5g",
    "de": null,
    "por": 2.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Bala Mastig�vel Erlan 500g a unidade",
+   "item": "Bala Mastigável Erlan 500g",
    "de": null,
    "por": 5.99,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Bala caramelo Butter Toffees 400g a unidade",
-   "de": null,
+   "item": "Bala Caramelo Butter Toffees 400g",
+   "de": 18.98,
    "por": 15.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Pirulito Pop Mania Maxxi Pct. Com 24 Unidades",
+   "item": "Pirulito Pop Mania Maxxi Pacote c/24",
    "de": null,
    "por": 11.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Ferrero Nutella Pote de 140g Unidade",
+   "item": "Ferrero Nutella Pote 140g",
    "de": null,
    "por": 10.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Salgadinho Doritos 257g ou Batata Ruffles 270g ou Batata",
+   "item": "Salgadinho Doritos 257g, Batata Ruffles 270g ou Batata Lays 257g",
    "de": null,
    "por": 16.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Salgadinho Cheetos ou Fandangos Pct. de 250g",
+   "item": "Salgadinho Cheetos ou Fandangos Pacote 250g",
    "de": null,
    "por": 15.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Sabonete Lux 85G C/6 - Unidade",
+   "item": "Toalha Umedecida Meu Bebê c/100",
+   "de": 14.9,
+   "por": 11.9,
+   "validade": "2026-11-18",
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Shampoo Clear 400ml Anticaspa",
    "de": null,
-   "por": 12.9,
+   "por": 26.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Protetor Solar Above 350ml 50fps - Unidade",
-   "de": null,
-   "por": 39.9,
-   "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
-  },
-  {
-   "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Desodorante Aerosol Rexona 200ml - Unidade",
+   "item": "Shampoo ou Condicionador Seda 560ml",
    "de": null,
    "por": 15.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Desodorante Aerosol Above 250ml Maxx - Unidade",
+   "item": "Sabonete Lux 85g c/6",
+   "de": null,
+   "por": 12.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Sabonete Johnsons 80g",
+   "de": null,
+   "por": 1.99,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Protetor Solar Above 350ml FPS 50",
+   "de": 49.9,
+   "por": 39.9,
+   "validade": "2026-11-18",
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Desodorante Aerosol Rexona 200ml",
+   "de": null,
+   "por": 15.9,
+   "validade": "2026-11-18",
+   "clube": false,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
+  },
+  {
+   "loja": "Mart Minas (Pedro Leopoldo)",
+   "item": "Desodorante Aerosol Above 250ml Maxx",
    "de": null,
    "por": 9.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Escova Dental Colgate c/2 Zig Zag - Unidade",
+   "item": "Escova Dental Colgate c/2 Zig Zag",
    "de": null,
    "por": 13.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Creme dental Colgate 220g Total12 Original Mint",
+   "item": "Creme Dental Colgate 220g Total 12 Original Mint",
    "de": null,
    "por": 22.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Sab�o Barra Yp� Glicerinado 160GR C/5 Unidade",
-   "de": null,
+   "item": "Sabão em Barra Ypê Glicerinado 160g c/5",
+   "de": 12.98,
    "por": 10.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Sapon�ceo Cremoso Cif 20% Desconto 450ml Unidade",
+   "item": "Saponáceo Cremoso Cif 450ml",
    "de": null,
    "por": 9.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Desinfetante Liquido Uau Antibac 2L Unidade",
+   "item": "Desinfetante Líquido Uau Antibac 2L",
    "de": null,
    "por": 7.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
@@ -945,79 +936,79 @@
    "por": 5.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Desodorizador Sanitario Gel Harpic 36g Unidade",
+   "item": "Desodorizador Sanitário Gel Harpic 36g",
    "de": null,
    "por": 14.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Copo Nadir 400ml Ilha Bela ou Copo Nadir 480ml Dubai Long Drink Unidade",
-   "de": null,
+   "item": "Copo Nadir 400ml Ilha Bela ou 480ml Dubai Long Drink",
+   "de": 7.98,
    "por": 6.98,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Panela de Press�o Viva Cozinha 4,2L Cer�mica",
+   "item": "Panela de Pressão Viva Cozinha 4,2L Cerâmica",
    "de": null,
    "por": 179.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Garrafa T�rmica Mor Use 1L Cores Unidade",
+   "item": "Garrafa Térmica Mor Use 1L",
    "de": null,
    "por": 24.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Conjunto Frigideira Tramontina Linz C/3",
+   "item": "Conjunto de Frigideiras Tramontina Linz c/3",
    "de": null,
    "por": 99.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Kit Colcha Mil�o Corttex Casal Unidade",
+   "item": "Kit Colcha Milão Corttex Casal",
    "de": null,
    "por": 79.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Sanduicheira Grill HQ Inox 1000W Unidade",
-   "de": null,
+   "item": "Sanduicheira Grill HQ Inox 1000W",
+   "de": 149.9,
    "por": 129.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Pneu Carro Dunlop 175/70 R13 ou 165/70 R13 ou 175/65 R14",
+   "item": "Pneu Carro Dunlop 175/70 R13, 165/70 R13 ou 175/65 R14",
    "de": null,
    "por": 299.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
@@ -1026,92 +1017,839 @@
    "por": 39.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Colch�o Infl�vel Mor Solteiro C/Fole Unidade",
+   "item": "Colchão Inflável Mor Solteiro c/ Fole",
    "de": null,
    "por": 89.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Copo Descart�vel Econopot 200ml c/100 Cristal Unidade",
+   "item": "Copo Descartável Econopot 200ml c/100 Cristal",
    "de": null,
    "por": 5.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Pneu Carro Xbri Ecology 88H 195/60 R15 Unidade",
-   "de": null,
+   "item": "Pneu Carro Xbri Ecology 88H 195/60 R15",
+   "de": 349.9,
    "por": 299.9,
    "validade": "2026-11-18",
-   "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "clube": true,
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Vassoura Terreiro Bella Cores Unidade",
+   "item": "Vassoura Terreiro Bella",
    "de": null,
    "por": 19.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Esponja Esfrebom Multiuso   Unidade",
+   "item": "Esponja Esfrebom Multiuso Embalagem Leve 12 Pague 10",
    "de": null,
    "por": 15.9,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Planta Samambaia Americana C21 - Unidade (Exceto Divin�polis I e",
+   "item": "Planta Samambaia Americana C21",
    "de": null,
    "por": 23.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Mart Minas (Pedro Leopoldo)",
-   "item": "Flor L�rio P12 Quadrado - Unidade (Exceto Divin�polis I e Leopoldina)",
+   "item": "Flor Lírio P12 Quadrado",
    "de": null,
    "por": 9.98,
    "validade": "2026-11-18",
    "clube": false,
-   "link": "https://www.martminas.com.br/loja/pedro-leopoldo/"
+   "link": "https://www.martminas.com.br/wp-content/uploads/2026/11/288-Pedro-Leopoldo-Ribeirao-das-Neves-Vespasiano-Sete-Lagoas-I-S.-Antonio-Sete-Lagoas-II-Dist.-Industrial-1.pdf"
   },
   {
    "loja": "Supermercados BH (Matozinhos)",
-   "item": "Arroz Agulhinha/Parboilizado BH Premium Tipo 1 pcte 5kg",
+   "item": "Batata BH Tradicional Congelada Pacote 1,7kg",
+   "de": 19.98,
+   "por": 17.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Morangos BH Congelados Pacote 1,002kg",
+   "de": 15.98,
+   "por": 14.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Presunto BH Tradicional Fatiado Bandeja 180g",
+   "de": 8.98,
+   "por": 7.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Hambúrguer Bovino BH Congelado 56g",
+   "de": 1.19,
+   "por": 0.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Queijo Minas Padrão BH kg",
+   "de": 58.9,
+   "por": 53.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Manteiga BH c/ Sal 200g",
+   "de": 10.98,
+   "por": 7.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Requeijão Cremoso BH 200g",
+   "de": 8.98,
+   "por": 7.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Iogurte Líquido BH c/ Confete 130g",
+   "de": 3.79,
+   "por": 2.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Iogurte Grego/Pedaços/Natural BH 400g",
+   "de": 8.48,
+   "por": 6.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Leite Fermentado BH 1,1kg",
+   "de": 11.48,
+   "por": 9.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Bebida Láctea BH 800g",
+   "de": 7.48,
+   "por": 5.99,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Arroz Agulhinha/Parboilizado BH Premium Tipo 1 Pacote 5kg",
    "de": 22.9,
    "por": 21.8,
    "validade": "2026-11-30",
    "clube": false,
-   "link": "https://www.supermercadosbh.com.br/folhetos"
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
   },
   {
-   "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Café Dom Pedro tradicional/extra forte pct 500g",
-   "de": null,
-   "por": 19.99,
-   "validade": "2026-12-06",
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Desodorante Aerosol BH 250ml",
+   "de": 11.98,
+   "por": 10.98,
+   "validade": "2026-11-30",
    "clube": false,
-   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Kit Sabonete Hidratante BH 80g c/6",
+   "de": 11.9,
+   "por": 10.95,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Lava Roupas Líquido BH 3L",
+   "de": 18.9,
+   "por": 16.8,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Lasanha Sadia Congelada 600g",
+   "de": 15.98,
+   "por": 14.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Mortadela Defumada Sadia Peça/Pedaço kg",
+   "de": 19.98,
+   "por": 17.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Embutido de Filé Mignon Sadia Peça/Pedaço kg",
+   "de": 27.98,
+   "por": 24.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Salsicha Hot Dog Sadia kg",
+   "de": 8.98,
+   "por": 7.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Pizza Perdigão Congelada 460g",
+   "de": 15.98,
+   "por": 13.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Linguiça Calabresa Perdigão 400g",
+   "de": 12.98,
+   "por": 10.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Empanado de Frango Steak Perdigão Congelado 100g",
+   "de": 1.98,
+   "por": 1.68,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Cerveja Therezópolis Gold Latão 473ml (Leve 12 Pague 10, preço por unidade; avulsa 4,78)",
+   "de": null,
+   "por": 3.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Refrigerante Coca-Cola Zero Pet 2L",
+   "de": 11.98,
+   "por": 10.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Refrigerante Fanta Laranja/Uva Pet 2L",
+   "de": 8.98,
+   "por": 7.48,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Bebida Isotônica Powerade 500ml",
+   "de": 4.98,
+   "por": 3.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Cerveja Spaten Puro Malte Latão 473ml",
+   "de": 5.78,
+   "por": 4.78,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Cerveja Corona Tradicional/Zero Garrafa 330ml",
+   "de": 7.78,
+   "por": 6.48,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Cerveja Brahma Zero Latão 473ml",
+   "de": 4.98,
+   "por": 3.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Refrigerante H2OH! Pet 1,5L",
+   "de": 8.48,
+   "por": 7.48,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Refrigerante Sukita Pet 2L",
+   "de": 6.98,
+   "por": 5.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Maionese Hellmann's Sachê 800g",
+   "de": 14.98,
+   "por": 11.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Kit TRESemmé Shampoo 350ml + Condicionador 175ml",
+   "de": 25.9,
+   "por": 22.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Desodorante Aerosol Dove 250ml",
+   "de": 24.9,
+   "por": 21.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Detergente em Pó Omo Sachê 4kg",
+   "de": 54.9,
+   "por": 45.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Lava Roupas Líquido Brilhante 3L",
+   "de": 28.8,
+   "por": 23.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Requeijão Cremoso Camponesa 400g",
+   "de": 16.98,
+   "por": 13.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Manteiga Camponesa c/ Sal 500g",
+   "de": 23.98,
+   "por": 19.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Leite em Pó Camponesa Pacote 400g",
+   "de": 16.98,
+   "por": 14.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Creme de Leite Camponesa TP 200g",
+   "de": 3.15,
+   "por": 2.68,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Leite Condensado Camponesa Semidesnatado TP 395g",
+   "de": 5.98,
+   "por": 5.58,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Apresuntado Pif Paf Peça/Pedaço kg",
+   "de": 13.98,
+   "por": 12.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Bacon Seara Porcionado kg",
+   "de": 29.98,
+   "por": 27.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Linguiça Suína Seara kg",
+   "de": 15.98,
+   "por": 14.8,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Coxinha da Asa de Frango Seara Congelada Pacote 1kg",
+   "de": 14.98,
+   "por": 13.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Frango a Passarinho Rivelli Congelado Pacote 800g",
+   "de": 10.98,
+   "por": 9.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Pé Suíno Congelado kg",
+   "de": 7.98,
+   "por": 6.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Filé de Tilápia Q-Pescado Congelado Pacote 800g",
+   "de": 37.8,
+   "por": 35.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Iogurte Polpa Chambinho/Neston Bandeja c/6 510g ou Ninho Bandeja c/6 540g",
+   "de": 10.58,
+   "por": 8.48,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Iogurte Líquido Nestlé 1,15kg",
+   "de": 16.98,
+   "por": 13.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Leite Fermentado Chamyto Big c/6 720g",
+   "de": 12.98,
+   "por": 10.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Petit Suisse Trevo Kids Bandeja c/8 320g",
+   "de": 7.58,
+   "por": 5.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Bebida Láctea Pulsi 1,1kg",
+   "de": 10.98,
+   "por": 8.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Iogurte Líquido 170g/Natural 160g Porto Alegre",
+   "de": 3.78,
+   "por": 2.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Queijo Mussarela/Prato Porto Alegre Bandeja Fatiada 150g (exceto Zero Lactose/Light)",
+   "de": 10.98,
+   "por": 7.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Azeitonas Verdes Saborosas c/ Caroço Vidro 500g",
+   "de": 14.98,
+   "por": 12.48,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Molho de Tomate Salsaretti Tradicional Sachê 300g",
+   "de": 2.3,
+   "por": 1.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Milho Verde Salsaretti à Vapor Lata 170g",
+   "de": 4.48,
+   "por": 3.78,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Batata Palha Super Crok Pacote 300g",
+   "de": 13.98,
+   "por": 12.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Biscoito Club Social Pacote 141g/144g",
+   "de": 6.48,
+   "por": 5.78,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Biscoito Bono/Negresco/Passatempo Nestlé Pacote 90g",
+   "de": 3.18,
+   "por": 1.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Cookies Anmol Caixa 100g",
+   "de": 4.98,
+   "por": 3.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Chocolate Nestlé Barra 80g/90g",
+   "de": 9.98,
+   "por": 6.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Wafer Bisão Pacote 201,6g",
+   "de": 15.98,
+   "por": 12.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Bala Mastigável Lilith/Chita Pacote 500g",
+   "de": 9.48,
+   "por": 7.48,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Pão de Hambúrguer Pullman Gergelim 420g/Brioche 520g",
+   "de": 14.99,
+   "por": 12.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Achocolatado em Pó Nescau Sachê 900g",
+   "de": 22.98,
+   "por": 19.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Bebida Láctea Whey 15g Itambé TP 250ml",
+   "de": 6.98,
+   "por": 5.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Suco de Uva Maguary Seleção 1,35L",
+   "de": 13.98,
+   "por": 11.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Bebida Energética Red Bull Lata 250ml",
+   "de": 8.48,
+   "por": 7.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Bebida Ice Syn 300ml",
+   "de": 2.78,
+   "por": 2.58,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Chopp de Vinho Haller Wine Cooler Lata 350ml",
+   "de": 6.38,
+   "por": 5.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Vinho Tinto/Vinho Cooler Canção Garrafa 750ml",
+   "de": 15.9,
+   "por": 13.9,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Creme Dental Sorriso Tripla Limpeza Completa 120g",
+   "de": 6.49,
+   "por": 4.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Kit Sabonete Francis Clássico 90g c/6",
+   "de": 24.9,
+   "por": 18.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Absorvente Always Básico c/32",
+   "de": 17.9,
+   "por": 14.8,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Fralda Descartável Huggies Hiper",
+   "de": 77.9,
+   "por": 66.8,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Papel Higiênico Fofinho Absolute Folha Dupla 30m Leve 12 Pague 11",
+   "de": 17.9,
+   "por": 16.9,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Toalha de Papel Sorella c/3",
+   "de": 14.5,
+   "por": 12.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Detergente em Pó Coquel Caixa 2,2kg",
+   "de": 19.9,
+   "por": 16.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Amaciante de Roupas Ypê 2L",
+   "de": 8.9,
+   "por": 7.8,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Limpador Perfumado Uau 1,8L",
+   "de": 10.9,
+   "por": 9.8,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Desinfetante Q-Ótimo 2L",
+   "de": 5.49,
+   "por": 4.89,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Inseticida Aerosol SBP Embalagem Econômica 450ml",
+   "de": 19.8,
+   "por": 16.9,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
+  },
+  {
+   "loja": "Supermercados BH (Matozinhos)",
+   "item": "Conjunto de Copos de Vidro Nadir Amazon 190ml c/6",
+   "de": 15.98,
+   "por": 13.98,
+   "validade": "2026-11-30",
+   "clube": false,
+   "link": "https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf"
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Arroz Codisul pct 5kg (tipo não informado)",
+   "item": "Arroz Codisul Pacote 5kg",
    "de": null,
    "por": 19.98,
    "validade": "2026-12-06",
@@ -1120,7 +1858,61 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Sanduíche Hot Hit Seara 145g",
+   "item": "Café Dom Pedro Pacote 500g Tradicional/Extra Forte",
+   "de": null,
+   "por": 19.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Leite em Pó Piracanjuba Pacote 400g Integral/Instantâneo",
+   "de": null,
+   "por": 14.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Macarrão c/ Ovos Santa Amália Pacote 750g Espaguete nº 8",
+   "de": null,
+   "por": 5.89,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Tempero Kitano Mais Sabor Pacote 60g Carnes",
+   "de": null,
+   "por": 3.49,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Hambúrguer Tudbom 56g Misto",
+   "de": null,
+   "por": 0.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Linguiça Tipo Calabresa Seara Cozida Defumada Pacote 400g",
+   "de": null,
+   "por": 7.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Sanduíche Hot Hit Seara Pacote 145g Sabores",
    "de": 6.99,
    "por": 6.49,
    "validade": "2026-12-06",
@@ -1129,7 +1921,34 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Filé de peito de frango Perdigão 800g",
+   "item": "Salsicha Rezende kg",
+   "de": null,
+   "por": 7.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Mortadela Perdigão Ouro Defumada Bola Fatiada kg",
+   "de": null,
+   "por": 19.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Moela de Frango Sadia Bandeja 1kg",
+   "de": null,
+   "por": 13.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Filé de Peito de Frango Perdigão Pacote 800g",
    "de": 16.99,
    "por": 15.99,
    "validade": "2026-12-06",
@@ -1138,7 +1957,7 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Pão de queijo Vó Joana tradicional 1kg",
+   "item": "Pão de Queijo Vó Joana Congelado Tradicional Pacote 1kg",
    "de": 17.99,
    "por": 16.99,
    "validade": "2026-12-06",
@@ -1147,7 +1966,25 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Linguiça suína churrasco Aurora kg",
+   "item": "Presunto Aurora Fatiado kg",
+   "de": null,
+   "por": 23.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Empanado de Frango Auroggets Aurora Pacote 900g Sabores",
+   "de": null,
+   "por": 14.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Linguiça Suína Churrasco Aurora kg",
    "de": 15.99,
    "por": 14.99,
    "validade": "2026-12-06",
@@ -1156,7 +1993,160 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Isotônico Gatorade 500ml",
+   "item": "Queijo Mussarela Ita Peça/Pedaço kg",
+   "de": null,
+   "por": 36.9,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Achocolatado em Pó Toddy 750g",
+   "de": null,
+   "por": 16.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Chá Matte Leão 250g",
+   "de": null,
+   "por": 7.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Pão de Forma Pullman Vital Fibra + Proteína Pacote 370g",
+   "de": null,
+   "por": 10.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Pão de Forma Pullman Tradicional Pacote 480g",
+   "de": null,
+   "por": 7.98,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Pão de Forma Pullman Artesano Pacote 500g",
+   "de": null,
+   "por": 13.98,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Bisnaguito Pullman Tradicional Pacote 280g",
+   "de": null,
+   "por": 7.98,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Fermento em Pó Dr. Oetker 100g",
+   "de": null,
+   "por": 3.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Gelatina Dr. Oetker Caixa 20g Sabores",
+   "de": null,
+   "por": 1.69,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Mistura p/ Bolo Dr. Oetker Pacote 400g Chocolate",
+   "de": null,
+   "por": 5.49,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Mistura p/ Bolo Dr. Oetker Pacote 400g Formigueiro",
+   "de": null,
+   "por": 5.49,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Mistura p/ Bolo Dr. Oetker Pacote 300g Cremoso Chocolate",
+   "de": null,
+   "por": 5.49,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Suco Panizzon 100% Fruta Pet 1,35L Uva Tinto",
+   "de": null,
+   "por": 13.98,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Chopp de Vinho Bled Pet 1,9L",
+   "de": null,
+   "por": 13.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Vinho Vilena 1L Bordô Suave",
+   "de": null,
+   "por": 17.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Vodka Kislla 900ml Sabores",
+   "de": null,
+   "por": 8.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Combo Corote 1L Gin Sabores",
+   "de": null,
+   "por": 9.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Isotônico Gatorade 500ml Sabores",
    "de": 4.99,
    "por": 4.49,
    "validade": "2026-12-06",
@@ -1165,7 +2155,52 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Suco + água de coco Sococo 200ml",
+   "item": "Aguardente Villa Velha 600ml",
+   "de": null,
+   "por": 5.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Cerveja Império Ultra Latão 473ml",
+   "de": null,
+   "por": 4.49,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Chopp de Vinho Haller Lata 350ml",
+   "de": null,
+   "por": 5.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Frisante Pink Moon 750ml Rosé/Zero",
+   "de": null,
+   "por": 16.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Vodka Skyy 750ml",
+   "de": null,
+   "por": 16.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Suco + Água de Coco Sococo Mais TP 200ml Sabores",
    "de": 0.99,
    "por": 0.89,
    "validade": "2026-12-06",
@@ -1174,7 +2209,7 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Energético Baly lata 473ml",
+   "item": "Energético Baly Latão 473ml Sabores",
    "de": 4.49,
    "por": 3.99,
    "validade": "2026-12-06",
@@ -1183,7 +2218,25 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Iogurte polpa Elegê 510g",
+   "item": "Leite Fermentado Elegê Bob Esponja 480g c/6 Sabores",
+   "de": null,
+   "por": 6.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Cream Cheese Président Tradicional/Light 150g",
+   "de": null,
+   "por": 7.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Iogurte Polpa Elegê Patrulha Canina Bandeja 510g",
    "de": 6.99,
    "por": 6.49,
    "validade": "2026-12-06",
@@ -1192,7 +2245,25 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Biscoito Renata amanteigado 330g",
+   "item": "Iogurte Boa Vida 900g Sabores",
+   "de": null,
+   "por": 9.98,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Requeijão Boa Vida 350g",
+   "de": null,
+   "por": 14.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Biscoito Renata Amanteigado Pacote 330g Sabores",
    "de": 5.49,
    "por": 4.99,
    "validade": "2026-12-06",
@@ -1201,7 +2272,7 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Biscoito Renata recheado Divertix 112g",
+   "item": "Biscoito Renata Recheado Divertix Pacote 112g Sabores",
    "de": 2.19,
    "por": 1.89,
    "validade": "2026-12-06",
@@ -1210,7 +2281,7 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Biscoito Renata Saltix 110g",
+   "item": "Biscoito Renata Saltix Pacote 110g Salgado",
    "de": 1.99,
    "por": 1.69,
    "validade": "2026-12-06",
@@ -1219,7 +2290,7 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Biscoito Renata wafer 115g",
+   "item": "Biscoito Renata Wafer Pacote 115g Sabores",
    "de": 2.79,
    "por": 2.49,
    "validade": "2026-12-06",
@@ -1228,7 +2299,7 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Bolinho Renata Divertix 40g",
+   "item": "Bolinho Renata Divertix Pacote 40g Sabores",
    "de": 1.59,
    "por": 1.39,
    "validade": "2026-12-06",
@@ -1237,7 +2308,34 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Pipoca doce Kid+ super 100g",
+   "item": "Molho de Tomate Stella D'Oro Sachê 300g Tradicional",
+   "de": null,
+   "por": 1.49,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Milho Verde Stella D'Oro Lata 170g",
+   "de": null,
+   "por": 2.79,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Extrato de Tomate Stella D'Oro Sachê 140g",
+   "de": null,
+   "por": 1.59,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Pipoca Doce Kid+ Super Pacote 100g",
    "de": 2.49,
    "por": 1.99,
    "validade": "2026-12-06",
@@ -1246,7 +2344,25 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Creme de tratamento Skala 1kg",
+   "item": "Batata Chips Kid+ Pacote 30g Sabores",
+   "de": null,
+   "por": 1.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Kit Skala Shampoo 325ml + Condicionador 200ml Fragrâncias",
+   "de": null,
+   "por": 13.9,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Creme de Tratamento Skala 1kg Fragrâncias",
    "de": 11.99,
    "por": 10.98,
    "validade": "2026-12-06",
@@ -1255,7 +2371,7 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Desodorante aerosol Rexona 150ml",
+   "item": "Desodorante Aerosol Rexona 150ml Fragrâncias",
    "de": 13.98,
    "por": 12.98,
    "validade": "2026-12-06",
@@ -1264,7 +2380,7 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Sabonete Albany suave 85g",
+   "item": "Sabonete Albany Suave 85g Fragrâncias",
    "de": 1.89,
    "por": 1.69,
    "validade": "2026-12-06",
@@ -1273,11 +2389,137 @@
   },
   {
    "loja": "Supermercados Paranaíba (Matozinhos)",
-   "item": "Papel higiênico Paloma folha dupla c/12 20m",
+   "item": "Papel Alumínio Globopack 30cm x 7,5m",
+   "de": null,
+   "por": 5.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Espeto de Bambu Facilita & Pronto 30cm c/50",
+   "de": null,
+   "por": 4.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Kit c/3 Potes Facilite Antares 450ml Quadrados",
+   "de": null,
+   "por": 7.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Caixa Térmica Antares 34L Popstar",
+   "de": null,
+   "por": 69.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Frigideira Francesa Alumínios Contorno nº 20 Cerâmica/Creme",
+   "de": null,
+   "por": 29.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Saco de Lixo Bye Bye Rolo Tamanhos",
+   "de": null,
+   "por": 15.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Pano Microfibra Bye Bye Lixo 28x50cm Limpeza Leve c/5",
+   "de": null,
+   "por": 4.49,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Papel Higiênico Paloma Folha Dupla 20m c/12 Neutro",
    "de": 11.99,
    "por": 10.99,
    "validade": "2026-12-06",
    "clube": true,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Amaciante de Roupas Paranaíba 2L Fragrâncias",
+   "de": null,
+   "por": 6.49,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Detergente Líquido Paranaíba 500ml Fragrâncias",
+   "de": null,
+   "por": 1.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Desinfetante Paranaíba 2L Fragrâncias",
+   "de": null,
+   "por": 4.49,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Sabão em Barra Ypê 160g Multiativo",
+   "de": null,
+   "por": 3.49,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Esponja de Aço Bombril Pacote 45g c/6",
+   "de": null,
+   "por": 1.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Ração Quatree Gourmet 10,1kg Adulto Raças M e G s/ Corante",
+   "de": null,
+   "por": 99.99,
+   "validade": "2026-12-06",
+   "clube": false,
+   "link": "https://supermercadosparanaiba.com.br/ofertas/"
+  },
+  {
+   "loja": "Supermercados Paranaíba (Matozinhos)",
+   "item": "Ração Leau 15kg",
+   "de": null,
+   "por": 69.99,
+   "validade": "2026-12-06",
+   "clube": false,
    "link": "https://supermercadosparanaiba.com.br/ofertas/"
   }
  ]
