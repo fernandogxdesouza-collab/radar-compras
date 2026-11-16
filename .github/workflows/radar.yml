@@ -1,0 +1,39 @@
+name: Radar de compras
+
+on:
+  schedule:
+    - cron: "23 9,21 * * *"   # 2 vezes ao dia (UTC): 06h23 e 18h23 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-compras
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Coletar e avisar
+        env:
+          NTFY_TOPICO: ${{ secrets.NTFY_TOPICO }}
+          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
+        run: python radar.py
+      - name: Guardar histórico e painel
+        run: |
+          git config user.name "radar-compras"
+          git config user.email "radar-compras@users.noreply.github.com"
+          git add dados docs
+          git diff --cached --quiet || git commit -q -m "Atualiza preços"
+          git pull -q --rebase origin main
+          git push -q

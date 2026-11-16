@@ -1,0 +1,47 @@
+# Radar de Compras
+
+Robô que consulta preços, guarda o histórico e avisa quando um item chega ao mínimo. Mesmo modelo do radar de passagens.
+
+## Como funciona
+- `produtos.json`: lista de produtos (busca, o que exigir e excluir no título, unidade para preço por kg/litro, preço-alvo opcional).
+- `beneficios.json`: o que você tem (portais de cashback, Pix, cartão, clubes). Só `ativo: true` entra na conta. O Zoom já vem ligado, com as taxas lidas do site.
+- `radar.py`: coleta, lê a página do produto no Zoom (40 dias de histórico diário, termômetro e todas as lojas), calcula o melhor caminho (portal + pagamento), grava `dados/` e gera `docs/index.html`.
+- **Termômetro:** baixo, normal ou alto, pela posição do preço de hoje nos últimos 40 dias (baixo = no quartil inferior e 3% abaixo da mediana). Se o Zoom marcar `BEST_HISTORY_PRICE`, vale como baixo. Produtos sem página de produto no Zoom (café, por exemplo) usam o histórico próprio, que precisa de 7 dias.
+- **Quer pagar mais barato:** o ntfy avisa na faixa baixa ou abaixo do `preco_alvo`, já com o melhor caminho e o clube. Não repete até o preço cair mais 2% ou passarem 3 dias.
+- **Estratégias:** um portal por compra; pagamento com `empilha_portal: false` anula o portal. A taxa do Zoom só vale com cashback ativado e entrando pelo botão da oferta.
+
+## Fontes
+| Fonte | Situação em 16/11/2026 |
+|---|---|
+| Zoom (também Buscapé e Bondfaro, mesma base) | Funciona. Traz Magalu, Amazon, KaBuM! e outras lojas, mais o cashback do Zoom. |
+| Amazon direto | Responde 503 ao robô (proteção anti-robô). Fica desligada na coleta; a Amazon aparece via Zoom. |
+| Mercado Livre | Bloqueado (exige verificação de conta). Use `manuais` em `produtos.json` para lançar preços que você viu (valem 14 dias), ou a API oficial com credenciais próprias. |
+| Méliuz (só taxas de cashback) | Funciona: lê a página pública de cada loja, com a tabela por categoria (Magalu: 8% eletrodomésticos, 5% geral, 2% demais). Roda todo dia; grava `dados/meliuz.json`. |
+| Magalu direto, Shopee, Jacotei | Bloqueados (403). |
+| Supermercados BH, Mart Minas, Paranaíba | Sem preço online nas páginas de busca. Entram na fase 2 (encartes). |
+
+Não contornamos proteção anti-robô. Se uma fonte passar a oferecer API ou feed oficial, entra em `FONTES` no `radar.py`.
+
+## Rodar local
+```bash
+pip install -r requirements.txt
+RADAR_SEM_ALERTA=1 python radar.py            # todos os produtos
+RADAR_SEM_ALERTA=1 python radar.py azeite     # só um
+```
+
+## Ligar o Mercado Livre (API oficial)
+1. Entre em developers.mercadolivre.com.br com sua conta, abra "Minhas aplicações" e crie um app (nome livre; leia os termos e aceite como dono do app). Anote o Client ID e o Client Secret.
+2. Local: defina as variáveis `ML_CLIENT_ID` e `ML_CLIENT_SECRET` no terminal antes de rodar `python radar.py`. Nuvem: crie os secrets de mesmo nome no repositório.
+3. Rode e veja a linha `fontes:` de cada produto: `mercadolivre` deve mostrar um número maior que 0. Se aparecer "recusado (HTTP 403)", o app não tem permissão de busca e o Mercado Livre segue só pelo modo `manuais`.
+Nunca cole o Client Secret em arquivo do projeto nem no chat.
+
+## Publicar (falta fazer)
+1. Criar o repositório no GitHub e enviar esta pasta.
+2. Secret `NTFY_TOPICO` com um tópico novo do ntfy (diferente do radar de passagens).
+3. Ativar GitHub Pages em `main` / pasta `docs`.
+4. Rodar o workflow uma vez em Actions e conferir se o Zoom responde a partir dos servidores do GitHub (IP de datacenter pode ser bloqueado; em caso de bloqueio, rodar no PC pelo Agendador de Tarefas).
+
+## Limites conhecidos
+- O Zoom devolve só a melhor oferta de cada produto; as outras lojas aparecem em `outras_lojas` do CSV/estado, sem preço.
+- Itens de supermercado dependem do que o Zoom lista; arroz tem poucos resultados.
+- "Frigideira Redstone" é a Philco PPH240AFR (revestimento Redstone), não fritadeira elétrica.

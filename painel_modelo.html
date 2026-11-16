@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de Compras</title>
+<style>
+:root{--bg:#f6f7f4;--card:#fff;--tx:#1d2420;--mu:#66706a;--bd:#dde2dc;--ok:#1b7f4b;--okbg:#e3f4ea;--wa:#9a6700;--wabg:#fff3d1;--ac:#2f5d50;--hi:#c2410c;--hibg:#ffe9dc}
+@media (prefers-color-scheme:dark){:root{--bg:#141815;--card:#1d231f;--tx:#e8ece8;--mu:#97a39b;--bd:#2d362f;--ok:#5fd394;--okbg:#17321f;--wa:#e7b84a;--wabg:#352b10;--ac:#7cc2ab;--hi:#f59a6b;--hibg:#3a2216}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,Segoe UI,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:22px;margin:0 0 2px}
+.sub{color:var(--mu);font-size:13px;margin-bottom:14px}
+.bf{background:var(--wabg);color:var(--wa);border-radius:10px;padding:10px 14px;margin-bottom:14px;font-size:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;margin-bottom:14px}
+.cab{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;align-items:flex-start}
+.nome{font-weight:650;font-size:17px}
+.melhor{font-size:26px;font-weight:700;color:var(--ac)}
+.melhor small{font-size:13px;color:var(--mu);font-weight:400}
+.tag{display:inline-block;font-size:12px;border-radius:99px;padding:2px 10px;margin:4px 6px 0 0;background:var(--wabg);color:var(--wa)}
+.tag.ok{background:var(--okbg);color:var(--ok);font-weight:600}
+.meta{font-size:13px;color:var(--mu);margin-top:6px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+@media (max-width:720px){.cols{grid-template-columns:1fr}}
+.box{border:1px solid var(--bd);border-radius:10px;padding:12px}
+.box h3{margin:0 0 8px;font-size:14px}
+.term{height:8px;border-radius:99px;background:linear-gradient(90deg,#1b7f4b,#2f80c2,#e08a1e,#e0561e);position:relative;margin:14px 4px 8px}
+.term i{position:absolute;top:-5px;width:18px;height:18px;border-radius:50%;background:var(--card);border:3px solid var(--tx);transform:translateX(-50%)}
+.zona{font-weight:650}
+.zona.baixo{color:var(--ok)}.zona.alto{color:var(--hi)}
+.cam{border-top:1px solid var(--bd);padding:8px 0;font-size:13px}
+.cam:first-of-type{border-top:0}
+.cam b{font-size:15px}
+.alerta{font-size:13px}
+.alerta .lig{display:inline-block;background:var(--okbg);color:var(--ok);border-radius:99px;padding:1px 10px;font-weight:600;margin-bottom:6px}
+table{width:100%;border-collapse:collapse;margin-top:10px;font-size:13px}
+th{text-align:left;color:var(--mu);font-weight:500;border-bottom:1px solid var(--bd);padding:4px 6px}
+td{padding:6px;border-bottom:1px solid var(--bd);vertical-align:top}
+.n{text-align:right;white-space:nowrap}
+a{color:var(--ac)}
+.vazio{color:var(--mu);font-style:italic;margin-top:10px}
+details{margin-top:12px}
+summary{cursor:pointer;color:var(--mu);font-size:13px}
+.wrap{overflow-x:auto}
+svg.gr{width:100%;height:120px}
+</style>
+</head>
+<body>
+<main>
+<h1>Radar de Compras</h1>
+<div class="sub" id="sub"></div>
+<div class="bf" id="bf" hidden></div>
+<div id="lista"></div>
+<div class="card"><b>Benefícios ativos</b><div class="meta" id="ben"></div></div>
+</main>
+<script>
+const D=/*DADOS*/null;
+const R=v=>'R$ '+Number(v).toFixed(2).replace('.',',').replace(/(\d)(?=(\d{3})+(?!\d))/g,'$1.');
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ZONA={baixo:'baixo',normal:'normal',alto:'alto',formando:'em formação'};
+const dd=d=>d.slice(8,10)+'/'+d.slice(5,7);
+
+function grafico(t){
+  const s=t.serie||[]; if(s.length<2)return '<div class="meta">Sem série suficiente ainda.</div>';
+  const v=s.map(x=>x.v),mn=Math.min(...v,t.mediana||Infinity),mx=Math.max(...v),W=520,H=120,px=6,py=12;
+  const X=i=>px+i*(W-2*px)/(s.length-1),Y=x=>mx===mn?H/2:H-py-(x-mn)/(mx-mn)*(H-2*py);
+  const linha=s.map((x,i)=>X(i)+','+Y(x.v)).join(' ');
+  const med=t.mediana?`<line x1="0" x2="${W}" y1="${Y(t.mediana)}" y2="${Y(t.mediana)}" stroke="var(--mu)" stroke-dasharray="4 4"/><text x="${W-4}" y="${Y(t.mediana)-4}" text-anchor="end" font-size="10" fill="var(--mu)">normal ${R(t.mediana)}</text>`:'';
+  return `<svg class="gr" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">${med}<polyline fill="none" stroke="var(--ac)" stroke-width="2" points="${linha}"/><circle cx="${X(s.length-1)}" cy="${Y(v.at(-1))}" r="4" fill="var(--ac)"/></svg>
+  <div class="meta" style="display:flex;justify-content:space-between"><span>${dd(s[0].d)}</span><span>${s.length} dias · mín ${R(Math.min(...v))} · máx ${R(mx)}</span><span>hoje</span></div>`;
+}
+function termo(t,un){
+  if(!t||t.zona==='formando')return `<div class="meta">Histórico em formação (${t?t.dias:0} de 7 dias mínimos). O termômetro liga sozinho quando houver dados suficientes.</div>`;
+  const txt=t.zona==='baixo'?'O preço está <span class="zona baixo">baixo</span>':t.zona==='alto'?'O preço está <span class="zona alto">alto</span>':'O preço está <span class="zona">normal</span>';
+  const d=t.vs_mediana,dif=Math.abs(d)<0.5?'igual ao normal':(d<0?`${Math.abs(d).toFixed(0)}% mais barato que o normal`:`${d.toFixed(0)}% mais caro que o normal`);
+  return `<div>${txt}</div><div class="term"><i style="left:${(t.pos*92+4).toFixed(0)}%"></i></div>
+   <div class="meta" style="display:flex;justify-content:space-between"><span>mínimo ${R(t.min)}</span><span>máximo ${R(t.max)}</span></div>
+   <div class="meta">${dif}${t.origem==='zoom'?' · base: últimos 40 dias do Zoom':' · base: histórico próprio'}</div>`;
+}
+function alerta(p){
+  const t=p.termometro;
+  const lim=t&&t.q25?`Avisa no celular quando o preço entrar na faixa baixa (até ${R(Math.min(t.q25,t.mediana*0.97))}${p.unidade?'/'+p.unidade:''}).`:'Vai avisar assim que o histórico tiver 7 dias.';
+  return `<span class="lig">Alerta ligado</span><div>${lim}</div>${p.alvo?`<div>Também avisa abaixo do seu alvo de ${R(p.alvo)}.</div>`:''}`;
+}
+function estrategias(p){
+  if(!p.estrategias.length)return '<div class="meta">Sem ofertas.</div>';
+  const base=p.estrategias.find(e=>e.passos[0].startsWith('preço de vitrine'));
+  return p.estrategias.map((e,i)=>`<div class="cam"><b>${R(e.liquido)}</b> na ${esc(e.loja)}${i===0?' <span class="tag ok">melhor caminho</span>':''}
+    <div>${e.passos.map(esc).join(' + ')}</div><div class="meta">${esc(e.frete||'')}${e.manual?' · <b>preço '+esc(e.manual)+'</b>':''}</div>${e.clubes.length?`<div class="meta">${e.clubes.map(esc).join(' · ')}</div>`:''}
+    <div class="meta"><a href="${esc(e.link)}" target="_blank" rel="noopener">abrir oferta</a> · preço de vitrine ${R(e.preco)}${e.preco>e.liquido?` · economia ${R(e.preco-e.liquido)}`:''}</div></div>`).join('');
+}
+document.getElementById('sub').textContent='Atualizado em '+D.atualizado+' (Brasília). Preço líquido = vitrine menos os benefícios ativos.';
+const dias=Math.round((new Date(D.black_friday)-new Date(D.hoje))/864e5);
+if(dias>=0&&dias<=30){const b=document.getElementById('bf');b.hidden=false;b.textContent=`Black Friday em ${dias} dia(s). Compare sempre com o histórico: só vale se o preço entrar na faixa baixa.`;}
+document.getElementById('lista').innerHTML=D.produtos.map(p=>{
+  const un=p.unidade?'/'+p.unidade:'',t=p.termometro;
+  if(!p.ofertas.length)return `<div class="card"><div class="nome">${esc(p.nome)}</div><div class="vazio">Nenhuma oferta válida nesta coleta.</div></div>`;
+  const m=p.ofertas[0];
+  const tags=p.sinais.map(s=>`<span class="tag ok">${esc(s)}</span>`).join('');
+  const linhas=p.ofertas.map(o=>`<tr><td>${esc(o.loja)}</td><td><a href="${esc(o.link)}" target="_blank" rel="noopener">${esc(o.titulo.slice(0,80))}</a></td>
+    <td class="n">${R(o.preco)}</td><td class="n"><b>${R(o.liquido)}</b></td>${p.unidade?`<td class="n">${o.unitario?R(o.unitario)+un:'-'}</td>`:''}</tr>`).join('');
+  return `<div class="card"><div class="cab"><div><div class="nome">${esc(p.nome)}</div>
+    <div class="melhor">${R(p.valor)}<small>${un} · ${esc(m.loja)}${m.parcelas?' · '+esc(m.parcelas):''}</small></div>${tags}</div></div>
+    <div class="cols"><div class="box"><h3>Termômetro de preço</h3>${termo(t,un)}<div style="margin-top:10px">${t&&t.serie?grafico(t):''}</div></div>
+    <div class="box"><h3>Quer pagar mais barato?</h3><div class="alerta">${alerta(p)}</div><h3 style="margin-top:12px">Como comprar mais barato</h3>${estrategias(p)}</div></div>
+    <details><summary>${p.ofertas.length} ofertas</summary><div class="wrap"><table><tr><th>Loja</th><th>Produto</th><th class="n">Vitrine</th><th class="n">Líquido</th>${p.unidade?'<th class="n">Por '+p.unidade+'</th>':''}</tr>${linhas}</table></div></details></div>`;
+}).join('');
+const b=D.beneficios,at=[];
+Object.entries(b.portais||{}).forEach(([k,v])=>v.ativo&&at.push('Portal: '+k));
+Object.entries(b.pagamento||{}).forEach(([k,v])=>v.ativo&&at.push('Pagamento: '+k));
+Object.entries(b.clubes||{}).forEach(([k,v])=>v.ativo&&at.push('Clube: '+k));
+document.getElementById('ben').innerHTML=(at.join('<br>')||'nenhum')+'<br><span>Edite <code>beneficios.json</code> para refletir o que você tem.</span>';
+</script>
+</body>
+</html>

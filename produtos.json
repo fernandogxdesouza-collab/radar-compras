@@ -1,0 +1,203 @@
+{
+  "alvo_historico_minimo_dias": 7,
+  "produtos": [
+    {
+      "id": "cafe-gourmet",
+      "nome": "Café gourmet 500 g",
+      "buscas": [
+        "café gourmet 500g",
+        "café especial torrado moído 500g"
+      ],
+      "exige": [
+        "caf"
+      ],
+      "exclui": [
+        "capsula",
+        "cápsula",
+        "nespresso",
+        "dolce gusto",
+        "cafeteira",
+        "maquina",
+        "máquina",
+        "filtro",
+        "solúvel",
+        "soluvel",
+        "xícara",
+        "xicara",
+        "caneca",
+        "moedor",
+        "chá",
+        "cha "
+      ],
+      "unidade": "kg",
+      "preco_alvo": null,
+      "exige_algum": [
+        "gourmet",
+        "especial",
+        "premium",
+        "superior"
+      ],
+      "categoria": "mercado"
+    },
+    {
+      "id": "oleo-soja",
+      "nome": "Óleo de soja 900 ml",
+      "buscas": [
+        "óleo de soja 900ml",
+        "óleo de soja liza 900ml",
+        "óleo de soja soya 900ml"
+      ],
+      "exige": [
+        "soja"
+      ],
+      "exclui": [
+        "essencial",
+        "capilar",
+        "massagem",
+        "motor",
+        "lecitina",
+        "cápsula",
+        "capsula",
+        "ração",
+        "racao"
+      ],
+      "unidade": "l",
+      "preco_alvo": null,
+      "categoria": "mercado"
+    },
+    {
+      "id": "azeite",
+      "nome": "Azeite de oliva extra virgem 500 ml",
+      "buscas": [
+        "azeite de oliva extra virgem 500ml"
+      ],
+      "exige": [
+        "azeite"
+      ],
+      "exclui": [
+        "spray",
+        "cápsula",
+        "capsula",
+        "dispenser",
+        "galheteiro",
+        "porta",
+        "saboneteira",
+        "cosmético",
+        "cosmetico"
+      ],
+      "unidade": "l",
+      "preco_alvo": null,
+      "categoria": "mercado"
+    },
+    {
+      "id": "arroz-parboilizado",
+      "nome": "Arroz parboilizado 5 kg",
+      "buscas": [
+        "arroz parboilizado 5kg"
+      ],
+      "exige": [
+        "arroz",
+        "parboiliz"
+      ],
+      "exclui": [
+        "panela",
+        "cozedor",
+        "forma",
+        "semente",
+        "cesta",
+        "kit",
+        "combo"
+      ],
+      "unidade": "kg",
+      "preco_alvo": null,
+      "categoria": "mercado"
+    },
+    {
+      "id": "amazfit-bip-6",
+      "nome": "Smartwatch Amazfit Bip 6 (GPS, AMOLED, 5 ATM)",
+      "buscas": [
+        "amazfit bip 6"
+      ],
+      "exige": [
+        "amazfit",
+        "bip 6"
+      ],
+      "exclui": [
+        "pulseira",
+        "película",
+        "pelicula",
+        "capa",
+        "carregador",
+        "cabo",
+        "protetor",
+        "case",
+        "bumper",
+        "strap"
+      ],
+      "unidade": null,
+      "preco_alvo": null,
+      "categoria": "geral"
+    },
+    {
+      "id": "redstone-1-7l",
+      "nome": "Frigideira Philco Redstone 1,7 L (PPH240AFR)",
+      "buscas": [
+        "frigideira redstone 1,7 litros",
+        "frigideira philco redstone PPH240AFR"
+      ],
+      "exige": [
+        "redstone",
+        "frigideira"
+      ],
+      "exclui": [
+        "peça",
+        "peca",
+        "reposição",
+        "reposicao",
+        "cesto avulso",
+        "filtro"
+      ],
+      "unidade": null,
+      "preco_alvo": null,
+      "categoria": "geral",
+      "manuais": [
+        {
+          "loja": "Mercado Livre",
+          "preco": 109.9,
+          "data": "2026-11-16",
+          "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)",
+          "link": "https://lista.mercadolivre.com.br/frigideira-redstone-1-7-litros"
+        }
+      ]
+    },
+    {
+      "id": "ar-condicionado",
+      "nome": "Ar-condicionado split inverter 12.000 BTUs",
+      "buscas": [
+        "ar condicionado split inverter 12000 btus",
+        "ar condicionado 12000 btus inverter",
+        "ar condicionado split 12000 btus"
+      ],
+      "exige": [
+        "condicionado",
+        "12000"
+      ],
+      "exclui": [
+        "portátil",
+        "portatil",
+        "janela",
+        "suporte",
+        "capa",
+        "controle",
+        "kit instalação",
+        "kit instalacao",
+        "limpa",
+        "filtro"
+      ],
+      "unidade": null,
+      "preco_alvo": null,
+      "categoria": "eletrodomestico"
+    }
+  ],
+  "_manuais": "Preços que você viu e o robô não alcança (ex.: Mercado Livre). Valem 14 dias; formato: loja, preco, data AAAA-MM-DD, titulo, link, qtd (kg/l, só se o produto tem unidade)."
+}

@@ -1,0 +1,91 @@
+{
+  "_leia": "Marque ativo=true só no que você realmente tem e preencha os percentuais. O radar combina portal de cashback + forma de pagamento + clube para achar o caminho mais barato. Regras: um portal por compra; forma de pagamento com empilha_portal=false anula o portal (ex.: Pix que não rastreia cashback).",
+  "portais": {
+    "Zoom": {
+      "ativo": true,
+      "fonte": "site",
+      "obs": "Taxas lidas do próprio Zoom/Buscapé. Precisa estar com cashback ativado e entrar na loja pelo botão da oferta."
+    },
+    "Meliuz": {
+      "ativo": true,
+      "fonte": "meliuz",
+      "obs": "Taxas lidas todo dia da página pública do Méliuz, por categoria. Crie a conta e clique em Ativar antes de comprar."
+    },
+    "Livelo": {
+      "ativo": false,
+      "lojas": {
+        "Amazon": 0,
+        "Magazine Luiza": 0
+      },
+      "obs": "Converta pontos por real em % equivalente."
+    }
+  },
+  "pagamento": {
+    "Pix à vista": {
+      "ativo": false,
+      "desconto_pct": {
+        "*": 0,
+        "Magazine Luiza": 0,
+        "KaBuM!": 0
+      },
+      "empilha_portal": true,
+      "obs": "Desconto no Pix de cada loja."
+    },
+    "Cartão com cashback": {
+      "ativo": false,
+      "cashback_pct": 0,
+      "lojas": [
+        "*"
+      ],
+      "empilha_portal": true,
+      "obs": "Cashback ou pontos do seu cartão, em % do valor pago."
+    }
+  },
+  "clubes": {
+    "Amazon Prime": {
+      "ativo": true,
+      "lojas": [
+        "Amazon"
+      ],
+      "obs": "Frete grátis e entrega rápida; confira se o item é elegível."
+    },
+    "Magalu (Clube/Pay)": {
+      "ativo": false,
+      "lojas": [
+        "Magazine Luiza"
+      ],
+      "obs": "Cupons e desconto em pagamento pelo app."
+    },
+    "Meli+": {
+      "ativo": true,
+      "lojas": [
+        "Mercado Livre"
+      ],
+      "obs": "Frete grátis e cashback em compras elegíveis; confirme no carrinho."
+    }
+  },
+  "frete": {
+    "cep": "35720-000",
+    "_leia": "O frete exato só aparece no carrinho com o CEP. Aqui entram as regras conhecidas; frete_estimado (R$) é somado no ranking quando você preencher.",
+    "lojas": {
+      "Amazon": {
+        "gratis_com": "Amazon Prime",
+        "frete_estimado": 0
+      },
+      "Mercado Livre": {
+        "gratis_com": "Meli+",
+        "gratis_acima": 79,
+        "frete_estimado": 0
+      },
+      "Magazine Luiza": {
+        "frete_estimado": 0
+      },
+      "KaBuM!": {
+        "frete_estimado": 0
+      },
+      "*": {
+        "frete_estimado": 0
+      }
+    }
+  }
+}
