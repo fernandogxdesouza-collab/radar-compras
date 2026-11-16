@@ -27,6 +27,10 @@
     "loja": "Amazon",
     "titulo": "Azeite Extra Virgem Vidro 500ml - Andorinha"
    }
+  },
+  "alertado": {
+   "valor": 59.8,
+   "dia": "2026-11-16"
   }
  },
  "arroz-parboilizado": {
@@ -67,6 +71,10 @@
     "loja": "Americanas",
     "titulo": "Ar-Condicionado Split Hi Wall Vix 12000 BTUs Frio Inverter AS-12TW2RLDDK0"
    }
+  },
+  "alertado": {
+   "valor": 1615.82,
+   "dia": "2026-11-16"
   }
  }
 }
