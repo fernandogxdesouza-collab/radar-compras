@@ -29,6 +29,13 @@ RADAR_SEM_ALERTA=1 python radar.py            # todos os produtos
 RADAR_SEM_ALERTA=1 python radar.py azeite     # só um
 ```
 
+## Supermercados (Matozinhos e Pedro Leopoldo)
+Os três publicam folheto quinzenal, mas sem preço consultável por produto, então entram por `manuais` com `fisico: true` e `validade` do folheto. Atualize a cada folheto novo.
+- **Mart Minas:** não tem loja em Matozinhos; a de Pedro Leopoldo está em `martminas.com.br/loja/pedro-leopoldo/` (botão "Faça download do arquivo", PDF com texto legível). Clube: Mart Mais (só cadastrados).
+- **Supermercados BH:** `supermercadosbh.com.br/folhetos`, cidade Matozinhos; o PDF só aparece com o navegador. Clube: app Meu BH e Cartão BH.
+- **Paranaíba:** `supermercadosparanaiba.com.br/ofertas/` publica o jornal como imagens PNG (ler a olho ou OCR). Lojas em Matozinhos (Av. Caio Martins, 245) e Pedro Leopoldo. Clube: app Clube Paranaíba (itens "Clube de Desconto").
+- Em compra presencial valem só formas de pagamento marcadas `presencial` em `beneficios.json` (hoje o cartão Nubank). Portal de cashback, Pix e frete não se aplicam.
+
 ## Ligar o Mercado Livre (API oficial)
 1. Entre em developers.mercadolivre.com.br com sua conta, abra "Minhas aplicações" e crie um app (nome livre; leia os termos e aceite como dono do app). Anote o Client ID e o Client Secret.
 2. Local: defina as variáveis `ML_CLIENT_ID` e `ML_CLIENT_SECRET` no terminal antes de rodar `python radar.py`. Nuvem: crie os secrets de mesmo nome no repositório.

@@ -17,28 +17,46 @@
         "Amazon": 0,
         "Magazine Luiza": 0
       },
-      "obs": "Converta pontos por real em % equivalente."
+      "obs": "Você tem conta. Preencha o equivalente em % por loja (pontos por real x valor do ponto) olhando o parceiro no app; o robô não lê a Livelo."
+    },
+    "Inter Shop": {
+      "ativo": false,
+      "lojas": {
+        "Magazine Luiza": 0,
+        "Amazon": 0,
+        "Americanas": 0,
+        "KaBuM!": 0
+      },
+      "obs": "Você tem conta no Inter. Preencha o cashback por loja visto no app do Inter Shop."
+    },
+    "C6 Átomos": {
+      "ativo": false,
+      "lojas": {
+        "Magazine Luiza": 0,
+        "Amazon": 0
+      },
+      "obs": "Você tem conta no C6. Preencha o equivalente em % por loja visto no app."
     }
   },
   "pagamento": {
     "Pix à vista": {
-      "ativo": false,
+      "ativo": true,
       "desconto_pct": {
-        "*": 0,
-        "Magazine Luiza": 0,
-        "KaBuM!": 0
+        "*": 5
       },
-      "empilha_portal": true,
-      "obs": "Desconto no Pix de cada loja."
+      "empilha_portal": false,
+      "obs": "5% informado por Fernando. empilha_portal=false por cautela: confirme se o Méliuz/Zoom rastreiam compra paga no Pix; se rastrearem, mude para true.",
+      "presencial": false
     },
-    "Cartão com cashback": {
-      "ativo": false,
-      "cashback_pct": 0,
+    "Cartão Nubank Ultravioleta": {
+      "ativo": true,
+      "cashback_pct": 1,
       "lojas": [
         "*"
       ],
       "empilha_portal": true,
-      "obs": "Cashback ou pontos do seu cartão, em % do valor pago."
+      "obs": "1% de volta nas compras (confirme o percentual vigente no app do Nubank). Não soma com Pix: é uma forma de pagamento ou outra.",
+      "presencial": true
     }
   },
   "clubes": {
@@ -62,6 +80,27 @@
         "Mercado Livre"
       ],
       "obs": "Frete grátis e cashback em compras elegíveis; confirme no carrinho."
+    },
+    "Clube Paranaíba": {
+      "ativo": false,
+      "lojas": [
+        "Supermercados Paranaíba (Matozinhos)"
+      ],
+      "obs": "Preços de 'Clube de Desconto' só no app/cadastro (clubeparanaiba.querovantagens.com); o robô não vê esses itens."
+    },
+    "Mart Mais": {
+      "ativo": false,
+      "lojas": [
+        "Mart Minas (Pedro Leopoldo)"
+      ],
+      "obs": "Ofertas exclusivas só para cadastrados (martmais.martminas.com.br); não aparecem no encarte."
+    },
+    "Meu BH / Cartão BH": {
+      "ativo": false,
+      "lojas": [
+        "Supermercados BH (Matozinhos)"
+      ],
+      "obs": "Ofertas exclusivas no app Meu BH e Cartão BH; não aparecem no folheto."
     }
   },
   "frete": {

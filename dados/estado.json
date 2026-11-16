@@ -2,7 +2,7 @@
  "cafe-gourmet": {
   "dias": {
    "2026-11-16": {
-    "valor": 78.2,
+    "valor": 75.8,
     "preco": 39.9,
     "loja": "Magazine Luiza",
     "titulo": "Café Odebrecht Torrado e Moido Gourmet Especial 500g"
@@ -12,7 +12,7 @@
  "oleo-soja": {
   "dias": {
    "2026-11-16": {
-    "valor": 13.05,
+    "valor": 12.65,
     "preco": 71.93,
     "loja": "Magazine Luiza",
     "titulo": "Pack com 6 Óleo de Soja Tipo 1 Liza, garrafa de 900ml"
@@ -22,7 +22,7 @@
  "azeite": {
   "dias": {
    "2026-11-16": {
-    "valor": 59.8,
+    "valor": 56.82,
     "preco": 29.900000000000002,
     "loja": "Amazon",
     "titulo": "Azeite Extra Virgem Vidro 500ml - Andorinha"
@@ -36,17 +36,17 @@
  "arroz-parboilizado": {
   "dias": {
    "2026-11-16": {
-    "valor": 5.6,
-    "preco": 27.99,
-    "loja": "Amazon",
-    "titulo": "Tio João Arroz Parboilizado - 5Kg"
+    "valor": 4.32,
+    "preco": 21.8,
+    "loja": "Supermercados BH (Matozinhos)",
+    "titulo": "Arroz Agulhinha/Parboilizado BH Premium Tipo 1 pcte 5kg (de R$ 22,90)"
    }
   }
  },
  "amazfit-bip-6": {
   "dias": {
    "2026-11-16": {
-    "valor": 398.05,
+    "valor": 393.86,
     "preco": 419.0,
     "loja": "Magazine Luiza",
     "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
@@ -56,7 +56,7 @@
  "redstone-1-7l": {
   "dias": {
    "2026-11-16": {
-    "valor": 108.25,
+    "valor": 104.41,
     "preco": 109.9,
     "loja": "Mercado Livre",
     "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
@@ -66,7 +66,7 @@
  "ar-condicionado": {
   "dias": {
    "2026-11-16": {
-    "valor": 1615.82,
+    "valor": 1566.36,
     "preco": 1648.8,
     "loja": "Americanas",
     "titulo": "Ar-Condicionado Split Hi Wall Vix 12000 BTUs Frio Inverter AS-12TW2RLDDK0"
@@ -75,6 +75,16 @@
   "alertado": {
    "valor": 1615.82,
    "dia": "2026-11-16"
+  }
+ },
+ "cafe-tradicional": {
+  "dias": {
+   "2026-11-16": {
+    "valor": 37.98,
+    "preco": 19.99,
+    "loja": "Fast Shop",
+    "titulo": "Café Torrado e Moído Café Brasileiro Tradicional  Pacote 500g Café Torrado e Moído Café Brasileiro Tradicional Pacote 500g"
+   }
   }
  }
 }

@@ -281,11 +281,11 @@ def aplica_loja(lista, loja):
     return "*" in lista or any(norm(x) == norm(loja) for x in lista)
 
 
-def caminhos(loja, preco, taxa_zoom, ben, taxa_mel=0.0):
+def caminhos(loja, preco, taxa_zoom, ben, taxa_mel=0.0, fisico=False):
     """Todas as combinações portal x pagamento permitidas, da mais barata para a mais cara."""
     portais = [("", 0.0, "")]
     for nome, cfg in ben.get("portais", {}).items():
-        if not cfg.get("ativo"):
+        if not cfg.get("ativo") or fisico:
             continue
         if cfg.get("fonte") == "site":
             pct = taxa_zoom * 100
@@ -297,7 +297,7 @@ def caminhos(loja, preco, taxa_zoom, ben, taxa_mel=0.0):
             portais.append((nome, pct / 100, f"entrar pelo {nome} ({pct:.1f}% de cashback)"))
     pagos = [("", 0.0, 0.0, True, "")]
     for nome, cfg in ben.get("pagamento", {}).items():
-        if not cfg.get("ativo"):
+        if not cfg.get("ativo") or (fisico and not cfg.get("presencial")):
             continue
         desc = desconto_loja(cfg.get("desconto_pct", {}), loja) if "desconto_pct" in cfg else 0.0
         cash = float(cfg.get("cashback_pct", 0)) if aplica_loja(cfg.get("lojas", ["*"]), loja) else 0.0
@@ -305,7 +305,10 @@ def caminhos(loja, preco, taxa_zoom, ben, taxa_mel=0.0):
             partes = [f"{desc:g}% de desconto" if desc else "", f"{cash:g}% de volta" if cash else ""]
             pagos.append((nome, desc / 100, cash / 100, cfg.get("empilha_portal", True),
                           f"pagar com {nome} ({', '.join(x for x in partes if x)})"))
-    texto_frete, custo_frete = frete_info(loja, preco, ben)
+    if fisico:
+        texto_frete, custo_frete = "compra presencial na loja (deslocamento não incluso)", 0.0
+    else:
+        texto_frete, custo_frete = frete_info(loja, preco, ben)
     saida = []
     for pn, prate, ptxt in portais:
         for gn, gdesc, gcash, empilha, gtxt in pagos:
@@ -388,20 +391,27 @@ def coletar_produto(produto, ben, tab_mel):
             expandidas.append(novo)
     ofertas = expandidas
     for m in produto.get("manuais", []):  # preços que o robô não alcança (ex.: Mercado Livre)
-        idade = (datetime.now(FUSO).date() - datetime.strptime(m["data"], "%Y-%m-%d").date()).days
-        if idade > 14:
+        hoje = datetime.now(FUSO).date()
+        idade = (hoje - datetime.strptime(m["data"], "%Y-%m-%d").date()).days
+        if m.get("validade"):
+            if hoje > datetime.strptime(m["validade"], "%Y-%m-%d").date():
+                continue
+        elif idade > 14:
             continue
         qtd = m.get("qtd") or (quantidade(m.get("titulo", produto["nome"]), unidade) if unidade else None)
         if unidade and not qtd:
             continue
-        aviso = f" (confira, tem {idade} dias)" if idade > 3 else ""
+        aviso = f" (confira, tem {idade} dias)" if idade > 3 and not m.get("validade") else ""
+        if m.get("validade"):
+            aviso = f", válido até {m['validade'][8:10]}/{m['validade'][5:7]}"
         ofertas.append({"fonte": "Manual", "loja": m["loja"], "merchant_id": "", "titulo": m.get("titulo", produto["nome"]),
                         "preco": float(m["preco"]), "link": m.get("link", ""), "qtd": qtd, "marketplace": False,
+                        "fisico": bool(m.get("fisico")),
                         "manual": f"informado em {m['data']}{aviso}"})
 
     for o in ofertas:
         tm = taxa_meliuz(tab_mel, o["loja"], produto.get("categoria", "geral"), o.get("marketplace", False))
-        cams = caminhos(o["loja"], o["preco"], o.get("taxa_zoom", 0.0), ben, tm)
+        cams = caminhos(o["loja"], o["preco"], o.get("taxa_zoom", 0.0), ben, tm, o.get("fisico", False))
         o["liquido"] = cams[0]["liquido"]
         o["caminho"] = cams[0]
         o["caminhos"] = cams[:3]
