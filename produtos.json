@@ -64,29 +64,6 @@
       "categoria": "mercado"
     },
     {
-      "id": "arroz-parboilizado",
-      "nome": "Arroz parboilizado 5 kg",
-      "buscas": [
-        "arroz parboilizado 5kg"
-      ],
-      "exige": [
-        "arroz",
-        "parboiliz"
-      ],
-      "exclui": [
-        "panela",
-        "cozedor",
-        "forma",
-        "semente",
-        "cesta",
-        "kit",
-        "combo"
-      ],
-      "unidade": "kg",
-      "preco_alvo": null,
-      "categoria": "mercado"
-    },
-    {
       "id": "amazfit-bip-6",
       "nome": "Smartwatch Amazfit Bip 6 (GPS, AMOLED, 5 ATM)",
       "buscas": [
