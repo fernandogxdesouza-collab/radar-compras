@@ -72,18 +72,18 @@ data,produto,fonte,loja,titulo,preco,liquido,unitario,zona,link
 2026-11-16 13:28,ar-condicionado,Zoom,Americanas,Ar-Condicionado Split Hi Wall Philco 12000 BTUs Frio Inverter PAC12FC,1933.2,1836.54,,baixo,https://www.zoom.com.br/ar-condicionado/ar-condicionado-split-hi-wall-philco-12000-btus-frio-inverter-pac12fc
 2026-11-16 13:28,ar-condicionado,Zoom,Webcontinental,Ar-Condicionado Split Hi Wall Hisense 12000 BTUs Frio Inverter AS-12TW2RURCK00,1935.57,1838.79,,baixo,https://www.zoom.com.br/ar-condicionado/ar-condicionado-split-hi-wall-hisense-12000-btus-frio-inverter-as-12tw2rurck00
 2026-11-16 13:28,ar-condicionado,Zoom,Magazine Luiza,Ar-Condicionado Split Hi Wall Vix 12000 BTUs Frio Inverter AS-12TW2RLDDK0,2072.7,1886.16,,baixo,https://www.zoom.com.br/ar-condicionado/ar-condicionado-split-hi-wall-vix-12000-btus-frio-inverter-as-12tw2rlddk00
-2026-11-16 14:02,cafe-tradicional,Zoom,Fast Shop,Café Torrado e Moído Café Brasileiro Tradicional  Pacote 500g Café Torrado e Moído Café Brasileiro Tradicional Pacote 500g,19.99,18.99,37.98,formando,https://www.zoom.com.br/lead?oid=1543927409
-2026-11-16 14:02,cafe-tradicional,Folheto,Supermercados Paranaíba (Matozinhos),Café Dom Pedro tradicional/extra forte pct 500g,19.99,19.79,39.58,formando,https://supermercadosparanaiba.com.br/ofertas/
-2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Almofada Caboclo 500g,23.94,22.74,45.48,formando,https://www.zoom.com.br/lead?oid=1391251977
-2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Bury 500g Torrado e Moído,31.63,30.05,60.1,formando,https://www.zoom.com.br/lead?oid=1524522063
-2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Tradicional Pilão 500g,32.68,31.05,62.1,formando,https://www.zoom.com.br/lead?oid=1399630728
-2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Aviação - 500g,38.9,36.95,73.9,formando,https://www.zoom.com.br/lead?oid=1398182542
-2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Segafredo Torrado e Moído 500g - Vácuo,41.75,39.66,79.32,formando,https://www.zoom.com.br/lead?oid=1504879138
-2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,"Café Torrado e Moído Superior 500g - Café Fazenda Caeté, Roxo, 500g",44.83,42.59,85.18,formando,https://www.zoom.com.br/lead?oid=1576456842
-2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Bravo Café Tenor Torrado e Moído 500g,50.16,47.65,95.3,formando,https://www.zoom.com.br/lead?oid=1391034757
-2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Intenso Pilão 500g,62.99,59.84,119.68,formando,https://www.zoom.com.br/lead?oid=1493405955
-2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Aviação 500g,71.09,67.54,135.08,formando,https://www.zoom.com.br/lead?oid=1395500822
-2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Luvizotto 500g,74.29,70.58,141.16,formando,https://www.zoom.com.br/lead?oid=1581533446
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,Café Odebrecht Torrado e Moido Gourmet Especial 500g,39.9,37.9,75.8,formando,https://www.zoom.com.br/lead?oid=1392733157
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,"Café Torrado e Moído Superior 500g - Café Fazenda Caeté, Roxo, 500g",44.83,42.59,85.18,formando,https://www.zoom.com.br/lead?oid=1576456842
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,Cafe gourmet 500g grãos - soprano,51.06,48.51,97.02,formando,https://www.zoom.com.br/lead?oid=1576431262
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,Cafe gourmet 500g moído -soprano,51.06,48.51,97.02,formando,https://www.zoom.com.br/lead?oid=1568478507
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,Café Duas Irmãs Grão Arábica Gourmet  500g,51.35,48.78,97.56,formando,https://www.zoom.com.br/lead?oid=1480295227
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,Zaro Café Gourmet Torra Clara Moído 500g,52.16,49.55,99.1,formando,https://www.zoom.com.br/lead?oid=1424321949
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,Zaro Café Gourmet Torra Média Moído 500g,52.16,49.55,99.1,formando,https://www.zoom.com.br/lead?oid=1379980599
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,Zaro Café Gourmet Torra Escura Moído 500g,52.16,49.55,99.1,formando,https://www.zoom.com.br/lead?oid=1418557489
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,CAFÉ TORRADO EM GRÃO AMÉRICA GOURMET 500g,60.33,57.31,114.62,formando,https://www.zoom.com.br/lead?oid=1413568531
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,Café Torrado e Moído Melitta Especial a Vácuo 500g,60.41,57.39,114.78,formando,https://www.zoom.com.br/lead?oid=1410089154
+2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,"Café Calvi 100% Conilon Especial, Torrado e Moído 500g - Cafe calvi",61.75,58.66,117.32,formando,https://www.zoom.com.br/lead?oid=1383276623
+2026-11-16 14:02,cafe-gourmet,Zoom,Amazon,Café Especial Torrado e Moído 500g Aviação,62.0,58.9,117.8,formando,https://www.zoom.com.br/lead?oid=287069225
 2026-11-16 14:02,oleo-soja,Zoom,Magazine Luiza,"Pack com 6 Óleo de Soja Tipo 1 Liza, garrafa de 900ml",71.93,68.33,12.65,formando,https://www.zoom.com.br/lead?oid=1421164670
 2026-11-16 14:02,oleo-soja,Zoom,Magazine Luiza,Óleo de Soja Liza 900ml,12.77,12.13,13.48,formando,https://www.zoom.com.br/lead?oid=1547204424
 2026-11-16 14:02,oleo-soja,Zoom,Magazine Luiza,Óleo de Soja Soya 900ml,16.38,15.56,17.29,formando,https://www.zoom.com.br/lead?oid=1500674476

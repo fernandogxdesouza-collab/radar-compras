@@ -2,10 +2,11 @@
   "alvo_historico_minimo_dias": 7,
   "produtos": [
     {
-      "id": "cafe-tradicional",
-      "nome": "Café torrado e moído tradicional 500 g",
+      "id": "cafe-gourmet",
+      "nome": "Café gourmet 500 g",
       "buscas": [
-        "café torrado e moído 500g"
+        "café gourmet 500g",
+        "café especial torrado moído 500g"
       ],
       "exige": [
         "caf"
@@ -26,13 +27,17 @@
         "caneca",
         "moedor",
         "chá",
-        "cha ",
-        "gourmet",
-        "especial"
+        "cha "
       ],
       "unidade": "kg",
-      "categoria": "mercado",
-      "preco_alvo": null
+      "preco_alvo": null,
+      "exige_algum": [
+        "gourmet",
+        "especial",
+        "premium",
+        "superior"
+      ],
+      "categoria": "mercado"
     },
     {
       "id": "oleo-soja",
