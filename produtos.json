@@ -40,32 +40,6 @@
       "categoria": "mercado"
     },
     {
-      "id": "oleo-soja",
-      "nome": "Óleo de soja 900 ml",
-      "buscas": [
-        "óleo de soja 900ml",
-        "óleo de soja liza 900ml",
-        "óleo de soja soya 900ml"
-      ],
-      "exige": [
-        "soja"
-      ],
-      "exclui": [
-        "essencial",
-        "capilar",
-        "massagem",
-        "motor",
-        "lecitina",
-        "cápsula",
-        "capsula",
-        "ração",
-        "racao"
-      ],
-      "unidade": "l",
-      "preco_alvo": null,
-      "categoria": "mercado"
-    },
-    {
       "id": "azeite",
       "nome": "Azeite de oliva extra virgem 500 ml",
       "buscas": [

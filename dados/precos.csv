@@ -84,14 +84,18 @@ data,produto,fonte,loja,titulo,preco,liquido,unitario,zona,link
 2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,Café Torrado e Moído Melitta Especial a Vácuo 500g,60.41,57.39,114.78,formando,https://www.zoom.com.br/lead?oid=1410089154
 2026-11-16 14:02,cafe-gourmet,Zoom,Magazine Luiza,"Café Calvi 100% Conilon Especial, Torrado e Moído 500g - Cafe calvi",61.75,58.66,117.32,formando,https://www.zoom.com.br/lead?oid=1383276623
 2026-11-16 14:02,cafe-gourmet,Zoom,Amazon,Café Especial Torrado e Moído 500g Aviação,62.0,58.9,117.8,formando,https://www.zoom.com.br/lead?oid=287069225
-2026-11-16 14:02,oleo-soja,Zoom,Magazine Luiza,"Pack com 6 Óleo de Soja Tipo 1 Liza, garrafa de 900ml",71.93,68.33,12.65,formando,https://www.zoom.com.br/lead?oid=1421164670
-2026-11-16 14:02,oleo-soja,Zoom,Magazine Luiza,Óleo de Soja Liza 900ml,12.77,12.13,13.48,formando,https://www.zoom.com.br/lead?oid=1547204424
-2026-11-16 14:02,oleo-soja,Zoom,Magazine Luiza,Óleo de Soja Soya 900ml,16.38,15.56,17.29,formando,https://www.zoom.com.br/lead?oid=1500674476
-2026-11-16 14:02,oleo-soja,Zoom,Americanas,Kit Óleo De Soja Soya 900Ml 20 Unidades,338.29,321.38,17.85,formando,https://www.zoom.com.br/lead?oid=1469429894
-2026-11-16 14:02,oleo-soja,Zoom,Magazine Luiza,Óleo Soya de Soja Tipo 1 900ml,17.44,16.57,18.41,formando,https://www.zoom.com.br/lead?oid=1576473188
-2026-11-16 14:02,oleo-soja,Zoom,Magazine Luiza,Óleo de Soja Tipo 1 Vitaliv 900ml ,17.44,16.57,18.41,formando,https://www.zoom.com.br/lead?oid=1410077554
-2026-11-16 14:02,oleo-soja,Zoom,Americanas,Kit 12 Óleo De Soja Liza 900Ml,276.23,262.42,24.3,formando,https://www.zoom.com.br/lead?oid=1469821451
-2026-11-16 14:02,oleo-soja,Zoom,Magazine Luiza,Óleo de Soja Concórdia Tipo 1 900ml,27.16,25.8,28.67,formando,https://www.zoom.com.br/lead?oid=1410096453
+2026-11-16 14:02,cafe-tradicional,Zoom,Fast Shop,Café Torrado e Moído Café Brasileiro Tradicional  Pacote 500g Café Torrado e Moído Café Brasileiro Tradicional Pacote 500g,19.99,18.99,37.98,formando,https://www.zoom.com.br/lead?oid=1543927409
+2026-11-16 14:02,cafe-tradicional,Folheto,Supermercados Paranaíba (Matozinhos),Café Dom Pedro tradicional/extra forte pct 500g,19.99,19.79,39.58,formando,https://supermercadosparanaiba.com.br/ofertas/
+2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Almofada Caboclo 500g,23.94,22.74,45.48,formando,https://www.zoom.com.br/lead?oid=1391251977
+2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Bury 500g Torrado e Moído,31.63,30.05,60.1,formando,https://www.zoom.com.br/lead?oid=1524522063
+2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Tradicional Pilão 500g,32.68,31.05,62.1,formando,https://www.zoom.com.br/lead?oid=1399630728
+2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Aviação - 500g,38.9,36.95,73.9,formando,https://www.zoom.com.br/lead?oid=1398182542
+2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Segafredo Torrado e Moído 500g - Vácuo,41.75,39.66,79.32,formando,https://www.zoom.com.br/lead?oid=1504879138
+2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,"Café Torrado e Moído Superior 500g - Café Fazenda Caeté, Roxo, 500g",44.83,42.59,85.18,formando,https://www.zoom.com.br/lead?oid=1576456842
+2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Bravo Café Tenor Torrado e Moído 500g,50.16,47.65,95.3,formando,https://www.zoom.com.br/lead?oid=1391034757
+2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Intenso Pilão 500g,62.99,59.84,119.68,formando,https://www.zoom.com.br/lead?oid=1493405955
+2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Aviação 500g,71.09,67.54,135.08,formando,https://www.zoom.com.br/lead?oid=1395500822
+2026-11-16 14:02,cafe-tradicional,Zoom,Magazine Luiza,Café Torrado e Moído Luvizotto 500g,74.29,70.58,141.16,formando,https://www.zoom.com.br/lead?oid=1581533446
 2026-11-16 14:02,azeite,Zoom,Amazon,Azeite Extra Virgem Vidro 500ml - Andorinha,29.900000000000002,28.41,56.82,baixo,https://www.zoom.com.br/azeite/azeite-extra-virgem-vidro-500ml-andorinha
 2026-11-16 14:02,azeite,Folheto,Mart Minas (Pedro Leopoldo),Azeite Filippo Berio 500ml,29.9,29.6,59.2,baixo,https://www.martminas.com.br/loja/pedro-leopoldo/
 2026-11-16 14:02,azeite,Zoom,Amazon,Azeite De Oliva Extra Virgem Cocinero 500ml,35.089999999999996,33.34,66.68,baixo,https://www.zoom.com.br/azeite/azeite-de-oliva-extra-virgem-cocinero-500ml
