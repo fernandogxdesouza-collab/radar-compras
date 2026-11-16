@@ -120,34 +120,6 @@
           "link": "https://lista.mercadolivre.com.br/frigideira-redstone-1-7-litros"
         }
       ]
-    },
-    {
-      "id": "ar-condicionado",
-      "nome": "Ar-condicionado split inverter 12.000 BTUs",
-      "buscas": [
-        "ar condicionado split inverter 12000 btus",
-        "ar condicionado 12000 btus inverter",
-        "ar condicionado split 12000 btus"
-      ],
-      "exige": [
-        "condicionado",
-        "12000"
-      ],
-      "exclui": [
-        "portátil",
-        "portatil",
-        "janela",
-        "suporte",
-        "capa",
-        "controle",
-        "kit instalação",
-        "kit instalacao",
-        "limpa",
-        "filtro"
-      ],
-      "unidade": null,
-      "preco_alvo": null,
-      "categoria": "eletrodomestico"
     }
   ],
   "_manuais": "Preços que você viu e o robô não alcança (Mercado Livre, folhetos de supermercado). Campos: loja, preco, data, titulo, link; validade AAAA-MM-DD (senão vale 14 dias); fisico true = compra presencial (sem portal nem Pix); qtd (kg/l) só se o título não trouxer o peso.",
