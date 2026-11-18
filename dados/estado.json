@@ -32,6 +32,12 @@
     "preco": 28.990000000000002,
     "loja": "Amazon",
     "titulo": "Azeite Extra Virgem Vidro 500ml - Andorinha"
+   },
+   "2026-11-18": {
+    "valor": 55.08,
+    "preco": 28.990000000000002,
+    "loja": "Amazon",
+    "titulo": "Azeite Extra Virgem Vidro 500ml - Andorinha"
    }
   },
   "alertado": {
@@ -62,6 +68,12 @@
     "preco": 419.0,
     "loja": "Magazine Luiza",
     "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
+   },
+   "2026-11-18": {
+    "valor": 393.86,
+    "preco": 419.0,
+    "loja": "Magazine Luiza",
+    "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
    }
   }
  },
@@ -74,6 +86,12 @@
     "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
    },
    "2026-11-17": {
+    "valor": 104.41,
+    "preco": 109.9,
+    "loja": "Mercado Livre",
+    "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
+   },
+   "2026-11-18": {
     "valor": 104.41,
     "preco": 109.9,
     "loja": "Mercado Livre",
