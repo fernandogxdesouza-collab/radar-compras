@@ -1,9 +1,17 @@
 {
  "Magazine Luiza": {
-  "base": 5.0,
+  "base": 10.0,
   "tiers": [
    [
-    "Produtos vendidos por outras lojas em Magalu, Artigos para Festa vendidos e entregues por Magalu, Artesanato vendidos e entregues por Magalu, Ar e Ventilação vendidos e entregues por Magalu, Automotivo vendidos e entregues por Magalu, Bebês vendidos e entregues por Magalu, Brinquedos vendidos e entregues por Magalu, Bem-estar Sexual vendidos e entregues por Magalu, Câmeras e Drones vendidos e entregues por Magalu, Casa Inteligente vendidos e entregues por Magalu, Casa e Construção vendidos e entregues por Magalu, Cama, Mesa e Banho vendidos e entregues por Magalu, Colchões vendidos e entregues por Magalu, Saúde e Cuidados Pessoais vendidos e entregues por Magalu, Decoração vendidos e entregues por Magalu, Áudio vendidos e entregues por Magalu, Eletrodomésticos vendidos e entregues por Magalu, Eletroportáteis vendidos e entregues por Magalu, Esporte e Lazer vendido e entregue por Magalu, TVs vendido e entregue por Magalu, Flores e Jardim vendidos e entregues por Magalu, Filmes e Séries vendidos e entregues por Magalu, Ferramentas vendidos e entregues por Magalu, Games vendidos e entregues por Magalu, Instrumentos Musicais vendidos e entregues por Magalu, Informática vendido e entregue por Magalu, Livros vendidos e entregues por Magalu, Moda vendidos e entregues por Magalu, Móveis vendidos e entregues por Magalu, Música e Shows vendidos e entregues por Magalu, Natal vendidos e entregues por Magalu, Papelaria vendidos e entregues por Magalu, Pet Shop vendidos e entregues por Magalu, Beleza e Perfumaria vendidos e entregues por Magalu, Comércio e Indústria vendidos e entregues por Magalu, Relógios vendidos e entregues por Magalu, Religião e Espiritualidade vendidos e entregues por Magalu, Suplementos Alimentares vendidos e entregues por Magalu, Serviços vendidos e entregues por Magalu, Tablets, iPads e E-reader vendidos e entregues por Magalu, Celulares e Smartphones vendido e entregue por Magalu, Telefonia Fixa vendidos e entregues por Magalu e Utilidades Domésticas vendido e entregue por Magalu",
+    "Games vendidos e entregues por Magalu",
+    10.0
+   ],
+   [
+    "Utilidades Domésticas vendido e entregue por Magalu, Celulares e Smartphones vendido e entregue por Magalu, Eletrodomésticos vendidos e entregues por Magalu, Eletroportáteis vendidos e entregues por Magalu, Brinquedos vendidos e entregues por Magalu, TVs vendido e entregue por Magalu, Móveis vendidos e entregues por Magalu, Informática vendido e entregue por Magalu, Tablets, iPads e E-reader vendidos e entregues por Magalu, Esporte e Lazer vendido e entregue por Magalu, Bebês vendidos e entregues por Magalu, Artigos para Festa vendidos e entregues por Magalu, Artesanato vendidos e entregues por Magalu, Ar e Ventilação vendidos e entregues por Magalu, Automotivo vendidos e entregues por Magalu, Bem-estar Sexual vendidos e entregues por Magalu, Câmeras e Drones vendidos e entregues por Magalu, Casa Inteligente vendidos e entregues por Magalu, Casa e Construção vendidos e entregues por Magalu, Cama, Mesa e Banho vendidos e entregues por Magalu, Colchões vendidos e entregues por Magalu, Saúde e Cuidados Pessoais vendidos e entregues por Magalu, Decoração vendidos e entregues por Magalu, Áudio vendidos e entregues por Magalu, Flores e Jardim vendidos e entregues por Magalu, Filmes e Séries vendidos e entregues por Magalu, Ferramentas vendidos e entregues por Magalu, Instrumentos Musicais vendidos e entregues por Magalu, Livros vendidos e entregues por Magalu, Moda vendidos e entregues por Magalu, Música e Shows vendidos e entregues por Magalu, Natal vendidos e entregues por Magalu, Papelaria vendidos e entregues por Magalu, Pet Shop vendidos e entregues por Magalu, Beleza e Perfumaria vendidos e entregues por Magalu, Comércio e Indústria vendidos e entregues por Magalu, Relógios vendidos e entregues por Magalu, Religião e Espiritualidade vendidos e entregues por Magalu, Suplementos Alimentares vendidos e entregues por Magalu, Serviços vendidos e entregues por Magalu e Telefonia Fixa vendidos e entregues por Magalu",
+    8.0
+   ],
+   [
+    "Produtos vendidos por outras lojas em Magalu",
     5.0
    ],
    [
@@ -11,31 +19,40 @@
     2.0
    ]
   ],
-  "lido_em": "2026-11-19"
+  "lido_em": "2026-11-20"
  },
  "Mercado Livre": {
   "base": 1.5,
   "tiers": [],
-  "lido_em": "2026-11-19"
+  "lido_em": "2026-11-20"
  },
  "KaBuM!": {
-  "base": 1.0,
-  "tiers": [],
-  "lido_em": "2026-11-19"
+  "base": 10.0,
+  "tiers": [
+   [
+    "Ar e Ventilação produzidos, vendidos e entregues por KaBuM!, Áudio - 2P, Celular e Smartphone 2P, Computadores produzidos, vendidos e entregues por KaBuM!, Eletrodomésticos produzidos, vendidos e entregues por KaBuM!, Eletroportáteis produzidos, vendidos e entregues por KaBuM!, Escritório produzidos, vendidos e entregues por KaBuM!, Espaço Gamer produzidos, vendidos e entregues por KaBuM!, Games - Produzidos, vendidos e entregues por KaBuM!, Hardware produzidos, vendidos e entregues por KaBuM!, Monitores produzidos, vendidos e entregues por KaBuM!, Notebook produzidos, vendidos e entregues por KaBuM!, PC produzidos, vendidos e entregues por KaBuM! e Periféricos produzidos, vendidos e entregues por KaBuM!",
+    10.0
+   ],
+   [
+    "Demais categorias",
+    1.0
+   ]
+  ],
+  "lido_em": "2026-11-20"
  },
  "Americanas": {
-  "base": 5.0,
+  "base": 6.0,
   "tiers": [],
-  "lido_em": "2026-11-19"
+  "lido_em": "2026-11-20"
  },
  "Shopee": {
   "base": 1.0,
   "tiers": [],
-  "lido_em": "2026-11-19"
+  "lido_em": "2026-11-20"
  },
  "Amazon": {
   "base": 0.0,
   "tiers": [],
-  "lido_em": "2026-11-19"
+  "lido_em": "2026-11-20"
  }
 }
