@@ -64,15 +64,15 @@
     "titulo": "Azeite de Oliva Andorinha Extra Virgem Pet 2L"
    },
    "2026-11-23": {
-    "valor": 48.1,
-    "preco": 151.9,
+    "valor": 39.66,
+    "preco": 83.5,
     "loja": "Amazon",
-    "titulo": "Azeite Andorinha Extra Virgem 3L"
+    "titulo": "Azeite Andorinha Pet 2L"
    }
   },
   "alertado": {
-   "valor": 55.08,
-   "dia": "2026-11-22"
+   "valor": 39.66,
+   "dia": "2026-11-23"
   }
  },
  "arroz-parboilizado": {
@@ -240,10 +240,10 @@
  "vinagre": {
   "dias": {
    "2026-11-23": {
-    "valor": 11.85,
-    "preco": 13.02,
-    "loja": "Magazine Luiza",
-    "titulo": "Vinagre de Maçã 400ml - Almaromi "
+    "valor": 8.58,
+    "preco": 9.03,
+    "loja": "Amazon",
+    "titulo": "Vinagre Toscano De Maçã 750ml"
    }
   }
  },
