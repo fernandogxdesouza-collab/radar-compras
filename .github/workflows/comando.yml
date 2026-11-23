@@ -7,9 +7,9 @@ on:
         description: "O que fazer"
         type: choice
         required: true
-        options: [buscar, incluir, excluir, alvo]
+        options: [buscar, incluir, incluir_lista, excluir, alvo]
       texto:
-        description: "Produto (ex.: iPhone 15 128GB). Em 'alvo': nome; alvo=100"
+        description: "Produto (ex.: iPhone 15 128GB). Em 'alvo': nome; alvo=100. Em 'incluir_lista': itens separados por | (ou uma linha por item)"
         type: string
         required: true
 
@@ -40,13 +40,13 @@ jobs:
           ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
         run: python comando.py
       - name: Coletar preços do item incluído
-        if: ${{ inputs.acao == 'incluir' }}
+        if: ${{ inputs.acao == 'incluir' || inputs.acao == 'incluir_lista' }}
         env:
           NTFY_TOPICO: ${{ secrets.NTFY_TOPICO }}
           ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
           ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
           ID_NOVO: ${{ steps.cmd.outputs.id }}
-        run: python radar.py "$ID_NOVO"
+        run: python radar.py $ID_NOVO
       - name: Guardar
         run: |
           git config user.name "radar-compras"

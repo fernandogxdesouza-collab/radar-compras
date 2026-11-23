@@ -43,6 +43,21 @@ def produto_de_texto(texto, alvo=None):
             "unidade": unidade, "categoria": "mercado" if unidade else "geral", "preco_alvo": alvo}
 
 
+MAX_LISTA = 30
+
+
+def itens_da_lista(texto):
+    """Uma linha por item (ou separados por '|'). Aceita marcadores ('- ', '* ', '1. ', '2) ') e ignora linhas vazias."""
+    itens = []
+    for linha in re.split(r"[\n\r|]+", texto):
+        linha = re.sub(r"^\s*(?:[-*•]|\d+\s*[.)])\s+", "", linha).strip()
+        if len(linha) >= 2:
+            itens.append(linha)
+    if len(itens) > MAX_LISTA:
+        sys.exit(f"lista com {len(itens)} itens; o limite por vez é {MAX_LISTA}")
+    return itens
+
+
 def carrega():
     return json.loads((RAIZ / "produtos.json").read_text(encoding="utf-8"))
 
@@ -161,6 +176,28 @@ def main():
         if saida:
             with open(saida, "a", encoding="utf-8") as f:
                 f.write(f"id={p['id']}\n")
+    elif ACAO == "incluir_lista":
+        novos, repetidos, vistos = [], [], {x["id"] for x in cfg["produtos"]}
+        for linha in itens_da_lista(TEXTO):
+            texto, alvo = separa_alvo(linha)
+            p = produto_de_texto(texto, alvo)
+            if p["id"] in vistos:
+                repetidos.append(p["nome"])
+                continue
+            vistos.add(p["id"])
+            cfg["produtos"].append(p)
+            novos.append(p)
+        if not novos:
+            sys.exit("nenhum item novo (todos já estavam na lista): " + "; ".join(repetidos))
+        salva(cfg)
+        for p in novos:
+            print(f"incluído: {p['nome']} (exige {p['exige']}, unidade {p['unidade']})")
+        for nome in repetidos:
+            print(f"já estava na lista: {nome}")
+        saida = os.environ.get("GITHUB_OUTPUT")
+        if saida:
+            with open(saida, "a", encoding="utf-8") as f:
+                f.write("id=" + " ".join(p["id"] for p in novos) + "\n")
     elif ACAO == "excluir":
         achados = achar(cfg, TEXTO)
         if len(achados) != 1:
