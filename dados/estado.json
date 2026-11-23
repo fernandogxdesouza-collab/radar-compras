@@ -222,5 +222,93 @@
     "titulo": "GRANOLA CASTANHAS - Martigran - 1kg"
    }
   }
+ },
+ "multiuso": {
+  "dias": {
+   "2026-11-23": {
+    "valor": 168.41,
+    "preco": 185.07,
+    "loja": "Magazine Luiza",
+    "titulo": "Armário Multiuso 2 Portas Demóbile Viena"
+   }
+  },
+  "alertado": {
+   "valor": 168.41,
+   "dia": "2026-11-23"
+  }
+ },
+ "vinagre": {
+  "dias": {
+   "2026-11-23": {
+    "valor": 11.85,
+    "preco": 13.02,
+    "loja": "Magazine Luiza",
+    "titulo": "Vinagre de Maçã 400ml - Almaromi "
+   }
+  }
+ },
+ "oleo": {
+  "dias": {
+   "2026-11-23": {
+    "valor": 23.77,
+    "preco": 26.12,
+    "loja": "Magazine Luiza",
+    "titulo": "Óleo Lubrificante Multiuso 100 ml Singer"
+   }
+  }
+ },
+ "torrada": {
+  "dias": {
+   "2026-11-23": {
+    "valor": 49.71,
+    "preco": 54.63,
+    "loja": "Magazine Luiza",
+    "titulo": "Castanha de Caju Inteira Torrada Sem Sal Casa Santa Luzia - 190g"
+   }
+  }
+ },
+ "aveia": {
+  "dias": {
+   "2026-11-23": {
+    "valor": 6.6,
+    "preco": 6.95,
+    "loja": "Amazon",
+    "titulo": "Farinha de Aveia Apti"
+   }
+  }
+ },
+ "farinha-de-trigo": {
+  "dias": {
+   "2026-11-23": {
+    "valor": 9.21,
+    "preco": 10.12,
+    "loja": "Magazine Luiza",
+    "titulo": "Farinha De Trigo Massa Fresca Orquídea 1Kg"
+   }
+  }
+ },
+ "creme-de-leite": {
+  "dias": {
+   "2026-11-23": {
+    "valor": 2.65,
+    "preco": 2.68,
+    "loja": "Supermercados BH (Matozinhos)",
+    "titulo": "Creme de Leite Camponesa TP 200g"
+   }
+  },
+  "alertado": {
+   "valor": 2.65,
+   "dia": "2026-11-23"
+  }
+ },
+ "leite": {
+  "dias": {
+   "2026-11-23": {
+    "valor": 4.27,
+    "preco": 4.69,
+    "loja": "Magazine Luiza",
+    "titulo": "Leite Piracanjuba Integral UHT 1L"
+   }
+  }
  }
 }

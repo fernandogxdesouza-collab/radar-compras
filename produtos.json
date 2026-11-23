@@ -82,6 +82,166 @@
           "link": "https://lista.mercadolivre.com.br/frigideira-redstone-1-7-litros"
         }
       ]
+    },
+    {
+      "id": "escova-de-dentes",
+      "nome": "Escova de dentes",
+      "buscas": [
+        "Escova de dentes"
+      ],
+      "exige": [
+        "escova",
+        "dentes"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "pasta-de-dente-infantil",
+      "nome": "Pasta de dente infantil",
+      "buscas": [
+        "Pasta de dente infantil"
+      ],
+      "exige": [
+        "pasta",
+        "dente",
+        "infantil"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "detergente-ype",
+      "nome": "Detergente Ypê",
+      "buscas": [
+        "Detergente Ypê"
+      ],
+      "exige": [
+        "detergente",
+        "ype"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "multiuso",
+      "nome": "Multiuso",
+      "buscas": [
+        "Multiuso"
+      ],
+      "exige": [
+        "multiuso"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "vinagre",
+      "nome": "Vinagre",
+      "buscas": [
+        "Vinagre"
+      ],
+      "exige": [
+        "vinagre"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "oleo",
+      "nome": "Óleo",
+      "buscas": [
+        "Óleo"
+      ],
+      "exige": [
+        "oleo"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "torrada",
+      "nome": "Torrada",
+      "buscas": [
+        "Torrada"
+      ],
+      "exige": [
+        "torrada"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "aveia",
+      "nome": "Aveia",
+      "buscas": [
+        "Aveia"
+      ],
+      "exige": [
+        "aveia"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "farinha-de-trigo",
+      "nome": "Farinha de trigo",
+      "buscas": [
+        "Farinha de trigo"
+      ],
+      "exige": [
+        "farinha",
+        "trigo"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "creme-de-leite",
+      "nome": "Creme de leite",
+      "buscas": [
+        "Creme de leite"
+      ],
+      "exige": [
+        "creme",
+        "leite"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "leite",
+      "nome": "Leite",
+      "buscas": [
+        "Leite"
+      ],
+      "exige": [
+        "leite"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
     }
   ],
   "_manuais": "Preços que você viu e o robô não alcança (Mercado Livre, folhetos de supermercado). Campos: loja, preco, data, titulo, link; validade AAAA-MM-DD (senão vale 14 dias); fisico true = compra presencial (sem portal nem Pix); qtd (kg/l) só se o título não trouxer o peso.",
