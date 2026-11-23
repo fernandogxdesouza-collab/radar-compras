@@ -62,6 +62,12 @@
     "preco": 98.13,
     "loja": "Amazon",
     "titulo": "Azeite de Oliva Andorinha Extra Virgem Pet 2L"
+   },
+   "2026-11-23": {
+    "valor": 48.1,
+    "preco": 151.9,
+    "loja": "Amazon",
+    "titulo": "Azeite Andorinha Extra Virgem 3L"
    }
   },
   "alertado": {
@@ -122,6 +128,12 @@
     "preco": 419.0,
     "loja": "Magazine Luiza",
     "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
+   },
+   "2026-11-23": {
+    "valor": 381.29,
+    "preco": 419.0,
+    "loja": "Magazine Luiza",
+    "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
    }
   }
  },
@@ -164,6 +176,12 @@
     "titulo": "Frigideira Philco PPN20A Revestimento Redstone 1,1L"
    },
    "2026-11-22": {
+    "valor": 104.41,
+    "preco": 109.9,
+    "loja": "Mercado Livre",
+    "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
+   },
+   "2026-11-23": {
     "valor": 104.41,
     "preco": 109.9,
     "loja": "Mercado Livre",
