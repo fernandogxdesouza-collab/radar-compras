@@ -70,10 +70,10 @@
     "titulo": "Azeite Andorinha Pet 2L"
    },
    "2026-11-24": {
-    "valor": 55.08,
-    "preco": 28.990000000000002,
+    "valor": 48.1,
+    "preco": 151.9,
     "loja": "Amazon",
-    "titulo": "Azeite Extra Virgem Vidro 500ml - Andorinha"
+    "titulo": "Azeite Andorinha Extra Virgem 3L"
    }
   },
   "alertado": {
@@ -200,11 +200,15 @@
     "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
    },
    "2026-11-24": {
-    "valor": 104.41,
-    "preco": 109.9,
-    "loja": "Mercado Livre",
-    "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
+    "valor": 97.11,
+    "preco": 102.22,
+    "loja": "Amazon",
+    "titulo": "Frigideira Philco PPN20A Revestimento Redstone 1,1L"
    }
+  },
+  "alertado": {
+   "valor": 97.11,
+   "dia": "2026-11-24"
   }
  },
  "ar-condicionado": {
@@ -250,10 +254,10 @@
     "titulo": "Armário Multiuso 2 Portas Demóbile Viena"
    },
    "2026-11-24": {
-    "valor": 167.62,
-    "preco": 184.2,
-    "loja": "Magazine Luiza",
-    "titulo": "Armário Multiuso 2 Portas Demóbile Viena"
+    "valor": 8.07,
+    "preco": 8.49,
+    "loja": "Amazon",
+    "titulo": "Veja Power Fusion Desinfetante Multiuso Coco 500ml"
    }
   },
   "alertado": {
@@ -270,10 +274,10 @@
     "titulo": "Vinagre Toscano De Maçã 750ml"
    },
    "2026-11-24": {
-    "valor": 8.58,
-    "preco": 9.03,
+    "valor": 6.17,
+    "preco": 6.5,
     "loja": "Amazon",
-    "titulo": "Vinagre Toscano De Maçã 750ml"
+    "titulo": "Vinagre de Abacaxi Mariza750 ml"
    }
   }
  },
@@ -286,10 +290,10 @@
     "titulo": "Óleo Lubrificante Multiuso 100 ml Singer"
    },
    "2026-11-24": {
-    "valor": 23.77,
-    "preco": 26.12,
-    "loja": "Magazine Luiza",
-    "titulo": "Óleo Lubrificante Multiuso 100 ml Singer"
+    "valor": 8.08,
+    "preco": 8.51,
+    "loja": "Amazon",
+    "titulo": "Óleo De Abacate Natutrat Sos, Skafe"
    }
   }
  },
@@ -302,10 +306,10 @@
     "titulo": "Castanha de Caju Inteira Torrada Sem Sal Casa Santa Luzia - 190g"
    },
    "2026-11-24": {
-    "valor": 49.71,
-    "preco": 54.63,
-    "loja": "Magazine Luiza",
-    "titulo": "Castanha de Caju Inteira Torrada Sem Sal Casa Santa Luzia - 190g"
+    "valor": 5.98,
+    "preco": 6.3,
+    "loja": "Amazon",
+    "titulo": "OKOSHI - Torrada de Tapioca com Coco - Snacks Saudáveis de Baixas Calorias, Lanches Fit para a Dieta - Vegano, Sem Açúcar, Sem Glúten, Sem Lactose, Sem Gordura Trans, Kosher - 75g"
    }
   }
  },
@@ -318,10 +322,10 @@
     "titulo": "Farinha de Aveia Apti"
    },
    "2026-11-24": {
-    "valor": 6.6,
-    "preco": 6.95,
+    "valor": 3.58,
+    "preco": 3.77,
     "loja": "Amazon",
-    "titulo": "Farinha de Aveia Apti"
+    "titulo": "AVEIA EM FLOCOS FINOS KININO 170G"
    }
   }
  },
@@ -334,10 +338,10 @@
     "titulo": "Farinha De Trigo Massa Fresca Orquídea 1Kg"
    },
    "2026-11-24": {
-    "valor": 9.21,
-    "preco": 10.12,
-    "loja": "Magazine Luiza",
-    "titulo": "Farinha De Trigo Massa Fresca Orquídea 1Kg"
+    "valor": 8.46,
+    "preco": 8.9,
+    "loja": "Amazon",
+    "titulo": "Farinha de Trigo Integral, Branco, Vitao, 500 g"
    }
   }
  },
@@ -374,6 +378,36 @@
     "preco": 4.69,
     "loja": "Magazine Luiza",
     "titulo": "Leite Piracanjuba Integral UHT 1L"
+   }
+  }
+ },
+ "escova-de-dentes": {
+  "dias": {
+   "2026-11-24": {
+    "valor": 8.54,
+    "preco": 8.99,
+    "loja": "Amazon",
+    "titulo": "Escova de Dentes Colgate Classic Clean, 3 Unidades"
+   }
+  }
+ },
+ "pasta-de-dente-infantil": {
+  "dias": {
+   "2026-11-24": {
+    "valor": 30.21,
+    "preco": 31.8,
+    "loja": "Amazon",
+    "titulo": "Kit Dentista Infantil 4 Peças, Brinquedo Educativo de Faz de Conta com Estetoscópio, Escova, Pasta de Dente e Dente Sorridente, Plástico PP Colorido, Acima de 3 Anos"
+   }
+  }
+ },
+ "detergente-ype": {
+  "dias": {
+   "2026-11-24": {
+    "valor": 10.44,
+    "preco": 10.99,
+    "loja": "Amazon",
+    "titulo": "Ypê Detergente Concentrado Antibac 416g"
    }
   }
  }

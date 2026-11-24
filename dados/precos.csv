@@ -970,3 +970,165 @@ data,produto,fonte,loja,titulo,preco,liquido,unitario,zona,link
 2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite Semidesnatado UHT Ninho Levinho 1L,8.98,8.17,,formando,https://www.zoom.com.br/lead?oid=1410069876
 2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite Uht Integral 1l Piracanjuba,9.41,8.56,,formando,https://www.zoom.com.br/leite/leite-uht-integral-1l-piracanjuba
 2026-11-24 07:25,leite,Zoom,Magazine Luiza,"Leite Integral Piracanjuba 1L, 1, 1L",9.98,9.08,,formando,https://www.zoom.com.br/lead?oid=1398212852
+2026-11-24 19:16,azeite,Amazon,Amazon,Azeite Andorinha Extra Virgem 3L,151.9,144.31,48.1,normal,https://www.amazon.com.br/dp/B07Y5PC854
+2026-11-24 19:16,azeite,Amazon,Amazon,Azeite de Oliva Andorinha Puro PET 500ml,27.45,26.08,52.16,normal,https://www.amazon.com.br/dp/B0CVQS8DBC
+2026-11-24 19:16,azeite,Amazon,Amazon,Azeite de Oliva Extra Virgem Vicente Só 500ml - Turquia,27.9,26.5,53.0,normal,https://www.amazon.com.br/dp/B0FT8SQYZJ
+2026-11-24 19:16,azeite,Zoom,Amazon,Azeite Extra Virgem Vidro 500ml - Andorinha,28.990000000000002,27.54,55.08,normal,https://www.zoom.com.br/azeite/azeite-extra-virgem-vidro-500ml-andorinha
+2026-11-24 19:16,azeite,Amazon,Amazon,Azeite De Oliva Extra Virgem Andorinha - 500ml,28.99,27.54,55.08,normal,https://www.amazon.com.br/dp/B00P9VQCXY
+2026-11-24 19:16,azeite,Amazon,Amazon,Azeite Extra Virgem Oliveira Da Serra 500ml,29.07,27.62,55.24,normal,https://www.amazon.com.br/dp/B097CK4W7S
+2026-11-24 19:16,azeite,Amazon,Amazon,Azeite Fontoliva Extra Virgem 500ml,29.6,28.12,56.24,normal,https://www.amazon.com.br/dp/B09F7YCLDG
+2026-11-24 19:16,azeite,Amazon,Amazon,Azeite de Oliva Extra Virgem Essenza D’Italia 500ml,29.9,28.4,56.8,normal,https://www.amazon.com.br/dp/B0H1F7TRGZ
+2026-11-24 19:16,azeite,Amazon,Amazon,Azeite de Oliva Gallo Tipo Único - 500Ml,30.87,29.33,58.66,normal,https://www.amazon.com.br/dp/B014G3O8UO
+2026-11-24 19:16,azeite,Amazon,Amazon,Azeite de Oliva Extra Virgem Costa d`Oro Olivizia 500ml,31.7,30.11,60.22,normal,https://www.amazon.com.br/dp/B0FPSNFFRN
+2026-11-24 19:16,azeite,Amazon,Amazon,"Azeite de oliva extra virgem, O-LIVE & Co, Chileno, vidro, 450ml",28.99,27.54,61.2,normal,https://www.amazon.com.br/dp/B0CZS2LGFD
+2026-11-24 19:16,azeite,Zoom,Amazon,Azeite De Oliva Extra Virgem Cocinero 500ml,32.89,31.25,62.5,normal,https://www.zoom.com.br/azeite/azeite-de-oliva-extra-virgem-cocinero-500ml
+2026-11-24 19:16,amazfit-bip-6,Zoom,Magazine Luiza,"Smartwatch Amazfit Bip 6 46,0 mm GPS",419.0,381.29,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 19:16,amazfit-bip-6,Zoom,Amazon,"Smartwatch Amazfit Bip 6 46,0 mm GPS",458.1,435.19,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 19:16,amazfit-bip-6,Amazon,Amazon,"Relógio Inteligente Amazfit Bip 6 Smartwatch 1.97'' Gps,GPS & Free Maps, AI, Bluetooth Call, 5 ATM Water-Resistance (preto)",483.55,459.37,,normal,https://www.amazon.com.br/dp/B0FBLSHVKD
+2026-11-24 19:16,amazfit-bip-6,Amazon,Amazon,"Amazfit Bip 6 Smart Watch 46 mm, bateria de 14 dias, tela AMOLED de 1,97 polegadas, resistência à água 5 ATM, GPS e mapas gratuitos, IA, chamada via Bluetooth, mais de 140 modos de treino (Black)",493.05,468.4,,normal,https://www.amazon.com.br/dp/B0DYJKTHYF
+2026-11-24 19:16,amazfit-bip-6,Amazon,Amazon,"Amazfit Bip 6 Smart Watch 46 mm, bateria de 14 dias, tela AMOLED de 1,97 polegadas, resistência à água 5 ATM, GPS e mapas gratuitos, IA, chamada via Bluetooth, mais de 140 modos de treino (Stone)",502.55,477.42,,normal,https://www.amazon.com.br/dp/B0DYJN3ZM8
+2026-11-24 19:16,amazfit-bip-6,Amazon,Amazon,"Amazfit Bip 6 smartwatch 46 mm, bateria de 14 dias, tela AMOLED de 1,97 polegadas, GPS & mapas gratuitos,chamadas Bluetooth & texto, modo de exercício 140 +, 5 ATM impermeável(bip 6 black)",512.05,486.45,,normal,https://www.amazon.com.br/dp/B0F9PB3T8W
+2026-11-24 19:16,amazfit-bip-6,Amazon,Amazon,"Amazfit Bip 6 smartwatch 46 mm, bateria de 14 dias, tela AMOLED de 1,97 polegadas, GPS e mapas gratuitos, mais de 140 modos de exercício, 5 ATM resistente à água (Bip 6 Black)",512.05,486.45,,normal,https://www.amazon.com.br/dp/B0FBQRF4B7
+2026-11-24 19:16,amazfit-bip-6,Amazon,Amazon,"Amazfit Bip 6 Smart Watch, 1.97"" AMOLED Display, GPS, iOS/Android(stone)",512.05,486.45,,normal,https://www.amazon.com.br/dp/B0HQ6G47YH
+2026-11-24 19:16,amazfit-bip-6,Zoom,Amazon,"Smartwatch Amazfit Bip 6 46,0 mm GPS",539.0,512.05,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 19:16,amazfit-bip-6,Zoom,Magazine Luiza,"Smartwatch Amazfit Bip 6 46,0 mm GPS",608.0,553.28,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 19:16,amazfit-bip-6,Zoom,Magazine Luiza,"Smartwatch Amazfit Bip 6 46,0 mm GPS",608.0,553.28,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 19:16,amazfit-bip-6,Zoom,Want Import,"Smartwatch Amazfit Bip 6 46,0 mm GPS",604.8,574.56,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 19:16,redstone-1-7l,Amazon,Amazon,"Frigideira Philco PPN20A Revestimento Redstone 1,1L",102.22,97.11,,baixo,https://www.amazon.com.br/dp/B0DCYD6CB6
+2026-11-24 19:16,redstone-1-7l,Manual,Mercado Livre,"Frigideira Philco Redstone 1,7 L (preço informado por Fernando)",109.9,104.41,,baixo,https://lista.mercadolivre.com.br/frigideira-redstone-1-7-litros
+2026-11-24 19:16,redstone-1-7l,Amazon,Amazon,Frigideira Cerâmica Antiaderente Revestimento Redstone 5 Camadas Premim,129.1,122.64,,baixo,https://www.amazon.com.br/dp/B0GSGZ5CY5
+2026-11-24 19:16,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Philco PPH240AFR Revestimento Redstone 1,7L, Cinza e Vermel",149.31,135.87,,baixo,https://www.zoom.com.br/lead?oid=1390409643
+2026-11-24 19:16,redstone-1-7l,Zoom,Webcontinental,"Frigideira Definitive Pph240afr Antiaderente Revestimento Redstone 1,7L 24cm Vermelho e Cinza Philco",150.21,142.7,,baixo,https://www.zoom.com.br/lead?oid=1487430686
+2026-11-24 19:16,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Philco Definitive Pph240afr Revestimento Redstone 1,7l Verm",164.61,149.8,,baixo,https://www.zoom.com.br/lead?oid=1560540648
+2026-11-24 19:16,redstone-1-7l,Zoom,Americanas,"Frigideira Philco PPH240AFR Revestimento Redstone 1,7L",158.31,150.39,,baixo,https://www.zoom.com.br/lead?oid=1577682684
+2026-11-24 19:16,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Antiaderente Fundo Triplo Redstone 1,7 Litros - PPH240AFR -",185.91,169.18,,baixo,https://www.zoom.com.br/lead?oid=1483637332
+2026-11-24 19:16,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Philco PPH240AFR Redstone 1.7L - 58335029 CINZA/VERMELHO, C",214.74,195.41,,baixo,https://www.zoom.com.br/lead?oid=1403417415
+2026-11-24 19:16,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Philco PPH240AFR Redstone Revestimento Antiaderente 1,7L 24",224.91,204.67,,baixo,https://www.zoom.com.br/lead?oid=1424461225
+2026-11-24 19:16,redstone-1-7l,Amazon,Amazon,Kit 2 Frigideiras Antiaderente Redstone Cerâmico Premium 20 e 28 cm,335.91,319.11,,baixo,https://www.amazon.com.br/dp/B0HK9VX1Q1
+2026-11-24 19:16,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Redstone Philco 1,7 Litros Antiaderente Cor Cinza",528.47,480.91,,baixo,https://www.zoom.com.br/lead?oid=1581780551
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,"Escova de Dentes Colgate Classic Clean, 3 Unidades",8.99,8.54,,formando,https://www.amazon.com.br/dp/B07C35MHF9
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,"Escova de Dente Sanifill Essencial, Pack com 3 Unidades",9.48,9.01,,formando,https://www.amazon.com.br/dp/B08N2D1NN6
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,Powerdent Escova Dental Sustentável Ecocarenature (2 Unidades),13.91,13.21,,formando,https://www.amazon.com.br/dp/B08GSTB4NR
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,"Escova de Dente Sensodyne, Extra Macia, para Dentes Sensíveis",15.9,15.11,,formando,https://www.amazon.com.br/dp/B07FHHN29Z
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,Colgate Escova de Dentes Pro Care Sensitive com Cerdas Extra Macias 2 unidades,16.87,16.03,,formando,https://www.amazon.com.br/dp/B0G7MM22MS
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,"Oral B Iconic Premium, escova de dentes, 3 unidades",19.95,18.95,,formando,https://www.amazon.com.br/dp/B0F7J4VXKN
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,"Escova de Dente Sanifill Infinite, Cerdas Extramacias",22.49,21.37,,formando,https://www.amazon.com.br/dp/B08N2D8LKW
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,"Sensodyne Escova de Dente Extra Macia Gentle, para Dentes Sensíveis, Suave às Gengivas, 2 unidades",23.78,22.59,,formando,https://www.amazon.com.br/dp/B07MYS35MC
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,"TOYADENT Escova de Dente Adultos, 5500 Cerdas Macia, Kit Família 3 Unidades",26.5,25.17,,formando,https://www.amazon.com.br/dp/B0FG2DQF7G
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,TOYADENT Escova de Dentes com 5500 Cerdas Macia de Carvão Ativado,26.5,25.17,,formando,https://www.amazon.com.br/dp/B0G3V82YQZ
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,Sensodyne Limpeza Profunda Escova de Dente Extra Macia para Dentes Sensíveis - Kit com 2 unid.,27.23,25.87,,formando,https://www.amazon.com.br/dp/B0C3T31ZRF
+2026-11-24 19:16,escova-de-dentes,Amazon,Amazon,"Oral-B Escova de Dentes Indicator, 3 Unidades, Preto",27.9,26.5,,formando,https://www.amazon.com.br/dp/B0BZ55JFW9
+2026-11-24 19:16,pasta-de-dente-infantil,Amazon,Amazon,"Kit Dentista Infantil 4 Peças, Brinquedo Educativo de Faz de Conta com Estetoscópio, Escova, Pasta de Dente e Dente Sorridente, Plástico PP Colorido, Acima de 3 Anos",31.8,30.21,,formando,https://www.amazon.com.br/dp/B0HKNHWPD5
+2026-11-24 19:16,pasta-de-dente-infantil,Amazon,Amazon,Brinquedo Kit Higiene Bucal Infantil Hipopótamo Escova Pasta Simulador Dente Educativo Crianças Azul (Rosa),39.9,37.9,,formando,https://www.amazon.com.br/dp/B0G6VTD6FW
+2026-11-24 19:16,pasta-de-dente-infantil,Amazon,Amazon,"Kit Dentista Infantil com 13 Itens, maleta, pasta de dente, óculos lúdicos, 2 dentes, 5 cartinhas animadas, escova de dentes, espátula, espelhinho e boca com dentes que abre e fecha Cor Verde",91.1,86.54,,formando,https://www.amazon.com.br/dp/B0FQ62KMTF
+2026-11-24 19:16,pasta-de-dente-infantil,Amazon,Amazon,"Kit Dentista Infantil com 13 Itens, maleta, pasta de dente, óculos lúdicos, 2 dentes, 5 cartinhas animadas, escova de dentes, espátula, espelhinho e boca com dentes que abre e fecha cor Rosa",91.1,86.54,,formando,https://www.amazon.com.br/dp/B0FQ62J9RN
+2026-11-24 19:16,pasta-de-dente-infantil,Amazon,Amazon,"Dispensador de pasta de dente infantil, capa de pasta de dente de neve",113.34,107.67,,formando,https://www.amazon.com.br/dp/B0HQQKQR78
+2026-11-24 19:16,pasta-de-dente-infantil,Amazon,Amazon,Dispositivo Automático De Pasta Dente Infantil Com Ventosa Sem Bateria - Bomba Vácuo Econômica Para Banheiro Familiar,189.43,179.96,,formando,https://www.amazon.com.br/dp/B0H75L8LD5
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,Ypê Detergente Concentrado Antibac 416g,10.99,10.44,,formando,https://www.amazon.com.br/dp/B09BPFL7PL
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,Ypê Pack Detergente Limão 500ml (6 unidades),13.49,12.82,,formando,https://www.amazon.com.br/dp/B096ZW6VMY
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,Ypê Detergente em Pó para Máquina 450g,19.38,18.41,,formando,https://www.amazon.com.br/dp/B0B4KQJ7GX
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,Detergente Líquido Ypê 500ml Clear - Kit Com 6 Unidades,25.43,24.16,,formando,https://www.amazon.com.br/dp/B08XQLCR8P
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,Ypê Pack Detergente Neutro 500ml (6 unidades),26.9,25.55,,formando,https://www.amazon.com.br/dp/B0HRX466BX
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,Ypê Pack Detergente Clear 500ml (6 unidades),27.89,26.5,,formando,https://www.amazon.com.br/dp/B096ZV6PM1
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,Detergente Lava Louças Ypê Com 6 Unidades Neutro 500ml,28.31,26.89,,formando,https://www.amazon.com.br/dp/B0HKWV32D5
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,Ypê Detergente Neutro 5L,34.4,32.68,,formando,https://www.amazon.com.br/dp/B07HZMBBBQ
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,"Kit 6 Detergentes Ypê 500ml Alto Rendimento Poder Desengordurante e Economia (1, Clear Care)",35.97,34.17,,formando,https://www.amazon.com.br/dp/B0GH47W3P3
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,"Kit 6 Detergentes Ypê 500ml Alto Rendimento Poder Desengordurante e Economia (1, Neutro)",35.97,34.17,,formando,https://www.amazon.com.br/dp/B0GH4CGX46
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,Ypê Detergente em Pó para Máquina 1Kg,59.49,56.52,,formando,https://www.amazon.com.br/dp/B0CSYPRC2Q
+2026-11-24 19:16,detergente-ype,Amazon,Amazon,"Detergente Líquido, para Louças, Ypê Pro, Neutro, 7 Litros",62.54,59.41,,formando,https://www.amazon.com.br/dp/B0HK27T6C4
+2026-11-24 19:16,multiuso,Amazon,Amazon,Veja Power Fusion Desinfetante Multiuso Coco 500ml,8.49,8.07,,formando,https://www.amazon.com.br/dp/B08ZYR5TN3
+2026-11-24 19:16,multiuso,Amazon,Amazon,"Ajax Limpeza Pura Menta e Orquídea Limpador Multiuso, 1L",9.84,9.35,,formando,https://www.amazon.com.br/dp/B07G5SPT19
+2026-11-24 19:16,multiuso,Amazon,Amazon,Multiuso Cremoso Premium Ypê Original 300ml,10.04,9.54,,formando,https://www.amazon.com.br/dp/B07Q4X17TG
+2026-11-24 19:16,multiuso,Amazon,Amazon,Veja Limpador Multiuso Campestre 500ml,10.11,9.6,,formando,https://www.amazon.com.br/dp/B07DYW9JM3
+2026-11-24 19:16,multiuso,Amazon,Amazon,Limpador Multiuso Veja Perfumado Jojo Marcante e Envolvente 500ml,10.3,9.79,,formando,https://www.amazon.com.br/dp/B0CP4B7NB2
+2026-11-24 19:16,multiuso,Amazon,Amazon,Veja Limpador Multiuso Perfumado Moderno e Poderoso 500ml,10.39,9.87,,formando,https://www.amazon.com.br/dp/B0CP48NFWT
+2026-11-24 19:16,multiuso,Amazon,Amazon,"Pano de Limpeza Multiuso Powermaid, 21x29 cm, 25 Unidades",12.0,11.4,,formando,https://www.amazon.com.br/dp/B0C2JLHJRY
+2026-11-24 19:16,multiuso,Amazon,Amazon,Flash Limp Pano Multiuso Rolo Com 50 Unidades Lavável E Secagem Rápida Azul - 50% Viscose,15.0,14.25,,formando,https://www.amazon.com.br/dp/B08CK7J5QG
+2026-11-24 19:16,multiuso,Amazon,Amazon,Ou Borrifador Multiuso de Plástico 500ml Bege Linha Flow,18.17,17.26,,formando,https://www.amazon.com.br/dp/B0CZTTSHB7
+2026-11-24 19:16,multiuso,Amazon,Amazon,"Limpador Multiuso Veja Gold, Original, 500ml, Pack com 4 Unidades",18.79,17.85,,formando,https://www.amazon.com.br/dp/B08NDWZJ2D
+2026-11-24 19:16,multiuso,Amazon,Amazon,"Snob Papel toalha multiuso folha dupla branca hiper 360fls, 3 rolos",18.99,18.04,,formando,https://www.amazon.com.br/dp/B0CFSDVHFR
+2026-11-24 19:16,multiuso,Amazon,Amazon,Bio7 Limpador Multiuso Desengordurante de Superficies 500ml nano4you,21.23,20.17,,formando,https://www.amazon.com.br/dp/B09FFL7P57
+2026-11-24 19:16,vinagre,Amazon,Amazon,Vinagre de Abacaxi Mariza750 ml,6.5,6.17,,formando,https://www.amazon.com.br/dp/B0GN8Z5SRP
+2026-11-24 19:16,vinagre,Zoom,Magazine Luiza,Vinagre de Vinho  ni 500ml,6.89,6.27,,formando,https://www.zoom.com.br/tintas/vinagre-de-vinho-ni-500ml
+2026-11-24 19:16,vinagre,Amazon,Amazon,Vinagre de Álcool Colorido Castelo 750ml,6.8,6.46,,formando,https://www.amazon.com.br/dp/B07F22WS2H
+2026-11-24 19:16,vinagre,Amazon,Amazon,Vinagre Toscano Sabor Ervas Finas 750ml,7.21,6.85,,formando,https://www.amazon.com.br/dp/B0FY3ZNBN5
+2026-11-24 19:16,vinagre,Amazon,Amazon,Vinagre Toscano Sabor Limão 750ml,7.21,6.85,,formando,https://www.amazon.com.br/dp/B0FY3XN9Z1
+2026-11-24 19:16,vinagre,Amazon,Amazon,Vinagre Toscano Sabor Cebola 750ml,8.0,7.6,,formando,https://www.amazon.com.br/dp/B0FY3XBT8V
+2026-11-24 19:16,vinagre,Amazon,Amazon,Vinagre de Maçã Palhinha 400ml,8.65,8.22,,formando,https://www.amazon.com.br/dp/B0HD3X8PSB
+2026-11-24 19:16,vinagre,Amazon,Amazon,Vinagre de Limão Siciliano Castelo 750ml,8.76,8.32,,formando,https://www.amazon.com.br/dp/B0GYBGVLVY
+2026-11-24 19:16,vinagre,Zoom,Amazon,Vinagre Toscano De Maçã 750ml,9.03,8.58,,formando,https://www.zoom.com.br/lead?oid=612598268
+2026-11-24 19:16,vinagre,Amazon,Amazon,Vinagre Toscano De Vinho Branco 750ml,9.03,8.58,,formando,https://www.amazon.com.br/dp/B07XPK4DZQ
+2026-11-24 19:16,vinagre,Amazon,Amazon,Vinagre Toscano De Maçã 750ml,9.03,8.58,,formando,https://www.amazon.com.br/dp/B07XKTYN77
+2026-11-24 19:16,vinagre,Amazon,Amazon,Vinagre Toscano De Vinho Tinto 750ml,9.03,8.58,,formando,https://www.amazon.com.br/dp/B07XPK457G
+2026-11-24 19:16,oleo,Amazon,Amazon,"Óleo De Abacate Natutrat Sos, Skafe",8.51,8.08,,formando,https://www.amazon.com.br/dp/B088J115CG
+2026-11-24 19:16,oleo,Amazon,Amazon,"Óleo de Girassol Cicatrizante, Transparente, Demaex, 200 ml",9.45,8.98,,formando,https://www.amazon.com.br/dp/B07BQMR7SL
+2026-11-24 19:16,oleo,Amazon,Amazon,Paixão Óleo Corporal Avelã 100 Ml,10.99,10.44,,formando,https://www.amazon.com.br/dp/B07F1TLCYG
+2026-11-24 19:16,oleo,Amazon,Amazon,Paixão Óleo Corporal Framboesa Negra Com Ação Desodorante Tamanho: 100 Ml (Pacote De 1),11.17,10.61,,formando,https://www.amazon.com.br/dp/B09VPBQRT5
+2026-11-24 19:16,oleo,Zoom,Magazine Luiza,Óleo Lubrificante Multiuso 100 ml Singer,12.59,11.46,,formando,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-lubrificante-multiuso-100-ml-singer
+2026-11-24 19:16,oleo,Amazon,Amazon,Paixão Óleo Corporal Tentadora 100 Ml,13.39,12.72,,formando,https://www.amazon.com.br/dp/B07F1THSY7
+2026-11-24 19:16,oleo,Zoom,Magazine Luiza,Óleo Lubrificante Multiuso 100 ml Singer,14.25,12.97,,formando,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-lubrificante-multiuso-100-ml-singer
+2026-11-24 19:16,oleo,Amazon,Amazon,"Óleo Corporal Paixão, Flor de Baunilha, 100ml",14.69,13.96,,formando,https://www.amazon.com.br/dp/B09VP7Y4R1
+2026-11-24 19:16,oleo,Amazon,Amazon,"Óleo Iluminador de Camomila 50ml, Lola Cosmetics",16.39,15.57,,formando,https://www.amazon.com.br/dp/B08RCVCC5X
+2026-11-24 19:16,oleo,Amazon,Amazon,Óleo de Girassol Nutriex Dermaes,16.9,16.05,,formando,https://www.amazon.com.br/dp/B09X1NMSM9
+2026-11-24 19:16,oleo,Amazon,Amazon,"Pinga Cenoura e Oliva Óleo 50ml , Lola Cosmetics",17.04,16.19,,formando,https://www.amazon.com.br/dp/B07QHKCG9N
+2026-11-24 19:16,oleo,Amazon,Amazon,Pantene Pro-V Óleo Capilar Queratina Milagroso Finalizador Leave-in 95 ml,17.61,16.73,,formando,https://www.amazon.com.br/dp/B0CVXT2K1S
+2026-11-24 19:16,torrada,Amazon,Amazon,"OKOSHI - Torrada de Tapioca com Coco - Snacks Saudáveis de Baixas Calorias, Lanches Fit para a Dieta - Vegano, Sem Açúcar, Sem Glúten, Sem Lactose, Sem Gordura Trans, Kosher - 75g",6.3,5.98,,formando,https://www.amazon.com.br/dp/B08TS8ZFY8
+2026-11-24 19:16,torrada,Amazon,Amazon,"Torrada de Arroz Integral Orgânico Okoshi, Quinoa e Linhaça, 75g",6.3,5.98,,formando,https://www.amazon.com.br/dp/B07Z7J26QN
+2026-11-24 19:16,torrada,Amazon,Amazon,"Torrada de Arroz Integral Orgânico Okoshi, Chia e Gergelim, 75g",6.3,5.98,,formando,https://www.amazon.com.br/dp/B07Z7GCMQ3
+2026-11-24 19:16,torrada,Zoom,Magazine Luiza,Torrada Bauducco Tradicional - 142g,6.79,6.18,,formando,https://www.zoom.com.br/lead?oid=1452245184
+2026-11-24 19:16,torrada,Zoom,Magazine Luiza,Torrada Bauducco Integral 142 G.,7.13,6.49,,formando,https://www.zoom.com.br/torrada/torrada-bauducco-integral-142-g
+2026-11-24 19:16,torrada,Amazon,Amazon,Torrada Tradicional Natural Life - Sem Glúten - Vegana - 75g,6.96,6.61,,formando,https://www.amazon.com.br/dp/B0DZXZHF53
+2026-11-24 19:16,torrada,Amazon,Amazon,"OKOSHI - Torrada de Milho com Coco - Snacks Saudáveis de Baixa Caloria, Lanches Fit para a Dieta - Vegano, Sem Glúten, Sem Lactose, Sem Gordura Trans, Kosher - 75g",7.6,7.22,,formando,https://www.amazon.com.br/dp/B08TSCHFMB
+2026-11-24 19:16,torrada,Amazon,Amazon,Torrada Tradicional Bauducco MultiPack 284g,8.09,7.69,,formando,https://www.amazon.com.br/dp/B098PZZJG9
+2026-11-24 19:16,torrada,Zoom,Magazine Luiza,Torrada Bauducco Integral 142 G.,8.9,8.1,,formando,https://www.zoom.com.br/torrada/torrada-bauducco-integral-142-g
+2026-11-24 19:16,torrada,Zoom,Magazine Luiza,Torrada Tradicional 142g - Adria,8.9,8.1,,formando,https://www.zoom.com.br/lead?oid=1410058974
+2026-11-24 19:16,torrada,Amazon,Amazon,Torrada Toast Natural Life - Sabor Cacau - Sem Glúten - Vegano - 78g,8.89,8.45,,formando,https://www.amazon.com.br/dp/B0GBZ8RL6R
+2026-11-24 19:16,torrada,Zoom,Magazine Luiza,Torrada toast peito de peru kodilar 78g,9.49,8.64,,formando,https://www.zoom.com.br/lead?oid=1530823315
+2026-11-24 19:16,aveia,Amazon,Amazon,AVEIA EM FLOCOS FINOS KININO 170G,3.77,3.58,,formando,https://www.amazon.com.br/dp/B08GTYMSVY
+2026-11-24 19:16,aveia,Amazon,Amazon,Aveia em Flocos 200G Kinino,3.77,3.58,,formando,https://www.amazon.com.br/dp/B08GVWCB6N
+2026-11-24 19:16,aveia,Amazon,Amazon,FARINHA DE AVEIA KININO 170G,3.77,3.58,,formando,https://www.amazon.com.br/dp/B08GVTJSS9
+2026-11-24 19:16,aveia,Amazon,Amazon,"Aveia em Flocos Finos KiSabor, 170g",4.04,3.84,,formando,https://www.amazon.com.br/dp/B0BRTJY7DX
+2026-11-24 19:16,aveia,Amazon,Amazon,Aveia em Flocos Finos 165g Fazenda Sedrez,4.29,4.08,,formando,https://www.amazon.com.br/dp/B09CWTFBZH
+2026-11-24 19:16,aveia,Amazon,Amazon,Fazenda Sedrez Aveia Em Flocos Grossos 165G,4.29,4.08,,formando,https://www.amazon.com.br/dp/B09CWSDN9L
+2026-11-24 19:16,aveia,Amazon,Amazon,Fazenda Sedrez Aveia Em Flocos 165G,4.29,4.08,,formando,https://www.amazon.com.br/dp/B09CX17TZP
+2026-11-24 19:16,aveia,Amazon,Amazon,"Aveia em Flocos Finos Nestlé, 170g, Pack com 28 Unidades",4.99,4.74,,formando,https://www.amazon.com.br/dp/B0C4MP7B88
+2026-11-24 19:16,aveia,Amazon,Amazon,Nutry Aveia Em Flocos Finos 170G,5.39,5.12,,formando,https://www.amazon.com.br/dp/B07YGY9G25
+2026-11-24 19:16,aveia,Amazon,Amazon,Aveia em Flocos Nestlé Caixa 170g,5.49,5.22,,formando,https://www.amazon.com.br/dp/B07T6JR1VX
+2026-11-24 19:16,aveia,Amazon,Amazon,Farinha de aveia NESTLÉ 170g,5.49,5.22,,formando,https://www.amazon.com.br/dp/B0F8PGRPSK
+2026-11-24 19:16,aveia,Amazon,Amazon,Nestlé Aveia Em Flocos Finos Caixa 170G,5.59,5.31,,formando,https://www.amazon.com.br/dp/B07H611QLM
+2026-11-24 19:16,farinha-de-trigo,Amazon,Amazon,"Farinha de Trigo Integral, Branco, Vitao, 500 g",8.9,8.46,,formando,https://www.amazon.com.br/dp/B08BW8J398
+2026-11-24 19:16,farinha-de-trigo,Amazon,Amazon,"Farinha de Trigo Puríssima de 1 Kg, Tipo 1, Famiglia Venturelli.",8.99,8.54,,formando,https://www.amazon.com.br/dp/B08CD1B2LF
+2026-11-24 19:16,farinha-de-trigo,Amazon,Amazon,Farinha de Trigo Tipo 1 1Kg Anaconda Premium,9.51,9.03,,formando,https://www.amazon.com.br/dp/B00AJUHL8U
+2026-11-24 19:16,farinha-de-trigo,Amazon,Amazon,Grings Farinha Trigo Integral 500G,9.5,9.03,,formando,https://www.amazon.com.br/dp/B07X7XK16P
+2026-11-24 19:16,farinha-de-trigo,Zoom,Magazine Luiza,Farinha De Trigo Massa Fresca Orquídea 1Kg,10.12,9.21,,formando,https://www.zoom.com.br/suplementos/farinha-de-trigo-massa-fresca-orquidea-1kg
+2026-11-24 19:16,farinha-de-trigo,Amazon,Amazon,"Farinha de Trigo Alma Italiana de 1 Kg, Tipo 1, Famiglia Venturelli.",10.49,9.97,,formando,https://www.amazon.com.br/dp/B0CQYX5KNL
+2026-11-24 19:16,farinha-de-trigo,Zoom,Amazon,Farinha De Trigo Sarraceno Giroil 250g ,12.9,12.25,,formando,https://www.zoom.com.br/suplementos/farinha-de-trigo-sarraceno-giroil-250g
+2026-11-24 19:16,farinha-de-trigo,Amazon,Amazon,Farinha de Trigo 1kg | Renata Tipo 1 Puríssima,17.97,17.07,,formando,https://www.amazon.com.br/dp/B0GTY1ZVNC
+2026-11-24 19:16,farinha-de-trigo,Zoom,Magazine Luiza,Farinha de trigo tipo 00 Colavita 1kg,19.0,17.29,,formando,https://www.zoom.com.br/suplementos/farinha-de-trigo-tipo-00-colavita-1kg
+2026-11-24 19:16,farinha-de-trigo,Amazon,Amazon,FARINHA TRIGO TIPO 1 RENATA 1 kg,18.49,17.57,,formando,https://www.amazon.com.br/dp/B00EOAKAKC
+2026-11-24 19:16,farinha-de-trigo,Amazon,Amazon,FARINHA DE TRIGO INTEGRAL ORGANICA 500G,19.88,18.89,,formando,https://www.amazon.com.br/dp/B07XSB695L
+2026-11-24 19:16,farinha-de-trigo,Amazon,Amazon,"Farinha de Trigo ECOBIO, Orgânica",19.99,18.99,,formando,https://www.amazon.com.br/dp/B07XLB63TG
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,Piracanjuba Creme De Leite Bate Chantilly 200G,18.22,17.31,,formando,https://www.amazon.com.br/dp/B07TZN8FPZ
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,"Creme de Leite Camponesa Profissional, 1,01kg",19.9,18.9,,formando,https://www.amazon.com.br/dp/B0FMXMF64Y
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,"Creme de Leite Leve UHT Homogeneizado, 17% de Gordura, 200g, Kit com 3 Unidades",19.9,18.9,,formando,https://www.amazon.com.br/dp/B0GY21ZX1K
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,"Creme de Leite Piracanjuba, 1 030kg",23.79,22.6,,formando,https://www.amazon.com.br/dp/B076BJKG5Q
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,Creme De Leite Leitíssimo UHT 20% de Gordura 200g - Ideal para Receita Culinária Gourmet Sobremesas Cobertura de Bolos Tortas - Kit com 3 unids.,29.99,28.49,,formando,https://www.amazon.com.br/dp/B0GTWP16R5
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,Creme De Leite 200g com 5,30.5,28.97,,formando,https://www.amazon.com.br/dp/B0HQNZ7K6D
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,Creme de Leite (25% de Gordura) NESTLÉ 1kg,30.99,29.44,,formando,https://www.amazon.com.br/dp/B09WW5B2JB
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,Creme de Leite Gourmet Piracanjuba 200G - Kit 3 Unidades,40.75,38.71,,formando,https://www.amazon.com.br/dp/B0H9ZRC8XK
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,"Naveia Kit Creme Deleite Vegetal, 6 Unidades, 200ml Cada",42.65,40.52,,formando,https://www.amazon.com.br/dp/B0H5FYPJ2V
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,"Creme de Leite Piracanjuba UHT Homogeneizado, 15% Gordura, 200g, Kit com 6 Unidades",43.6,41.42,,formando,https://www.amazon.com.br/dp/B0H2BWBKTH
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,Kit 3 Creme de Leite Gourmet Piracanjuba 200G,45.77,43.48,,formando,https://www.amazon.com.br/dp/B0H8MPB4G8
+2026-11-24 19:16,creme-de-leite,Amazon,Amazon,"Espumador de Leite Pressca – Cremeira Manual Para Leite Quente e Frio, Livre de BPA, Vai ao Micro-ondas, Alta Resistência, Café Cremoso em Segundos - Cor:Preto",55.9,53.1,,formando,https://www.amazon.com.br/dp/B07QY22KP1
+2026-11-24 19:16,leite,Amazon,Amazon,Sococo Leite De Coco 200Ml,5.49,5.22,,formando,https://www.amazon.com.br/dp/B003Y9AGJO
+2026-11-24 19:16,leite,Folheto,Supermercados BH (Matozinhos),Leite Condensado Camponesa Semidesnatado TP 395g,5.58,5.52,,formando,https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf
+2026-11-24 19:16,leite,Zoom,Magazine Luiza,Leite Longa Vida Piracanjuba Integral 1 Litro,7.39,6.72,,formando,https://www.zoom.com.br/leite/leite-longa-vida-piracanjuba-integral-1-litro
+2026-11-24 19:16,leite,Folheto,Supermercados Paranaíba (Matozinhos),Leite Fermentado Elegê Bob Esponja 480g c/6 Sabores,6.99,6.92,,formando,https://supermercadosparanaiba.com.br/ofertas/
+2026-11-24 19:16,leite,Zoom,Magazine Luiza,Leite UHT Desnatado Piracanjuba  1L,7.83,7.13,,formando,https://www.zoom.com.br/lead?oid=1560139736
+2026-11-24 19:16,leite,Amazon,Amazon,LEITE UHT ITAMBÉ INTEGRAL 1L,7.79,7.4,,formando,https://www.amazon.com.br/dp/B088NHFJQZ
+2026-11-24 19:16,leite,Amazon,Amazon,Notco NotMilk High Protein Leite Vegetal 15g Chocolate 250 ml,7.99,7.59,,formando,https://www.amazon.com.br/dp/B09ZYNZZDN
+2026-11-24 19:16,leite,Amazon,Amazon,Camponesa Leite UHT Integral 1 L,7.99,7.59,,formando,https://www.amazon.com.br/dp/B09VYF7G5B
+2026-11-24 19:16,leite,Amazon,Amazon,"Leite UHT Semidesnatado Camponesa, 1L",7.99,7.59,,formando,https://www.amazon.com.br/dp/B0D38CS4L4
+2026-11-24 19:16,leite,Amazon,Amazon,"Moça Leite Condensado Tetra Pak, 395g",7.99,7.59,,formando,https://www.amazon.com.br/dp/B082JFX8YP
+2026-11-24 19:16,leite,Zoom,Magazine Luiza,Leite UHT Integral Jussara 1 litro,8.54,7.77,,formando,https://www.zoom.com.br/lead?oid=1395369822
+2026-11-24 19:16,leite,Zoom,Magazine Luiza,Leite Desnatado Piracanjuba Zero Lactose 1 Litro,8.82,8.03,,formando,https://www.zoom.com.br/lead?oid=1379183753
