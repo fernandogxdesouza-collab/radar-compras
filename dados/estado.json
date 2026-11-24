@@ -68,6 +68,12 @@
     "preco": 83.5,
     "loja": "Amazon",
     "titulo": "Azeite Andorinha Pet 2L"
+   },
+   "2026-11-24": {
+    "valor": 55.08,
+    "preco": 28.990000000000002,
+    "loja": "Amazon",
+    "titulo": "Azeite Extra Virgem Vidro 500ml - Andorinha"
    }
   },
   "alertado": {
@@ -134,6 +140,12 @@
     "preco": 419.0,
     "loja": "Magazine Luiza",
     "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
+   },
+   "2026-11-24": {
+    "valor": 381.29,
+    "preco": 419.0,
+    "loja": "Magazine Luiza",
+    "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
    }
   }
  },
@@ -186,6 +198,12 @@
     "preco": 109.9,
     "loja": "Mercado Livre",
     "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
+   },
+   "2026-11-24": {
+    "valor": 104.41,
+    "preco": 109.9,
+    "loja": "Mercado Livre",
+    "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
    }
   }
  },
@@ -230,6 +248,12 @@
     "preco": 185.07,
     "loja": "Magazine Luiza",
     "titulo": "Armário Multiuso 2 Portas Demóbile Viena"
+   },
+   "2026-11-24": {
+    "valor": 167.62,
+    "preco": 184.2,
+    "loja": "Magazine Luiza",
+    "titulo": "Armário Multiuso 2 Portas Demóbile Viena"
    }
   },
   "alertado": {
@@ -244,12 +268,24 @@
     "preco": 9.03,
     "loja": "Amazon",
     "titulo": "Vinagre Toscano De Maçã 750ml"
+   },
+   "2026-11-24": {
+    "valor": 8.58,
+    "preco": 9.03,
+    "loja": "Amazon",
+    "titulo": "Vinagre Toscano De Maçã 750ml"
    }
   }
  },
  "oleo": {
   "dias": {
    "2026-11-23": {
+    "valor": 23.77,
+    "preco": 26.12,
+    "loja": "Magazine Luiza",
+    "titulo": "Óleo Lubrificante Multiuso 100 ml Singer"
+   },
+   "2026-11-24": {
     "valor": 23.77,
     "preco": 26.12,
     "loja": "Magazine Luiza",
@@ -264,12 +300,24 @@
     "preco": 54.63,
     "loja": "Magazine Luiza",
     "titulo": "Castanha de Caju Inteira Torrada Sem Sal Casa Santa Luzia - 190g"
+   },
+   "2026-11-24": {
+    "valor": 49.71,
+    "preco": 54.63,
+    "loja": "Magazine Luiza",
+    "titulo": "Castanha de Caju Inteira Torrada Sem Sal Casa Santa Luzia - 190g"
    }
   }
  },
  "aveia": {
   "dias": {
    "2026-11-23": {
+    "valor": 6.6,
+    "preco": 6.95,
+    "loja": "Amazon",
+    "titulo": "Farinha de Aveia Apti"
+   },
+   "2026-11-24": {
     "valor": 6.6,
     "preco": 6.95,
     "loja": "Amazon",
@@ -284,12 +332,24 @@
     "preco": 10.12,
     "loja": "Magazine Luiza",
     "titulo": "Farinha De Trigo Massa Fresca Orquídea 1Kg"
+   },
+   "2026-11-24": {
+    "valor": 9.21,
+    "preco": 10.12,
+    "loja": "Magazine Luiza",
+    "titulo": "Farinha De Trigo Massa Fresca Orquídea 1Kg"
    }
   }
  },
  "creme-de-leite": {
   "dias": {
    "2026-11-23": {
+    "valor": 2.65,
+    "preco": 2.68,
+    "loja": "Supermercados BH (Matozinhos)",
+    "titulo": "Creme de Leite Camponesa TP 200g"
+   },
+   "2026-11-24": {
     "valor": 2.65,
     "preco": 2.68,
     "loja": "Supermercados BH (Matozinhos)",
@@ -304,6 +364,12 @@
  "leite": {
   "dias": {
    "2026-11-23": {
+    "valor": 4.27,
+    "preco": 4.69,
+    "loja": "Magazine Luiza",
+    "titulo": "Leite Piracanjuba Integral UHT 1L"
+   },
+   "2026-11-24": {
     "valor": 4.27,
     "preco": 4.69,
     "loja": "Magazine Luiza",

@@ -863,3 +863,110 @@ data,produto,fonte,loja,titulo,preco,liquido,unitario,zona,link
 2026-11-23 19:11,leite,Zoom,Magazine Luiza,Leite Semidesnatado UHT Ninho Levinho 1L,8.98,8.17,,formando,https://www.zoom.com.br/lead?oid=1410069876
 2026-11-23 19:11,leite,Zoom,Magazine Luiza,Leite Uht Integral 1l Piracanjuba,9.41,8.56,,formando,https://www.zoom.com.br/leite/leite-uht-integral-1l-piracanjuba
 2026-11-23 19:11,leite,Zoom,Magazine Luiza,"Leite Integral Piracanjuba 1L, 1, 1L",9.98,9.08,,formando,https://www.zoom.com.br/lead?oid=1398212852
+2026-11-24 07:25,azeite,Zoom,Amazon,Azeite Extra Virgem Vidro 500ml - Andorinha,28.990000000000002,27.54,55.08,baixo,https://www.zoom.com.br/azeite/azeite-extra-virgem-vidro-500ml-andorinha
+2026-11-24 07:25,azeite,Zoom,Amazon,Azeite De Oliva Extra Virgem Cocinero 500ml,32.89,31.25,62.5,baixo,https://www.zoom.com.br/azeite/azeite-de-oliva-extra-virgem-cocinero-500ml
+2026-11-24 07:25,azeite,Zoom,Magazine Luiza,"Azeite de Oliva Extra Virgem Gallo Reserva - 500ml, 500ml",40.49,38.47,76.94,baixo,https://www.zoom.com.br/lead?oid=1379827838
+2026-11-24 07:25,azeite,Zoom,Magazine Luiza,Azeite Extra Virgem Nova Oliva 500ml,40.9,38.85,77.7,baixo,https://www.zoom.com.br/lead?oid=1560255871
+2026-11-24 07:25,azeite,Zoom,Magazine Luiza,Azeite de oliva extra virgem Olitalia 500ml,42.61,40.48,80.96,baixo,https://www.zoom.com.br/azeite/azeite-de-oliva-extra-virgem-olitalia-500ml
+2026-11-24 07:25,azeite,Zoom,Magazine Luiza,Azeite De Oliva Extra Virgem Cocinero 500ml,43.61,41.43,82.86,baixo,https://www.zoom.com.br/azeite/azeite-de-oliva-extra-virgem-cocinero-500ml
+2026-11-24 07:25,azeite,Zoom,Amazon,Azeite de oliva extra virgem EA 500ml,54.0,51.3,102.6,baixo,https://www.zoom.com.br/azeite/azeite-de-oliva-extra-virgem-ea-500ml
+2026-11-24 07:25,azeite,Zoom,Magazine Luiza,Azeite De Oliva Extra Virgem Cocinero 500ml,62.99,59.84,119.68,baixo,https://www.zoom.com.br/azeite/azeite-de-oliva-extra-virgem-cocinero-500ml
+2026-11-24 07:25,azeite,Zoom,Magazine Luiza,Azeite de Oliva Extra Virgem Filippo Berio 500ml,64.46,61.24,122.48,baixo,https://www.zoom.com.br/azeite/azeite-de-oliva-extra-virgem-filippo-berio-500ml
+2026-11-24 07:25,azeite,Zoom,Amazon,Azeite de Oliva Extra Virgem 500ml Herdade do Esporão,66.5,63.17,126.34,baixo,https://www.zoom.com.br/azeite/azeite-de-oliva-extra-virgem-500ml-herdade-do-esporao
+2026-11-24 07:25,azeite,Zoom,Magazine Luiza,Azeite oliva terrano extra virgem 500ml,71.09,67.54,135.08,baixo,https://www.zoom.com.br/lead?oid=1396613354
+2026-11-24 07:25,azeite,Zoom,Magazine Luiza,Azeite De Oliva Extra Virgem Gomes Da Costa 500ml,71.09,67.54,135.08,baixo,https://www.zoom.com.br/azeite/azeite-de-oliva-extra-virgem-gomes-da-costa-500ml
+2026-11-24 07:25,amazfit-bip-6,Zoom,Magazine Luiza,"Smartwatch Amazfit Bip 6 46,0 mm GPS",419.0,381.29,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 07:25,amazfit-bip-6,Zoom,Amazon,"Smartwatch Amazfit Bip 6 46,0 mm GPS",458.1,435.19,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 07:25,amazfit-bip-6,Zoom,Amazon,"Smartwatch Amazfit Bip 6 46,0 mm GPS",539.0,512.05,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 07:25,amazfit-bip-6,Zoom,Magazine Luiza,"Smartwatch Amazfit Bip 6 46,0 mm GPS",608.0,553.28,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 07:25,amazfit-bip-6,Zoom,Magazine Luiza,"Smartwatch Amazfit Bip 6 46,0 mm GPS",608.0,553.28,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 07:25,amazfit-bip-6,Zoom,Want Import,"Smartwatch Amazfit Bip 6 46,0 mm GPS",604.8,574.56,,normal,https://www.zoom.com.br/smartwatch/smartwatch-amazfit-bip-6-46-0-mm-gps
+2026-11-24 07:25,amazfit-bip-6,Zoom,Magazine Luiza,Smartwatch Amazfit Bip 6 Relógio Inteligente Bluetooth Esportivo Tela ,683.0,621.53,,normal,https://www.zoom.com.br/lead?oid=1578662778
+2026-11-24 07:25,redstone-1-7l,Manual,Mercado Livre,"Frigideira Philco Redstone 1,7 L (preço informado por Fernando)",109.9,104.41,,normal,https://lista.mercadolivre.com.br/frigideira-redstone-1-7-litros
+2026-11-24 07:25,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Philco PPH240AFR Revestimento Redstone 1,7L, Cinza e Vermel",149.31,135.87,,normal,https://www.zoom.com.br/lead?oid=1390409643
+2026-11-24 07:25,redstone-1-7l,Zoom,Webcontinental,"Frigideira Definitive Pph240afr Antiaderente Revestimento Redstone 1,7L 24cm Vermelho e Cinza Philco",150.21,142.7,,normal,https://www.zoom.com.br/lead?oid=1487430686
+2026-11-24 07:25,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Philco Definitive Pph240afr Revestimento Redstone 1,7l Verm",164.61,149.8,,normal,https://www.zoom.com.br/lead?oid=1560540648
+2026-11-24 07:25,redstone-1-7l,Zoom,Americanas,"Frigideira Philco PPH240AFR Revestimento Redstone 1,7L",158.31,150.39,,normal,https://www.zoom.com.br/lead?oid=1577682684
+2026-11-24 07:25,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Antiaderente Fundo Triplo Redstone 1,7 Litros - PPH240AFR -",185.91,169.18,,normal,https://www.zoom.com.br/lead?oid=1483637332
+2026-11-24 07:25,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Philco PPH240AFR Redstone 1.7L - 58335029 CINZA/VERMELHO, C",214.74,195.41,,normal,https://www.zoom.com.br/lead?oid=1403417415
+2026-11-24 07:25,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Philco PPH240AFR Redstone Revestimento Antiaderente 1,7L 24",224.91,204.67,,normal,https://www.zoom.com.br/lead?oid=1424461225
+2026-11-24 07:25,redstone-1-7l,Zoom,Magazine Luiza,"Frigideira Redstone Philco 1,7 Litros Antiaderente Cor Cinza",528.47,480.91,,normal,https://www.zoom.com.br/lead?oid=1581780551
+2026-11-24 07:25,multiuso,Zoom,Magazine Luiza,Armário Multiuso 2 Portas Demóbile Viena,184.2,167.62,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-2-portas-demobile-viena
+2026-11-24 07:25,multiuso,Zoom,Americanas,Armário Multiuso Demóbile Viena C/2 Portas ,180.78,169.93,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-demobile-viena-c-2-portas
+2026-11-24 07:25,multiuso,Zoom,Americanas,Armário Multiuso Demóbile Viena C/2 Portas ,180.78,169.93,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-demobile-viena-c-2-portas
+2026-11-24 07:25,multiuso,Zoom,Americanas,Armário Multiuso Demóbile Viena C/2 Portas ,180.78,169.93,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-demobile-viena-c-2-portas
+2026-11-24 07:25,multiuso,Zoom,Americanas,Armário Multiuso Demóbile Viena C/2 Portas ,180.78,169.93,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-demobile-viena-c-2-portas
+2026-11-24 07:25,multiuso,Zoom,Magazine Luiza,Armário Multiuso 2 Portas Demóbile Viena,188.91,171.91,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-2-portas-demobile-viena
+2026-11-24 07:25,multiuso,Zoom,Magazine Luiza,Armário Multiuso 2 Portas Demóbile Viena,188.91,171.91,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-2-portas-demobile-viena
+2026-11-24 07:25,multiuso,Zoom,Americanas,Armário Multiuso Demóbile Viena C/2 Portas ,183.18,172.19,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-demobile-viena-c-2-portas
+2026-11-24 07:25,multiuso,Zoom,Americanas,Armário Multiuso Demóbile Viena C/2 Portas ,183.18,172.19,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-demobile-viena-c-2-portas
+2026-11-24 07:25,multiuso,Zoom,Americanas,Armário Multiuso Organizador na 2 Portas  - AJL Móveis,184.8,173.71,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-organizador-na-2-portas-ajl-moveis
+2026-11-24 07:25,multiuso,Zoom,Magazine Luiza,Armário Multiuso Organizador na 2 Portas  - AJL Móveis,191.89,174.62,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-organizador-na-2-portas-ajl-moveis
+2026-11-24 07:25,multiuso,Zoom,Magazine Luiza,Armário Multiuso Organizador na 2 Portas  - AJL Móveis,192.78,175.43,,baixo,https://www.zoom.com.br/armario-multiuso/armario-multiuso-organizador-na-2-portas-ajl-moveis
+2026-11-24 07:25,vinagre,Zoom,Amazon,Vinagre Toscano De Maçã 750ml,9.03,8.58,,formando,https://www.zoom.com.br/lead?oid=612598268
+2026-11-24 07:25,vinagre,Zoom,Magazine Luiza,Vinagre de Maçã 400ml - Almaromi ,13.02,11.85,,formando,https://www.zoom.com.br/tempero-especiarias-e-condimentos/vinagre-de-maca-400ml-almaromi
+2026-11-24 07:25,vinagre,Zoom,Magazine Luiza,Vinagre  Clássico Castelo 750ml,13.63,12.4,,formando,https://www.zoom.com.br/tempero-especiarias-e-condimentos/vinagre-classico-castelo-750ml
+2026-11-24 07:25,vinagre,Zoom,Magazine Luiza,Creme Skala Vinagre De Maça C/ Queratina - Utensilios,19.79,18.01,,formando,https://www.zoom.com.br/hidratacao-tratamento-cabelos/creme-skala-vinagre-de-maca-c-queratina-utensilios
+2026-11-24 07:25,vinagre,Zoom,Magazine Luiza,Vinagre de Maça 500ml - Viccino,19.9,18.11,,formando,https://www.zoom.com.br/lead?oid=1393653481
+2026-11-24 07:25,vinagre,Zoom,Amazon,Vinagre de Maçã Orgânico Almaromi 400ml,21.3,20.23,,formando,https://www.zoom.com.br/tempero-especiarias-e-condimentos/vinagre-de-maca-organico-almaromi-400ml
+2026-11-24 07:25,vinagre,Zoom,Magazine Luiza,Ativador de Cachos Kolene Vinagre de Maçã e Queratina 300ml,23.45,21.34,,formando,https://www.zoom.com.br/hidratacao-tratamento-cabelos/ativador-de-cachos-kolene-vinagre-de-maca-e-queratina-300ml
+2026-11-24 07:25,vinagre,Zoom,Magazine Luiza,Vinagre de Maçã Olitalia 500ml,23.8,21.66,,formando,https://www.zoom.com.br/lead?oid=1385670390
+2026-11-24 07:25,vinagre,Zoom,Amazon,Vinagre De Maçã Orgânico São Francisco 250ml - 6% Acidez,24.0,22.8,,formando,https://www.zoom.com.br/tempero-especiarias-e-condimentos/vinagre-de-maca-organico-sao-francisco-250ml-6-acidez
+2026-11-24 07:25,vinagre,Zoom,Magazine Luiza,Vinagre De Maçã Orgânico - 250ml ni,26.32,23.95,,formando,https://www.zoom.com.br/tempero-especiarias-e-condimentos/vinagre-de-maca-organico-250ml-ni
+2026-11-24 07:25,vinagre,Zoom,Amazon,Vinagre de Maçã La Pastina 250ml,25.25,23.99,,formando,https://www.zoom.com.br/tempero-especiarias-e-condimentos/vinagre-de-maca-la-pastina-250ml
+2026-11-24 07:25,vinagre,Zoom,Magazine Luiza,Vinagre de Maçã Orgânico 500ml São Roque,29.96,27.26,,formando,https://www.zoom.com.br/tempero-especiarias-e-condimentos/vinagre-de-maca-organico-500ml-sao-roque
+2026-11-24 07:25,oleo,Zoom,Magazine Luiza,Óleo Lubrificante Multiuso 100 ml Singer,26.12,23.77,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-lubrificante-multiuso-100-ml-singer
+2026-11-24 07:25,oleo,Zoom,Magazine Luiza,Oleo de Moto Mobil Super Moto 20w50 Mineral 4t 1lt,28.5,25.93,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-de-moto-mobil-super-moto-20w50-mineral-4t-1lt
+2026-11-24 07:25,oleo,Zoom,Magazine Luiza,Oleo de Moto Mobil Super Moto 20w50 Mineral 4t 1lt,28.83,26.24,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-de-moto-mobil-super-moto-20w50-mineral-4t-1lt
+2026-11-24 07:25,oleo,Zoom,Magazine Luiza,Oleo de Moto Mobil Super Moto 20w50 Mineral 4t 1lt,30.27,27.55,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-de-moto-mobil-super-moto-20w50-mineral-4t-1lt
+2026-11-24 07:25,oleo,Zoom,Magazine Luiza,Oleo motor mineral sae20w50 sj acdelco oleo motor mineral acdelco sae2,34.27,31.19,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-motor-mineral-sae20w50-sj-acdelco-oleo-motor-mineral-acdelco-sae2
+2026-11-24 07:25,oleo,Zoom,Magazine Luiza,Oleo de Moto Mobil Super Moto 20w50 Mineral 4t 1lt,39.9,36.31,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-de-moto-mobil-super-moto-20w50-mineral-4t-1lt
+2026-11-24 07:25,oleo,Zoom,Magazine Luiza,Oleo de Moto Mobil Super Moto 20w50 Mineral 4t 1lt,41.77,38.01,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-de-moto-mobil-super-moto-20w50-mineral-4t-1lt
+2026-11-24 07:25,oleo,Zoom,Amazon,Oleo de Moto Mobil Super Moto 20w50 Mineral 4t 1lt,45.47,43.2,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-de-moto-mobil-super-moto-20w50-mineral-4t-1lt
+2026-11-24 07:25,oleo,Zoom,Magazine Luiza,Oleo De Motor Shell Helix Ultra 5w30 ECT C2 Diesel 1lt,47.64,43.35,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-de-motor-shell-helix-ultra-5w30-ect-c2-diesel-1lt
+2026-11-24 07:25,oleo,Zoom,Magazine Luiza,Oleo Petronas Selenia Perform 5w40 Oleo Motor Sintetico 1lt,49.9,45.41,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-petronas-selenia-perform-5w40-oleo-motor-sintetico-1lt
+2026-11-24 07:25,oleo,Zoom,Amazon,Óleo Mobil 15w40,47.98,45.58,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-mobil-15w40
+2026-11-24 07:25,oleo,Zoom,Magazine Luiza,Óleo para motorcraft ford 20w50,56.99,51.86,,alto,https://www.zoom.com.br/oleo-e-aditivo-para-carro/oleo-para-motorcraft-ford-20w50
+2026-11-24 07:25,torrada,Zoom,Magazine Luiza,Castanha de Caju Inteira Torrada Sem Sal Casa Santa Luzia - 190g,54.63,49.71,,formando,https://www.zoom.com.br/lead?oid=1527433477
+2026-11-24 07:25,torrada,Zoom,Amazon,Castanha de Baru Torrada Sem Casca Viva Salute - 500g,52.551,49.92,,formando,https://www.zoom.com.br/lead?oid=201305546
+2026-11-24 07:25,torrada,Zoom,Magazine Luiza,Castanha De Caju Torrada Sem Sal 500G Wenutri,59.9,54.51,,formando,https://www.zoom.com.br/petiscos/castanha-de-caju-torrada-sem-sal-500g-wenutri
+2026-11-24 07:25,torrada,Zoom,Magazine Luiza,Castanha de Caju Torrada Sem Sal Yummys 500g,91.44,83.21,,formando,https://www.zoom.com.br/petiscos/castanha-de-caju-torrada-sem-sal-yummys-500g
+2026-11-24 07:25,torrada,Zoom,Amazon,"Fastwolf fatiador de pão, guia de corte de torrada ajustável para pão caseiro, fatiador de pão dobrável, máquina de fatiar torrada com 5 fatias de fatiar",87.64,83.26,,formando,https://www.zoom.com.br/lead?oid=954204108
+2026-11-24 07:25,torrada,Zoom,Amazon,Castanha De Caju Torrada Sem Sal Wenutri 1 Kg,102.9,97.75,,formando,https://www.zoom.com.br/petiscos/castanha-de-caju-torrada-sem-sal-wenutri-1-kg
+2026-11-24 07:25,torrada,Zoom,Amazon,Castanha De Caju W1 Inteira Torrada Com Sal 1Kg Della Terra,114.9,109.16,,formando,https://www.zoom.com.br/lead?oid=815735449
+2026-11-24 07:25,torrada,Zoom,Magazine Luiza,Castanha De Caju King Nuts 1Kg Torrada E Salgada,125.0,113.75,,formando,https://www.zoom.com.br/petiscos/castanha-de-caju-king-nuts-1kg-torrada-e-salgada
+2026-11-24 07:25,torrada,Zoom,Magazine Luiza,Castanha De Caju Torrada Sem Sal 1Kg King Nuts,129.99,118.29,,formando,https://www.zoom.com.br/petiscos/castanha-de-caju-torrada-sem-sal-1kg-king-nuts
+2026-11-24 07:25,torrada,Zoom,Magazine Luiza,Avelã Torrada Inteiro S/casca E S/sal 1kg Tõnn,132.05,120.17,,formando,https://www.zoom.com.br/lead?oid=1571203250
+2026-11-24 07:25,torrada,Zoom,Magazine Luiza,Castanha de Caju Inteira Torrada Sem Sal Casa Santa Luzia - 550g,152.95,139.18,,formando,https://www.zoom.com.br/lead?oid=1399608452
+2026-11-24 07:25,torrada,Zoom,Amazon,Castanha De  Caju Salgada E Torrada 1Kg,149.99,142.49,,formando,https://www.zoom.com.br/petiscos/castanha-de-caju-salgada-e-torrada-1kg
+2026-11-24 07:25,aveia,Zoom,Amazon,Farinha de Aveia Apti,6.95,6.6,,formando,https://www.zoom.com.br/lead?oid=201954035
+2026-11-24 07:25,aveia,Zoom,Amazon,Farinha De Aveia 400G Grings,8.58,8.15,,formando,https://www.zoom.com.br/suplementos/farinha-de-aveia-400g-grings
+2026-11-24 07:25,aveia,Zoom,Amazon,Farinha de Aveia 500g,8.9,8.46,,formando,https://www.zoom.com.br/lead?oid=357691935
+2026-11-24 07:25,aveia,Zoom,Magazine Luiza,Hidratante Origem Proteínas do Leite e Aveia 380ml,9.3,8.46,,formando,https://www.zoom.com.br/lead?oid=1514053230
+2026-11-24 07:25,aveia,Zoom,Amazon,"Farinha de Aveia Sem Glúten Vitao 170g - Farinha Integral Rica em Fibras para Bolo, Panqueca, Empanados e Receitas Fit",10.32,9.8,,formando,https://www.zoom.com.br/lead?oid=287062707
+2026-11-24 07:25,aveia,Zoom,Amazon,Ração Melaçada Para Cavalo 15% Proteína Trotte Mix Aveia e Milho. (1 KG),17.99,17.09,,formando,https://www.zoom.com.br/lead?oid=1491193395
+2026-11-24 07:25,aveia,Zoom,Magazine Luiza,Bebida de Aveia 15g Sabor Cacau Nude 250ml,21.95,19.97,,formando,https://www.zoom.com.br/lead?oid=1560477289
+2026-11-24 07:25,aveia,Zoom,Magazine Luiza,Leite Vegetal de Aveia Mais Cálcio Orgânico Nude 1L,22.71,20.67,,formando,https://www.zoom.com.br/lead?oid=1564408933
+2026-11-24 07:25,aveia,Zoom,Magazine Luiza,Cereal de Aveia Baunilha Nude  180g,25.56,23.26,,formando,https://www.zoom.com.br/lead?oid=1500670720
+2026-11-24 07:25,aveia,Zoom,Amazon,Farinha de Aveia 1kg,25.97,24.67,,formando,https://www.zoom.com.br/suplementos/farinha-de-aveia-1kg
+2026-11-24 07:25,aveia,Zoom,Magazine Luiza,Ninho NutriAdvance Mix Leite Ninho Arroz e Aveia 350g,29.99,27.29,,formando,https://www.zoom.com.br/lead?oid=1444931290
+2026-11-24 07:25,aveia,Zoom,Amazon,Farinha de Aveia Viva Salute - 1Kg,29.99,28.49,,formando,https://www.zoom.com.br/suplementos/farinha-de-aveia-viva-salute-1kg
+2026-11-24 07:25,farinha-de-trigo,Zoom,Magazine Luiza,Farinha De Trigo Massa Fresca Orquídea 1Kg,10.12,9.21,,normal,https://www.zoom.com.br/suplementos/farinha-de-trigo-massa-fresca-orquidea-1kg
+2026-11-24 07:25,farinha-de-trigo,Zoom,Amazon,Farinha De Trigo Sarraceno Giroil 250g ,12.9,12.25,,normal,https://www.zoom.com.br/suplementos/farinha-de-trigo-sarraceno-giroil-250g
+2026-11-24 07:25,farinha-de-trigo,Zoom,Magazine Luiza,Farinha de trigo tipo 00 Colavita 1kg,19.0,17.29,,normal,https://www.zoom.com.br/suplementos/farinha-de-trigo-tipo-00-colavita-1kg
+2026-11-24 07:25,farinha-de-trigo,Zoom,Amazon,Farinha De Trigo Sarraceno Orgânico Coopernatural 500G,35.78,33.99,,normal,https://www.zoom.com.br/suplementos/farinha-de-trigo-sarraceno-organico-coopernatural-500g
+2026-11-24 07:25,farinha-de-trigo,Zoom,Magazine Luiza,Farinha De Trigo Pizza Mirella Tipo 1 5Kg,40.49,36.85,,normal,https://www.zoom.com.br/suplementos/farinha-de-trigo-pizza-mirella-tipo-1-5kg
+2026-11-24 07:25,farinha-de-trigo,Zoom,Amazon,Kit 3X: Farinha de Trigo Sarraceno Sem Glúten Ceres 200g,50.88,48.34,,normal,https://www.zoom.com.br/suplementos/kit-3x-farinha-de-trigo-sarraceno-sem-gluten-ceres-200g
+2026-11-24 07:25,creme-de-leite,Folheto,Supermercados BH (Matozinhos),Creme de Leite Camponesa TP 200g,2.68,2.65,,formando,https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf
+2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite Piracanjuba Integral UHT 1L,4.69,4.27,,formando,https://www.zoom.com.br/lead?oid=1522119584
+2026-11-24 07:25,leite,Folheto,Supermercados BH (Matozinhos),Leite Condensado Camponesa Semidesnatado TP 395g,5.58,5.52,,formando,https://stgrsbhprd.blob.core.windows.net/site-supermercados-bh/mov-folheto/15ef6457-b48a-45cb-9b67-e65267babb16/c713b6a0-fecd-446c-83a9-c948ab6ff730.pdf
+2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite Longa Vida Piracanjuba Integral 1 Litro,7.39,6.72,,formando,https://www.zoom.com.br/leite/leite-longa-vida-piracanjuba-integral-1-litro
+2026-11-24 07:25,leite,Folheto,Supermercados Paranaíba (Matozinhos),Leite Fermentado Elegê Bob Esponja 480g c/6 Sabores,6.99,6.92,,formando,https://supermercadosparanaiba.com.br/ofertas/
+2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite UHT Desnatado Piracanjuba  1L,7.83,7.13,,formando,https://www.zoom.com.br/lead?oid=1560139736
+2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite UHT Integral Jussara 1 litro,8.54,7.77,,formando,https://www.zoom.com.br/lead?oid=1395369822
+2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite Desnatado Piracanjuba Zero Lactose 1 Litro,8.82,8.03,,formando,https://www.zoom.com.br/lead?oid=1379183753
+2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite Uht Integral 1l Piracanjuba,8.96,8.15,,formando,https://www.zoom.com.br/leite/leite-uht-integral-1l-piracanjuba
+2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite Uht Integral 1l Piracanjuba,8.96,8.15,,formando,https://www.zoom.com.br/leite/leite-uht-integral-1l-piracanjuba
+2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite Semidesnatado UHT Ninho Levinho 1L,8.98,8.17,,formando,https://www.zoom.com.br/lead?oid=1410069876
+2026-11-24 07:25,leite,Zoom,Magazine Luiza,Leite Uht Integral 1l Piracanjuba,9.41,8.56,,formando,https://www.zoom.com.br/leite/leite-uht-integral-1l-piracanjuba
+2026-11-24 07:25,leite,Zoom,Magazine Luiza,"Leite Integral Piracanjuba 1L, 1, 1L",9.98,9.08,,formando,https://www.zoom.com.br/lead?oid=1398212852
