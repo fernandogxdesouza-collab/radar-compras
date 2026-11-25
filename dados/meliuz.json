@@ -3,7 +3,7 @@
   "base": 10.0,
   "tiers": [
    [
-    "Todos os produtos da categoria Utilidades domésticas vendidos e entregues por Magalu",
+    "Todos os produtos da categoria Informática vendidos e entregues por Magalu",
     10.0
    ],
    [
@@ -19,12 +19,12 @@
     2.0
    ]
   ],
-  "lido_em": "2026-11-24"
+  "lido_em": "2026-11-25"
  },
  "Mercado Livre": {
   "base": 1.5,
   "tiers": [],
-  "lido_em": "2026-11-24"
+  "lido_em": "2026-11-25"
  },
  "KaBuM!": {
   "base": 10.0,
@@ -34,25 +34,33 @@
     10.0
    ],
    [
+    "Eletroportáteis produzidos, vendidos e entregues por KaBuM!",
+    10.0
+   ],
+   [
+    "Periféricos vendidos e entregues por KaBuM!",
+    5.0
+   ],
+   [
     "Demais categorias",
     1.0
    ]
   ],
-  "lido_em": "2026-11-24"
+  "lido_em": "2026-11-25"
  },
  "Americanas": {
   "base": 4.0,
   "tiers": [],
-  "lido_em": "2026-11-24"
+  "lido_em": "2026-11-25"
  },
  "Shopee": {
   "base": 1.0,
   "tiers": [],
-  "lido_em": "2026-11-24"
+  "lido_em": "2026-11-25"
  },
  "Amazon": {
   "base": 0.0,
   "tiers": [],
-  "lido_em": "2026-11-24"
+  "lido_em": "2026-11-25"
  }
 }
