@@ -80,6 +80,12 @@
     "preco": 24.9,
     "loja": "Amazon",
     "titulo": "Azeite de Oliva Andorinha Puro PET 500ml"
+   },
+   "2026-11-26": {
+    "valor": 55.08,
+    "preco": 28.990000000000002,
+    "loja": "Amazon",
+    "titulo": "Azeite Extra Virgem Vidro 500ml - Andorinha"
    }
   },
   "alertado": {
@@ -158,6 +164,12 @@
     "preco": 419.0,
     "loja": "Magazine Luiza",
     "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
+   },
+   "2026-11-26": {
+    "valor": 389.67,
+    "preco": 419.0,
+    "loja": "Magazine Luiza",
+    "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
    }
   }
  },
@@ -222,6 +234,12 @@
     "preco": 109.9,
     "loja": "Amazon",
     "titulo": "Frigideira Philco PPN20A Revestimento Redstone 1,1L"
+   },
+   "2026-11-26": {
+    "valor": 104.41,
+    "preco": 109.9,
+    "loja": "Mercado Livre",
+    "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
    }
   },
   "alertado": {
@@ -282,6 +300,12 @@
     "preco": 7.21,
     "loja": "Amazon",
     "titulo": "Limpador Multiuso Perfumado, Mistério Intenso, 500ml"
+   },
+   "2026-11-26": {
+    "valor": 171.31,
+    "preco": 184.2,
+    "loja": "Magazine Luiza",
+    "titulo": "Armário Multiuso 2 Portas Demóbile Viena"
    }
   },
   "alertado": {
@@ -308,6 +332,12 @@
     "preco": 6.89,
     "loja": "Magazine Luiza",
     "titulo": "Vinagre de Vinho  ni 500ml"
+   },
+   "2026-11-26": {
+    "valor": 12.24,
+    "preco": 13.02,
+    "loja": "Magazine Luiza",
+    "titulo": "Vinagre de Maçã 400ml - Almaromi "
    }
   }
  },
@@ -330,6 +360,12 @@
     "preco": 9.29,
     "loja": "Amazon",
     "titulo": "Oleo de Milho"
+   },
+   "2026-11-26": {
+    "valor": 24.29,
+    "preco": 26.12,
+    "loja": "Magazine Luiza",
+    "titulo": "Óleo Lubrificante Multiuso 100 ml Singer"
    }
   }
  },
@@ -352,6 +388,12 @@
     "preco": 5.72,
     "loja": "Amazon",
     "titulo": "TORRADA ADRIA LIGHT 142G"
+   },
+   "2026-11-26": {
+    "valor": 49.92,
+    "preco": 52.551,
+    "loja": "Amazon",
+    "titulo": "Castanha de Baru Torrada Sem Casca Viva Salute - 500g"
    }
   }
  },
@@ -374,6 +416,12 @@
     "preco": 3.77,
     "loja": "Amazon",
     "titulo": "AVEIA EM FLOCOS FINOS KININO 170G"
+   },
+   "2026-11-26": {
+    "valor": 6.6,
+    "preco": 6.95,
+    "loja": "Amazon",
+    "titulo": "Farinha de Aveia Apti"
    }
   }
  },
@@ -396,6 +444,12 @@
     "preco": 7.25,
     "loja": "Amazon",
     "titulo": "Farinha de Trigo Tradicional Dona Benta 1Kg"
+   },
+   "2026-11-26": {
+    "valor": 12.25,
+    "preco": 12.9,
+    "loja": "Amazon",
+    "titulo": "Farinha De Trigo Sarraceno Giroil 250g "
    }
   }
  },
@@ -418,6 +472,12 @@
     "preco": 8.9,
     "loja": "Amazon",
     "titulo": "Creme Deleite Vegetal 200mL - Naveia"
+   },
+   "2026-11-26": {
+    "valor": 2.65,
+    "preco": 2.68,
+    "loja": "Supermercados BH (Matozinhos)",
+    "titulo": "Creme de Leite Camponesa TP 200g"
    }
   },
   "alertado": {
@@ -444,6 +504,12 @@
     "preco": 5.49,
     "loja": "Amazon",
     "titulo": "Sococo Leite De Coco 200Ml"
+   },
+   "2026-11-26": {
+    "valor": 4.41,
+    "preco": 4.69,
+    "loja": "Magazine Luiza",
+    "titulo": "Leite Piracanjuba Integral UHT 1L"
    }
   },
   "alertado": {
