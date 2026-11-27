@@ -2,30 +2,6 @@
   "alvo_historico_minimo_dias": 7,
   "produtos": [
     {
-      "id": "azeite",
-      "nome": "Azeite de oliva extra virgem 500 ml",
-      "buscas": [
-        "azeite de oliva extra virgem 500ml"
-      ],
-      "exige": [
-        "azeite"
-      ],
-      "exclui": [
-        "spray",
-        "cápsula",
-        "capsula",
-        "dispenser",
-        "galheteiro",
-        "porta",
-        "saboneteira",
-        "cosmético",
-        "cosmetico"
-      ],
-      "unidade": "l",
-      "preco_alvo": null,
-      "categoria": "mercado"
-    },
-    {
       "id": "amazfit-bip-6",
       "nome": "Smartwatch Amazfit Bip 6 (GPS, AMOLED, 5 ATM)",
       "buscas": [
