@@ -132,14 +132,13 @@
       "preco_alvo": null
     },
     {
-      "id": "farinha-de-trigo",
-      "nome": "Farinha de trigo",
+      "id": "aveia",
+      "nome": "Aveia",
       "buscas": [
-        "Farinha de trigo"
+        "Aveia"
       ],
       "exige": [
-        "farinha",
-        "trigo"
+        "aveia"
       ],
       "exclui": [],
       "unidade": null,
