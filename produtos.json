@@ -291,6 +291,22 @@
       "unidade": null,
       "categoria": "geral",
       "preco_alvo": null
+    },
+    {
+      "id": "galaxy-buds-core",
+      "nome": "Galaxy buds core",
+      "buscas": [
+        "Galaxy buds core"
+      ],
+      "exige": [
+        "galaxy",
+        "buds",
+        "core"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
     }
   ],
   "_manuais": "Preços que você viu e o robô não alcança (Mercado Livre, folhetos de supermercado). Campos: loja, preco, data, titulo, link; validade AAAA-MM-DD (senão vale 14 dias); fisico true = compra presencial (sem portal nem Pix); qtd (kg/l) só se o título não trouxer o peso.",
