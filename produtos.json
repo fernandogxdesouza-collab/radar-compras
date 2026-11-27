@@ -104,13 +104,13 @@
       "preco_alvo": null
     },
     {
-      "id": "vinagre",
-      "nome": "Vinagre",
+      "id": "oleo",
+      "nome": "Óleo",
       "buscas": [
-        "Vinagre"
+        "Óleo"
       ],
       "exige": [
-        "vinagre"
+        "oleo"
       ],
       "exclui": [],
       "unidade": null,
