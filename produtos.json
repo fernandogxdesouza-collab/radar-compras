@@ -118,20 +118,6 @@
       "preco_alvo": null
     },
     {
-      "id": "torrada",
-      "nome": "Torrada",
-      "buscas": [
-        "Torrada"
-      ],
-      "exige": [
-        "torrada"
-      ],
-      "exclui": [],
-      "unidade": null,
-      "categoria": "geral",
-      "preco_alvo": null
-    },
-    {
       "id": "aveia",
       "nome": "Aveia",
       "buscas": [
