@@ -60,15 +60,29 @@
       ]
     },
     {
-      "id": "pasta-de-dente-infantil",
-      "nome": "Pasta de dente infantil",
+      "id": "escova-de-dentes",
+      "nome": "Escova de dentes",
       "buscas": [
-        "Pasta de dente infantil"
+        "Escova de dentes"
       ],
       "exige": [
-        "pasta",
-        "dente",
-        "infantil"
+        "escova",
+        "dentes"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
+    },
+    {
+      "id": "detergente-ype",
+      "nome": "Detergente Ypê",
+      "buscas": [
+        "Detergente Ypê"
+      ],
+      "exige": [
+        "detergente",
+        "ype"
       ],
       "exclui": [],
       "unidade": null,
