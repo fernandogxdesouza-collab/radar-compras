@@ -76,14 +76,13 @@
       "preco_alvo": null
     },
     {
-      "id": "detergente-ype",
-      "nome": "Detergente Ypê",
+      "id": "multiuso",
+      "nome": "Multiuso",
       "buscas": [
-        "Detergente Ypê"
+        "Multiuso"
       ],
       "exige": [
-        "detergente",
-        "ype"
+        "multiuso"
       ],
       "exclui": [],
       "unidade": null,
