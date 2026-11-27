@@ -146,20 +146,6 @@
       "preco_alvo": null
     },
     {
-      "id": "aveia",
-      "nome": "Aveia",
-      "buscas": [
-        "Aveia"
-      ],
-      "exige": [
-        "aveia"
-      ],
-      "exclui": [],
-      "unidade": null,
-      "categoria": "geral",
-      "preco_alvo": null
-    },
-    {
       "id": "farinha-de-trigo",
       "nome": "Farinha de trigo",
       "buscas": [
