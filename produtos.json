@@ -307,6 +307,24 @@
       "unidade": null,
       "categoria": "geral",
       "preco_alvo": null
+    },
+    {
+      "id": "samsung-galaxy-watch8-44-mm",
+      "nome": "Samsung Galaxy Watch8 44 mm",
+      "buscas": [
+        "Samsung Galaxy Watch8 44 mm"
+      ],
+      "exige": [
+        "samsung",
+        "galaxy",
+        "watch8",
+        "44",
+        "mm"
+      ],
+      "exclui": [],
+      "unidade": null,
+      "categoria": "geral",
+      "preco_alvo": null
     }
   ],
   "_manuais": "Preços que você viu e o robô não alcança (Mercado Livre, folhetos de supermercado). Campos: loja, preco, data, titulo, link; validade AAAA-MM-DD (senão vale 14 dias); fisico true = compra presencial (sem portal nem Pix); qtd (kg/l) só se o título não trouxer o peso.",
