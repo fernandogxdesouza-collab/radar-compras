@@ -118,20 +118,6 @@
       "preco_alvo": null
     },
     {
-      "id": "oleo",
-      "nome": "Óleo",
-      "buscas": [
-        "Óleo"
-      ],
-      "exige": [
-        "oleo"
-      ],
-      "exclui": [],
-      "unidade": null,
-      "categoria": "geral",
-      "preco_alvo": null
-    },
-    {
       "id": "torrada",
       "nome": "Torrada",
       "buscas": [
