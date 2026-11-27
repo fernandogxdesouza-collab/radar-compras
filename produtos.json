@@ -91,20 +91,6 @@
       "preco_alvo": null
     },
     {
-      "id": "multiuso",
-      "nome": "Multiuso",
-      "buscas": [
-        "Multiuso"
-      ],
-      "exige": [
-        "multiuso"
-      ],
-      "exclui": [],
-      "unidade": null,
-      "categoria": "geral",
-      "preco_alvo": null
-    },
-    {
       "id": "vinagre",
       "nome": "Vinagre",
       "buscas": [
