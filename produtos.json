@@ -60,21 +60,6 @@
       ]
     },
     {
-      "id": "escova-de-dentes",
-      "nome": "Escova de dentes",
-      "buscas": [
-        "Escova de dentes"
-      ],
-      "exige": [
-        "escova",
-        "dentes"
-      ],
-      "exclui": [],
-      "unidade": null,
-      "categoria": "geral",
-      "preco_alvo": null
-    },
-    {
       "id": "pasta-de-dente-infantil",
       "nome": "Pasta de dente infantil",
       "buscas": [
