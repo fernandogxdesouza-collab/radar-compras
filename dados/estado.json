@@ -178,7 +178,7 @@
     "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
    },
    "2026-11-27": {
-    "valor": 393.86,
+    "valor": 381.29,
     "preco": 419.0,
     "loja": "Magazine Luiza",
     "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
@@ -326,7 +326,7 @@
     "titulo": "Armário Multiuso 2 Portas Demóbile Viena"
    },
    "2026-11-27": {
-    "valor": 173.92,
+    "valor": 168.37,
     "preco": 185.02,
     "loja": "Magazine Luiza",
     "titulo": "Armário Multiuso 2 Portas Demóbile Viena"
@@ -650,8 +650,8 @@
     "titulo": "Fone De Ouvido Philips Usb-c 20.000hz 32ohm 1,2m Preto - Tae2146"
    },
    "2026-11-27": {
-    "valor": 38.44,
-    "preco": 40.46,
+    "valor": 37.6,
+    "preco": 39.58,
     "loja": "KaBuM!",
     "titulo": "Fone De Ouvido Philips Usb-c 20.000hz 32ohm 1,2m Preto - Tae2146"
    }
@@ -660,8 +660,8 @@
  "fone-de-ouvido-philips-tae2146": {
   "dias": {
    "2026-11-27": {
-    "valor": 38.44,
-    "preco": 40.46,
+    "valor": 37.6,
+    "preco": 39.58,
     "loja": "KaBuM!",
     "titulo": "Fone De Ouvido Philips Usb-c 20.000hz 32ohm 1,2m Preto - Tae2146"
    }
@@ -670,11 +670,15 @@
  "galaxy-buds-core": {
   "dias": {
    "2026-11-27": {
-    "valor": 214.88,
-    "preco": 228.6,
+    "valor": 194.74,
+    "preco": 214.0,
     "loja": "Magazine Luiza",
     "titulo": "Fone de Ouvido Bluetooth com Microfone Samsung Galaxy Buds Core"
    }
+  },
+  "alertado": {
+   "valor": 194.74,
+   "dia": "2026-11-27"
   }
  }
 }
