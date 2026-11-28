@@ -182,6 +182,12 @@
     "preco": 419.0,
     "loja": "Magazine Luiza",
     "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
+   },
+   "2026-11-28": {
+    "valor": 398.05,
+    "preco": 419.0,
+    "loja": "Magazine Luiza",
+    "titulo": "Smartwatch Amazfit Bip 6 46,0 mm GPS"
    }
   }
  },
@@ -258,6 +264,12 @@
     "preco": 109.9,
     "loja": "Mercado Livre",
     "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
+   },
+   "2026-11-28": {
+    "valor": 104.41,
+    "preco": 109.9,
+    "loja": "Mercado Livre",
+    "titulo": "Frigideira Philco Redstone 1,7 L (preço informado por Fernando)"
    }
   },
   "alertado": {
@@ -330,11 +342,17 @@
     "preco": 185.02,
     "loja": "Magazine Luiza",
     "titulo": "Armário Multiuso 2 Portas Demóbile Viena"
+   },
+   "2026-11-28": {
+    "valor": 170.94,
+    "preco": 179.94,
+    "loja": "Americanas",
+    "titulo": "Armário Multiuso Demóbile Viena c/2 Portas  - A Costa Rica"
    }
   },
   "alertado": {
-   "valor": 168.41,
-   "dia": "2026-11-23"
+   "valor": 170.94,
+   "dia": "2026-11-28"
   }
  },
  "vinagre": {
@@ -399,6 +417,12 @@
    },
    "2026-11-27": {
     "valor": 13.39,
+    "preco": 14.25,
+    "loja": "Magazine Luiza",
+    "titulo": "Óleo Lubrificante Multiuso 100 ml Singer"
+   },
+   "2026-11-28": {
+    "valor": 13.54,
     "preco": 14.25,
     "loja": "Magazine Luiza",
     "titulo": "Óleo Lubrificante Multiuso 100 ml Singer"
@@ -470,6 +494,12 @@
     "preco": 6.95,
     "loja": "Amazon",
     "titulo": "Farinha de Aveia Apti"
+   },
+   "2026-11-28": {
+    "valor": 6.6,
+    "preco": 6.95,
+    "loja": "Amazon",
+    "titulo": "Farinha de Aveia Apti"
    }
   }
  },
@@ -534,6 +564,12 @@
     "titulo": "Creme de Leite Camponesa TP 200g"
    },
    "2026-11-27": {
+    "valor": 2.65,
+    "preco": 2.68,
+    "loja": "Supermercados BH (Matozinhos)",
+    "titulo": "Creme de Leite Camponesa TP 200g"
+   },
+   "2026-11-28": {
     "valor": 2.65,
     "preco": 2.68,
     "loja": "Supermercados BH (Matozinhos)",
@@ -654,6 +690,12 @@
     "preco": 39.58,
     "loja": "KaBuM!",
     "titulo": "Fone De Ouvido Philips Usb-c 20.000hz 32ohm 1,2m Preto - Tae2146"
+   },
+   "2026-11-28": {
+    "valor": 38.86,
+    "preco": 40.91,
+    "loja": "KaBuM!",
+    "titulo": "Fone De Ouvido Philips Usb-c 20.000hz 32ohm 1,2m Preto - Tae2146"
    }
   }
  },
@@ -664,6 +706,12 @@
     "preco": 39.58,
     "loja": "KaBuM!",
     "titulo": "Fone De Ouvido Philips Usb-c 20.000hz 32ohm 1,2m Preto - Tae2146"
+   },
+   "2026-11-28": {
+    "valor": 38.86,
+    "preco": 40.91,
+    "loja": "KaBuM!",
+    "titulo": "Fone De Ouvido Philips Usb-c 20.000hz 32ohm 1,2m Preto - Tae2146"
    }
   }
  },
@@ -671,6 +719,12 @@
   "dias": {
    "2026-11-27": {
     "valor": 194.74,
+    "preco": 214.0,
+    "loja": "Magazine Luiza",
+    "titulo": "Fone de Ouvido Bluetooth com Microfone Samsung Galaxy Buds Core"
+   },
+   "2026-11-28": {
+    "valor": 203.3,
     "preco": 214.0,
     "loja": "Magazine Luiza",
     "titulo": "Fone de Ouvido Bluetooth com Microfone Samsung Galaxy Buds Core"
